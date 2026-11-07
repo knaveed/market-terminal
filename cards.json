@@ -1,0 +1,47 @@
+{
+  "date": "Nov 7, 2026",
+  "cards": [
+    {
+      "category": "REGIME",
+      "topic": "Market context",
+      "title": "AI demand can rise while stocks fall",
+      "question": "Why does strong demand not guarantee higher stock prices?",
+      "selfCheck": "Compare capital spending with cloud revenue, cash flow and earnings revisions. Valuation depends on expected returns—not demand alone."
+    },
+    {
+      "category": "SENTIMENT",
+      "topic": "Market breadth",
+      "title": "Is the selloff spreading?",
+      "question": "How can you tell AI-specific weakness from broad risk aversion?",
+      "selfCheck": "Compare equal-weight stocks, small caps and credit spreads with semiconductors. Broad deterioration matters more than one index."
+    },
+    {
+      "category": "TECH",
+      "topic": "AI architecture",
+      "title": "Inference changes the memory bottleneck",
+      "question": "What happens when useful tokens require more memory movement?",
+      "selfCheck": "Track KV-cache size, memory bandwidth, tiering and production deployments—not just demonstrations."
+    },
+    {
+      "category": "DORMANT",
+      "topic": "Delayed consequences",
+      "title": "Yesterday’s capacity deal can shape next year",
+      "question": "Which past commitments are nearing qualification or production?",
+      "selfCheck": "Record original announcement, milestone, revenue mechanism and cancellation risk. Check whether forecasts include it."
+    },
+    {
+      "category": "CATALYST",
+      "topic": "Next 12 months",
+      "title": "2027 budgets will test AI economics",
+      "question": "What would change the outlook for AI infrastructure spending?",
+      "selfCheck": "Watch hyperscaler guidance, deployment schedules, utilization, power access and free cash flow."
+    },
+    {
+      "category": "PREDICT",
+      "topic": "Investment discipline",
+      "title": "A rebound is not a regime change",
+      "question": "What evidence would convince you sentiment has truly improved?",
+      "selfCheck": "Look for broad participation, stable credit spreads and improving estimates. Define what would invalidate your view."
+    }
+  ]
+}
