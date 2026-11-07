@@ -1,12 +1,12 @@
 {
-  "date": "Nov 7, 2026",
+  "date": "Nov 7, 2026 · Publishing test",
   "cards": [
     {
       "category": "REGIME",
       "topic": "Market context",
-      "title": "AI demand can rise while stocks fall",
-      "question": "Why does strong demand not guarantee higher stock prices?",
-      "selfCheck": "Compare capital spending with cloud revenue, cash flow and earnings revisions. Valuation depends on expected returns—not demand alone."
+      "title": "Publishing test: the terminal is connected",
+      "question": "Can the daily research task update this screen without a manual upload?",
+      "selfCheck": "GitHub publishing succeeded. The next test is an unattended scheduled run and automatic Fire HD refresh."
     },
     {
       "category": "SENTIMENT",
