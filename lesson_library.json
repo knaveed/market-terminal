@@ -1,0 +1,344 @@
+{
+  "version": 1,
+  "created": "2026-11-08",
+  "source": "15 handwritten photos in user's connected Google Drive folder",
+  "method": "Interpretive learning-card summaries, not verbatim transcriptions. Historical observations are hypotheses and should be checked against current evidence.",
+  "cards": [
+    {
+      "id": "HL001",
+      "category": "LESSON",
+      "topic": "Thesis",
+      "title": "The thesis must survive daily gyrations",
+      "question": "What makes a thesis stronger than a daily price move?",
+      "selfCheck": "Write both buy and avoid cases, with milestones and disconfirming evidence. A thesis should survive ordinary volatility unless its underlying assumptions change.",
+      "conditions": [
+        "volatility",
+        "selloff"
+      ],
+      "sourceFile": "20261107_135626.jpg",
+      "prompt": "Explain the investing lesson 'The thesis must survive daily gyrations', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL002",
+      "category": "LESSON",
+      "topic": "Thesis",
+      "title": "The market may overlook a thesis for months",
+      "question": "What if a real catalyst is masked by headlines or day trading?",
+      "selfCheck": "Track the dated business milestone rather than treating price stagnation as disproof. Ask what measurable result will eventually reveal the thesis.",
+      "conditions": [
+        "underappreciated",
+        "catalyst"
+      ],
+      "sourceFile": "20261107_135626.jpg",
+      "prompt": "Explain the investing lesson 'The market may overlook a thesis for months', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL003",
+      "category": "LESSON",
+      "topic": "Research",
+      "title": "Annotate price and volume with the news",
+      "question": "How do you separate a catalyst from noise?",
+      "selfCheck": "Mark dated headlines against price and volume, then compare similar companies. Look for repeatable cause-and-effect, not one coincidental spike.",
+      "conditions": [
+        "news",
+        "volatility"
+      ],
+      "sourceFile": "20261107_135626.jpg",
+      "prompt": "Explain the investing lesson 'Annotate price and volume with the news', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL004",
+      "category": "LESSON",
+      "topic": "Volume",
+      "title": "Don't chase the first volume spike",
+      "question": "What should happen after a large volume surge?",
+      "selfCheck": "Look for a distinct sustained base and repeatable demand; connect the pattern to a known business story before committing.",
+      "conditions": [
+        "breakout",
+        "speculation"
+      ],
+      "sourceFile": "20261107_135626.jpg",
+      "prompt": "Explain the investing lesson 'Don't chase the first volume spike', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL005",
+      "category": "LESSON",
+      "topic": "Research",
+      "title": "Compare a company with its competitors",
+      "question": "Why research peers instead of one ticker in isolation?",
+      "selfCheck": "A peer comparison reveals whether the change is company-specific, sector-wide, or a market effect. Choose peers with genuinely similar economics.",
+      "conditions": [
+        "sector_rotation",
+        "earnings"
+      ],
+      "sourceFile": "20261107_135626.jpg",
+      "prompt": "Explain the investing lesson 'Compare a company with its competitors', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL006",
+      "category": "LESSON",
+      "topic": "Valuation",
+      "title": "A high P/E needs a growth explanation",
+      "question": "What could make a high multiple fragile?",
+      "selfCheck": "Test growth durability and the implied expectations. If earnings disappoint, the valuation can compress even when the company remains profitable.",
+      "conditions": [
+        "valuation",
+        "earnings"
+      ],
+      "sourceFile": "20261107_135605.jpg",
+      "prompt": "Explain the investing lesson 'A high P/E needs a growth explanation', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL007",
+      "category": "LESSON",
+      "topic": "Valuation",
+      "title": "Demand and scarcity can inflate multiples",
+      "question": "How should supply, demand and intrinsic use affect your thesis?",
+      "selfCheck": "Distinguish market enthusiasm from cash-flow support. Multiples can stay elevated but are vulnerable if demand or expectations shift.",
+      "conditions": [
+        "euphoria",
+        "valuation"
+      ],
+      "sourceFile": "20261107_135640.jpg",
+      "prompt": "Explain the investing lesson 'Demand and scarcity can inflate multiples', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL008",
+      "category": "LESSON",
+      "topic": "Cycles",
+      "title": "Long booms can conceal weak foundations",
+      "question": "Why study historical bubbles and crashes?",
+      "selfCheck": "Compare the financing, demand, and valuation mechanisms rather than assuming a calendar-based repeat. Long rallies can amplify eventual repricing.",
+      "conditions": [
+        "euphoria",
+        "correction"
+      ],
+      "sourceFile": "20261107_135640.jpg",
+      "prompt": "Explain the investing lesson 'Long booms can conceal weak foundations', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL009",
+      "category": "LESSON",
+      "topic": "Research",
+      "title": "Company history is a clue, not a verdict",
+      "question": "What can prior product and market cycles tell you?",
+      "selfCheck": "Study previous cycles, competitors and management execution, but test whether today's conditions differ materially.",
+      "conditions": [
+        "earnings",
+        "catalyst"
+      ],
+      "sourceFile": "20261107_135652.jpg",
+      "prompt": "Explain the investing lesson 'Company history is a clue, not a verdict', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL010",
+      "category": "LESSON",
+      "topic": "Market",
+      "title": "Bear markets create opportunities—and traps",
+      "question": "What distinguishes a discount from a value trap?",
+      "selfCheck": "Prioritize financially sound companies with durable products and credible technology roadmaps; lower price alone is not enough.",
+      "conditions": [
+        "bear_market",
+        "selloff"
+      ],
+      "sourceFile": "20261107_135701.jpg",
+      "prompt": "Explain the investing lesson 'Bear markets create opportunities—and traps', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL011",
+      "category": "LESSON",
+      "topic": "Market",
+      "title": "Avoid making every trade a quick buck",
+      "question": "How do you avoid converting long-term research into impulse trading?",
+      "selfCheck": "Write the intended holding period and thesis checkpoints before entry; don't let day-to-day noise dictate decisions.",
+      "conditions": [
+        "volatility",
+        "euphoria"
+      ],
+      "sourceFile": "20261107_135701.jpg",
+      "prompt": "Explain the investing lesson 'Avoid making every trade a quick buck', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL012",
+      "category": "LESSON",
+      "topic": "Research",
+      "title": "Use multiple independent research channels",
+      "question": "How can you reduce single-source bias?",
+      "selfCheck": "Cross-check primary company materials, credible analysis, and industry discussion. Keep facts separate from speculation.",
+      "conditions": [
+        "rumors",
+        "news"
+      ],
+      "sourceFile": "20261107_135711.jpg",
+      "prompt": "Explain the investing lesson 'Use multiple independent research channels', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL013",
+      "category": "LESSON",
+      "topic": "Research",
+      "title": "Build the company story before the ticker trade",
+      "question": "What must you know before a 1–2 year investment?",
+      "selfCheck": "Identify the company's technology, market position, catalysts and risks; separate structural tailwinds from near-term price action.",
+      "conditions": [
+        "catalyst",
+        "sector_rotation"
+      ],
+      "sourceFile": "20261107_135711.jpg",
+      "prompt": "Explain the investing lesson 'Build the company story before the ticker trade', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL014",
+      "category": "LESSON",
+      "topic": "Research",
+      "title": "Look for the next technology inflection",
+      "question": "What can make a company relevant before consensus notices?",
+      "selfCheck": "Track emerging products, industry transitions and adoption milestones. Ask which companies can capture real revenue from the shift.",
+      "conditions": [
+        "technology_inflection",
+        "catalyst"
+      ],
+      "sourceFile": "20261107_135719.jpg",
+      "prompt": "Explain the investing lesson 'Look for the next technology inflection', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL015",
+      "category": "LESSON",
+      "topic": "Research",
+      "title": "Use both good and bad evidence",
+      "question": "What would invalidate a bullish company story?",
+      "selfCheck": "Track earnings, dilution, execution, competitive threats and demand changes alongside positive news. A thesis needs an explicit failure condition.",
+      "conditions": [
+        "earnings",
+        "negative_news"
+      ],
+      "sourceFile": "20261107_135719.jpg",
+      "prompt": "Explain the investing lesson 'Use both good and bad evidence', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL016",
+      "category": "LESSON",
+      "topic": "Behavior",
+      "title": "A stock's story is not its crowd",
+      "question": "What if a popular discussion group is driving the thesis?",
+      "selfCheck": "Separate the company's fundamentals from forum attention and anecdotes. Verify original sources before treating buzz as evidence.",
+      "conditions": [
+        "social_hype",
+        "euphoria"
+      ],
+      "sourceFile": "20261107_135730.jpg",
+      "prompt": "Explain the investing lesson 'A stock's story is not its crowd', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL017",
+      "category": "LESSON",
+      "topic": "Volume",
+      "title": "Volume has more than one shape",
+      "question": "Why can high and low trading volume mean different things?",
+      "selfCheck": "Look for U-shaped or stable activity, liquidity changes, and the comparison baseline. Raw volume without context is ambiguous.",
+      "conditions": [
+        "volume_shift",
+        "breakout"
+      ],
+      "sourceFile": "20261107_135740.jpg",
+      "prompt": "Explain the investing lesson 'Volume has more than one shape', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL018",
+      "category": "LESSON",
+      "topic": "Volume",
+      "title": "Compare relative volume with a matched peer",
+      "question": "How do you tell stock-specific interest from a broad market move?",
+      "selfCheck": "Normalize trading volume and compare with a similar company. Confirm any divergence using price, news and business developments.",
+      "conditions": [
+        "volume_shift",
+        "sector_rotation"
+      ],
+      "sourceFile": "20261107_135740.jpg",
+      "prompt": "Explain the investing lesson 'Compare relative volume with a matched peer', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL019",
+      "category": "LESSON",
+      "topic": "Volume",
+      "title": "A sustained crossover matters more than a flash",
+      "question": "When is a volume crossover more credible?",
+      "selfCheck": "Look for persistence and a stable base. For small stocks, an abrupt price surge around a crossover may reflect speculation and can reverse.",
+      "conditions": [
+        "breakout",
+        "speculation"
+      ],
+      "sourceFile": "20261107_135821.jpg",
+      "prompt": "Explain the investing lesson 'A sustained crossover matters more than a flash', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL020",
+      "category": "LESSON",
+      "topic": "Macro",
+      "title": "A crash can begin before the recession ends",
+      "question": "What does the COVID market episode teach about timing?",
+      "selfCheck": "Markets react to changing expectations, not only current economic conditions. Distinguish the initial shock from later policy and earnings responses.",
+      "conditions": [
+        "crash",
+        "macro"
+      ],
+      "sourceFile": "20261107_135848.jpg",
+      "prompt": "Explain the investing lesson 'A crash can begin before the recession ends', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL021",
+      "category": "LESSON",
+      "topic": "Macro",
+      "title": "Housing booms need a financing explanation",
+      "question": "What drove housing strength during the pandemic?",
+      "selfCheck": "Study low mortgage rates, remote-work demand, supply constraints and policy support together; don't reduce the boom to one factor.",
+      "conditions": [
+        "rates",
+        "housing"
+      ],
+      "sourceFile": "20261107_135914.jpg",
+      "prompt": "Explain the investing lesson 'Housing booms need a financing explanation', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL022",
+      "category": "LESSON",
+      "topic": "Macro",
+      "title": "Housing affordability can reverse a boom",
+      "question": "What happens when rates rise and financing dries up?",
+      "selfCheck": "Track mortgage affordability, housing supply, buyer demand and financing conditions. A prior boom does not guarantee continued appreciation.",
+      "conditions": [
+        "rates",
+        "housing"
+      ],
+      "sourceFile": "20261107_135932.jpg",
+      "prompt": "Explain the investing lesson 'Housing affordability can reverse a boom', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL023",
+      "category": "LESSON",
+      "topic": "Macro",
+      "title": "Narratives change as incentives change",
+      "question": "Why should investors revisit an old macro story?",
+      "selfCheck": "Follow changes in policy, borrowing costs, supply and household behavior. Identify which earlier assumptions no longer hold.",
+      "conditions": [
+        "macro",
+        "rates"
+      ],
+      "sourceFile": "20261107_135932.jpg",
+      "prompt": "Explain the investing lesson 'Narratives change as incentives change', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL024",
+      "category": "LESSON",
+      "topic": "Valuation",
+      "title": "Watch the gap between promise and profits",
+      "question": "What if a growth company does not deliver expected earnings?",
+      "selfCheck": "A stock priced for rapid growth can suffer multiple compression when earnings miss. Compare forward expectations with realized operating progress.",
+      "conditions": [
+        "earnings",
+        "valuation"
+      ],
+      "sourceFile": "20261107_135605.jpg",
+      "prompt": "Explain the investing lesson 'Watch the gap between promise and profits', with a practical example, limits and what evidence would falsify it."
+    }
+  ]
+}
