@@ -1,0 +1,29 @@
+{
+  "date": "Nov 8, 2026 · Notes starter set",
+  "cards": [
+    {
+      "category": "LESSON",
+      "topic": "Reading volume trends",
+      "title": "Rising volume may signal a new trend",
+      "question": "What should you check before trusting a rising volume pattern?",
+      "selfCheck": "Compare percentage changes in trading volume with a similar stock, avoiding unusually hot or mismatched peers. A shift in volume needs price and fundamental confirmation.",
+      "prompt": "Explain my handwritten lesson on reading relative trading volume trends, including limitations and a practical example."
+    },
+    {
+      "category": "LESSON",
+      "topic": "Speculation warning",
+      "title": "Watch for a price–volume disconnect",
+      "question": "What if a stock jumps sharply without a sustained increase in relative trading activity?",
+      "selfCheck": "Treat a sudden price jump near a volume crossover as a hypothesis, not proof of durable demand. Look for follow-through; speculative gaps can reverse.",
+      "prompt": "Explain my handwritten note about large price changes near percentage trading volume crossovers, and what evidence would validate it."
+    },
+    {
+      "category": "LESSON",
+      "topic": "Market buzz",
+      "title": "Buzz can be a clue—not confirmation",
+      "question": "Is rising discussion a fundamental catalyst or merely attention?",
+      "selfCheck": "Trace the original source, distinguish hype from new contracts or earnings, and look for measurable milestones. Popularity alone does not establish value.",
+      "prompt": "Explain my handwritten lesson about stock buzz, hype and the iceberg of a hidden catalyst."
+    }
+  ]
+}
