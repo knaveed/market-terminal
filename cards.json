@@ -1,47 +1,53 @@
 {
-  "date": "Nov 7, 2026 · Publishing test",
+  "date": "Nov 8, 2026",
   "cards": [
     {
       "category": "REGIME",
-      "topic": "Market context",
-      "title": "Publishing test: the terminal is connected",
-      "question": "Can the daily research task update this screen without a manual upload?",
-      "selfCheck": "GitHub publishing succeeded. The next test is an unattended scheduled run and automatic Fire HD refresh."
+      "topic": "7/30/90-day market context",
+      "title": "AI correction, not yet a new bull leg",
+      "question": "Does Friday's bounce reverse four weeks of Nasdaq weakness?",
+      "selfCheck": "FACT: Nasdaq -3.4% for Nov 2–6; fourth losing week, >10% below peak. HYPOTHESIS: valuation reset, not demand collapse. Upgrade only if SOXX leads for several sessions and estimates hold.",
+      "prompt": "Explain how to distinguish an AI valuation reset from an earnings-cycle downturn using 7/30/90-day evidence."
     },
     {
       "category": "SENTIMENT",
-      "topic": "Market breadth",
-      "title": "Is the selloff spreading?",
-      "question": "How can you tell AI-specific weakness from broad risk aversion?",
-      "selfCheck": "Compare equal-weight stocks, small caps and credit spreads with semiconductors. Broad deterioration matters more than one index."
+      "topic": "Breadth and cross-assets",
+      "title": "Watch the market beyond QQQ",
+      "question": "Is capital rotating, or is risk appetite contracting?",
+      "selfCheck": "FACT: S&P -2.7% for the week; Friday chip index +4.2%. TEST: RSP/SPY, IWM/SPY, XBI and credit spreads. Broadening plus stable spreads supports repair; widening spreads rejects it.",
+      "prompt": "Build a falsifiable breadth dashboard comparing RSP, SPY, QQQ, IWM, XBI and credit spreads."
     },
     {
       "category": "TECH",
-      "topic": "AI architecture",
-      "title": "Inference changes the memory bottleneck",
-      "question": "What happens when useful tokens require more memory movement?",
-      "selfCheck": "Track KV-cache size, memory bandwidth, tiering and production deployments—not just demonstrations."
+      "topic": "AI economics and memory",
+      "title": "Memory scarcity changes AI economics",
+      "question": "Who earns the margin when memory bandwidth becomes scarce?",
+      "selfCheck": "THESIS: HBM/server DRAM pricing favors MU and memory equipment; higher input costs pressure buyers. Watch realized pricing, capacity qualification and customer order changes—not GPU headlines alone.",
+      "prompt": "Analyze HBM, server DRAM, KV-cache bandwidth and the second-order impact of rising memory prices on AI deployment."
     },
     {
       "category": "DORMANT",
-      "topic": "Delayed consequences",
-      "title": "Yesterday’s capacity deal can shape next year",
-      "question": "Which past commitments are nearing qualification or production?",
-      "selfCheck": "Record original announcement, milestone, revenue mechanism and cancellation risk. Check whether forecasts include it."
+      "topic": "Past capex commitments",
+      "title": "2026 capex becomes 2027 capacity",
+      "question": "Will last quarter's AI spending deliver revenue or idle assets?",
+      "selfCheck": "FACT: Oct 2026 cloud earnings showed rapid Azure/AWS/Google Cloud growth alongside huge capex. HYPOTHESIS: 2027 commissioning and utilization determine returns. Watch power delivery, occupancy and cash flow; delays disconfirm.",
+      "prompt": "Trace October 2026 hyperscaler capex commitments into 2027 power-on milestones, supplier revenue and free-cash-flow risks."
     },
     {
       "category": "CATALYST",
-      "topic": "Next 12 months",
-      "title": "2027 budgets will test AI economics",
-      "question": "What would change the outlook for AI infrastructure spending?",
-      "selfCheck": "Watch hyperscaler guidance, deployment schedules, utilization, power access and free cash flow."
+      "topic": "Nov–Dec evidence calendar",
+      "title": "Inflation and AI guidance: two tests",
+      "question": "Which result would actually change the next 6–12 months?",
+      "selfCheck": "DATES: CPI Nov 10; NVDA earnings Nov 17; Fed Dec 9. Cooler inflation + durable AI orders favors repair. Sticky CPI or weaker AI guidance challenges it. Compare outcomes with consensus, not headlines.",
+      "prompt": "Create bull/base/bear scenarios for November CPI, NVIDIA Nov 17 earnings and December Fed policy, with company implications."
     },
     {
       "category": "PREDICT",
-      "topic": "Investment discipline",
-      "title": "A rebound is not a regime change",
-      "question": "What evidence would convince you sentiment has truly improved?",
-      "selfCheck": "Look for broad participation, stable credit spreads and improving estimates. Define what would invalidate your view."
+      "topic": "Falsifiable investment thesis",
+      "title": "Can suppliers outperform their customers?",
+      "question": "Will AI component leaders separate from cash-burning builders?",
+      "selfCheck": "PREDICTION (30 days): MU/selected optical and semicap outperform leveraged AI operators if orders hold. REJECT if supplier estimates fall, cancellations rise or relative strength fails despite stable credit.",
+      "prompt": "Design a 30-day evidence scorecard testing MU, optical and semicap suppliers versus financing-intensive AI infrastructure operators."
     }
   ]
 }
