@@ -1,0 +1,37 @@
+{
+  "date": "Nov 8, 2026 · Starter edition",
+  "cards": [
+    {
+      "category": "PRINCIPAL",
+      "topic": "Risk-first communication",
+      "title": "Progress is not the headline",
+      "question": "You spent 48 hours isolating a PCIe loss issue. What belongs in your first sentence?",
+      "selfCheck": "Lead with the system risk or decision: channel margin or layout release may be affected. Then give evidence and next checkpoint.",
+      "prompt": "Explain risk-first hardware engineering updates with a 30-second script and realistic PCIe example."
+    },
+    {
+      "category": "PRINCIPAL",
+      "topic": "Decision communication",
+      "title": "Thirty seconds. No rabbit hole.",
+      "question": "Your manager asks: What changed, why care, and what do you need?",
+      "selfCheck": "Use new evidence → system consequence → next proof point → owner or decision request. Label uncertainty.",
+      "prompt": "Give a Principal Engineer communication drill for a hardware SI/PI debug."
+    },
+    {
+      "category": "PRINCIPAL",
+      "topic": "Technical confidence",
+      "title": "State your leading hypothesis",
+      "question": "How do you communicate an unresolved via-transition problem without sounding uncertain or overconfident?",
+      "selfCheck": "Say: Via transition is the leading hypothesis; we are comparing EM extraction and TDR to confirm. Give the next decision date.",
+      "prompt": "Teach calibrated confidence language in SI/PI engineering with examples."
+    },
+    {
+      "category": "PRINCIPAL",
+      "topic": "Early escalation",
+      "title": "Why did nobody know?",
+      "question": "When should you flag a possible schedule or margin risk?",
+      "selfCheck": "Communicate early, before root cause is proven, when a decision could be affected. Separate observed facts, likelihood, and next proof.",
+      "prompt": "Teach proactive engineering risk communication with a 2-minute exercise."
+    }
+  ]
+}
