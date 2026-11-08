@@ -339,6 +339,35 @@
       ],
       "sourceFile": "20261107_135605.jpg",
       "prompt": "Explain the investing lesson 'Watch the gap between promise and profits', with a practical example, limits and what evidence would falsify it."
+    },
+    {
+      "id": "HL025",
+      "category": "LESSON",
+      "topic": "Opportunity",
+      "title": "A new strategy can reset the investment case",
+      "question": "When is a company's new direction worth following?",
+      "selfCheck": "Look for a genuinely new product, business model or customer market, then track adoption and financial proof rather than the announcement alone.",
+      "conditions": [
+        "technology_inflection",
+        "catalyst"
+      ],
+      "sourceFile": "20261107_135549.jpg",
+      "prompt": "Explain how to validate a company's new strategy before consensus recognizes it."
+    },
+    {
+      "id": "HL026",
+      "category": "LESSON",
+      "topic": "Research",
+      "title": "Distinguish breakouts from speculation",
+      "question": "Which research approaches fit a bull market versus a bear market?",
+      "selfCheck": "A bull market can reward momentum but also inflate weak stories. In a bear market, research fundamentals and neglected opportunities while checking financial resilience.",
+      "conditions": [
+        "bull_market",
+        "bear_market",
+        "speculation"
+      ],
+      "sourceFile": "20261107_135615.jpg",
+      "prompt": "Explain my bull-market versus bear-market research methods with risks and examples."
     }
   ]
 }
