@@ -1,21 +1,22 @@
 {
-  "date": "Nov 8, 2026 · Initial thematic selection (not live regime-verified)",
+  "date": "Nov 9, 2026",
+  "selectionReason": "Nov 6 weekly AI drawdown and Nov 9 neutral positioning downgrade favor valuation-versus-earnings discipline and explicit downside evidence; rotated away from Nov 8 lessons HL002 and HL020. Sources: Reuters Nov 6 and Nov 9, 2026.",
   "cards": [
     {
       "category": "LESSON",
-      "topic": "Thesis",
-      "title": "The market may overlook a thesis for months",
-      "question": "What if a real catalyst is masked by headlines or day trading?",
-      "selfCheck": "Track the dated business milestone rather than treating price stagnation as disproof. Ask what measurable result will eventually reveal the thesis.",
-      "prompt": "Explain the investing lesson 'The market may overlook a thesis for months', with a practical example, limits and what evidence would falsify it."
+      "topic": "Valuation",
+      "title": "Watch the gap between promise and profits",
+      "question": "What if AI revenue grows but expected returns do not?",
+      "selfCheck": "HL024: Compare priced-in growth with cash flow and actual deployment. A valuation reset is not proof of demand collapse; weaker realized profits would be disconfirming.",
+      "prompt": "Explain handwritten lesson HL024 with the Nov 2026 AI capex-versus-cash-flow debate and a falsifiable example."
     },
     {
       "category": "LESSON",
-      "topic": "Macro",
-      "title": "A crash can begin before the recession ends",
-      "question": "What does the COVID market episode teach about timing?",
-      "selfCheck": "Markets react to changing expectations, not only current economic conditions. Distinguish the initial shock from later policy and earnings responses.",
-      "prompt": "Explain the investing lesson 'A crash can begin before the recession ends', with a practical example, limits and what evidence would falsify it."
+      "topic": "Research",
+      "title": "Use both good and bad evidence",
+      "question": "What evidence would make you abandon the AI supplier thesis?",
+      "selfCheck": "HL015: Track strong orders AND cancellations, financing, dilution and estimate cuts. Friday's rebound alone cannot settle the question.",
+      "prompt": "Explain handwritten lesson HL015 using November 2026 semiconductor correction; give a two-sided evidence checklist."
     }
   ]
 }
