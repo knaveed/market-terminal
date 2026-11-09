@@ -1,37 +1,45 @@
 {
-  "date": "Nov 8, 2026 · Starter edition",
+  "date": "Nov 9, 2026 · Week 1 / Day 1 · Visibility & early risk communication",
   "cards": [
     {
       "category": "PRINCIPAL",
-      "topic": "Risk-first communication",
-      "title": "Progress is not the headline",
-      "question": "You spent 48 hours isolating a PCIe loss issue. What belongs in your first sentence?",
-      "selfCheck": "Lead with the system risk or decision: channel margin or layout release may be affected. Then give evidence and next checkpoint.",
-      "prompt": "Explain risk-first hardware engineering updates with a 30-second script and realistic PCIe example."
+      "topic": "Risk-first updates",
+      "title": "Lead with what could break",
+      "question": "PCIe Gen5 margin is 1.5 dB below target. What is your 15-second update?",
+      "selfCheck": "Say the release impact first: 'Channel margin is 1.5 dB short; layout signoff is at risk.' Add current evidence, owner, and next checkpoint. Exercise: speak it in 15 seconds.",
+      "prompt": "Coach me on a 15-second risk-first update for PCIe Gen5 channel loss. Challenge my wording and show a stronger version."
     },
     {
       "category": "PRINCIPAL",
-      "topic": "Decision communication",
-      "title": "Thirty seconds. No rabbit hole.",
-      "question": "Your manager asks: What changed, why care, and what do you need?",
-      "selfCheck": "Use new evidence → system consequence → next proof point → owner or decision request. Label uncertainty.",
-      "prompt": "Give a Principal Engineer communication drill for a hardware SI/PI debug."
+      "topic": "Proactive visibility",
+      "title": "Flag the risk before proof",
+      "question": "TDR suggests a connector discontinuity, but EM correlation is pending. When do you alert the team?",
+      "selfCheck": "Alert now if the uncertainty may affect a decision. Separate observation from hypothesis: 'TDR shows a step; connector is the leading suspect; EM correlation due tomorrow.'",
+      "prompt": "Practice proactive escalation when TDR and EM evidence are incomplete. Give a realistic SI/PI stakeholder scenario."
     },
     {
       "category": "PRINCIPAL",
-      "topic": "Technical confidence",
-      "title": "State your leading hypothesis",
-      "question": "How do you communicate an unresolved via-transition problem without sounding uncertain or overconfident?",
-      "selfCheck": "Say: Via transition is the leading hypothesis; we are comparing EM extraction and TDR to confirm. Give the next decision date.",
-      "prompt": "Teach calibrated confidence language in SI/PI engineering with examples."
+      "topic": "Confidence calibration",
+      "title": "Facts, hypothesis, next test",
+      "question": "A PDN impedance peak appears near 18 MHz. How do you avoid overstating the root cause?",
+      "selfCheck": "Fact: measured peak at 18 MHz. Hypothesis: capacitor/plane resonance. Next: compare simulation and component ESR sensitivity. State confidence and decision timing.",
+      "prompt": "Train me to distinguish observation, hypothesis, and proof for an 18 MHz PDN resonance. Include a 30-second update."
     },
     {
       "category": "PRINCIPAL",
-      "topic": "Early escalation",
-      "title": "Why did nobody know?",
-      "question": "When should you flag a possible schedule or margin risk?",
-      "selfCheck": "Communicate early, before root cause is proven, when a decision could be affected. Separate observed facts, likelihood, and next proof.",
-      "prompt": "Teach proactive engineering risk communication with a 2-minute exercise."
+      "topic": "Audience alignment",
+      "title": "Translate dB into decisions",
+      "question": "A program manager hears 'S21 notch at 8 GHz.' What should they hear instead?",
+      "selfCheck": "Translate technical evidence into system consequence: potential eye-margin or compliance risk, affected build, confidence, and mitigation timing. Avoid claiming failure without correlation.",
+      "prompt": "Rewrite a technical S21-notch finding for a program manager, layout lead, and SI peer; explain what changes for each audience."
+    },
+    {
+      "category": "PRINCIPAL",
+      "topic": "Accountable follow-through",
+      "title": "End with an owned checkpoint",
+      "question": "A crosstalk concern is open before layout freeze. What makes your update actionable?",
+      "selfCheck": "Name owner, test, due time, and release decision: 'I will compare NEXT extraction against budget by 2 PM; layout freeze remains conditional until review.' Exercise: draft a 30-second update.",
+      "prompt": "Give me a 30-second SI/PI risk update exercise with owner, deadline, evidence, and explicit decision gate. Critique my answer."
     }
   ]
 }
