@@ -1,22 +1,22 @@
 {
-  "date": "Nov 9, 2026",
-  "selectionReason": "Nov 6 weekly AI drawdown and Nov 9 neutral positioning downgrade favor valuation-versus-earnings discipline and explicit downside evidence; rotated away from Nov 8 lessons HL002 and HL020. Sources: Reuters Nov 6 and Nov 9, 2026.",
+  "date": "Nov 10, 2026",
+  "selectionReason": "Nov 9 broad rally with NVDA weakness favors peer comparison (HL005); oil-led rate narrative shift favors revisiting macro assumptions (HL023). Both rotate away from Nov 9 HL024/HL015. AP Nov 9 2026.",
   "cards": [
     {
       "category": "LESSON",
-      "topic": "Valuation",
-      "title": "Watch the gap between promise and profits",
-      "question": "What if AI revenue grows but expected returns do not?",
-      "selfCheck": "HL024: Compare priced-in growth with cash flow and actual deployment. A valuation reset is not proof of demand collapse; weaker realized profits would be disconfirming.",
-      "prompt": "Explain handwritten lesson HL024 with the Nov 2026 AI capex-versus-cash-flow debate and a falsifiable example."
+      "topic": "Research",
+      "title": "Compare a company with its competitors",
+      "question": "Why research peers instead of one ticker in isolation?",
+      "selfCheck": "HL005: Compare NVDA with AMD, MU and SOXX after Nov 9's unusual divergence. Check earnings and news before calling it leadership.",
+      "prompt": "Explain the investing lesson 'Compare a company with its competitors', with a practical example, limits and what evidence would falsify it."
     },
     {
       "category": "LESSON",
-      "topic": "Research",
-      "title": "Use both good and bad evidence",
-      "question": "What evidence would make you abandon the AI supplier thesis?",
-      "selfCheck": "HL015: Track strong orders AND cancellations, financing, dilution and estimate cuts. Friday's rebound alone cannot settle the question.",
-      "prompt": "Explain handwritten lesson HL015 using November 2026 semiconductor correction; give a two-sided evidence checklist."
+      "topic": "Macro",
+      "title": "Narratives change as incentives change",
+      "question": "Why should investors revisit an old macro story?",
+      "selfCheck": "HL023: Oil fell 5.8% Nov 9; reassess inflation and rate assumptions. Check CPI and yields: one oil move does not establish a new regime.",
+      "prompt": "Explain the investing lesson 'Narratives change as incentives change', with a practical example, limits and what evidence would falsify it."
     }
   ]
 }
