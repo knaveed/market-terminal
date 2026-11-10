@@ -1,53 +1,53 @@
 {
-  "date": "Nov 9, 2026",
+  "date": "Nov 10, 2026",
   "cards": [
     {
       "category": "REGIME",
-      "topic": "7/30/90-day valuation reset",
-      "title": "AI demand survives; risk premium rises",
-      "question": "Is this a price reset or an earnings reset?",
-      "selfCheck": "FACT: Nasdaq lost 3.4% Nov 2–6, fourth down week; >10% off peak. Oct followed Sept AI optimism; Aug rate/oil stress preceded it. TEST: earnings revisions and SOXX relative strength. Falling orders reject the valuation-only thesis.",
-      "prompt": "Separate 7/30/90-day AI demand evidence from equity multiple compression. Sources: Reuters Nov 6 2026 https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/ and Reuters Sep 21 2026."
+      "topic": "7/30/90-day risk repricing",
+      "title": "Broad rebound; AI still on trial",
+      "question": "Was Nov 9 a regime turn or relief from oil?",
+      "selfCheck": "FACT: Nov 9 S&P +2.3%, Nasdaq +2.7%, IWM +3.1% as Brent fell 5.8%; NVDA fell 4.3%. 7d AI drawdown persists; Oct peak and Aug oil/rate stress frame 30/90d. TEST: earnings revisions, credit and breadth over weeks.",
+      "prompt": "Compare Reuters Nov 6 AI correction with AP Nov 9 rebound. https://apnews.com/article/d938f8e6ff42b3706e1d36e6245ec56b"
     },
     {
       "category": "SENTIMENT",
-      "topic": "Breadth, credit and rates",
-      "title": "A bounce needs breadth, not just chips",
-      "question": "Are investors rebuilding risk or rotating defensively?",
-      "selfCheck": "FACT: Nov 6 chip index +4.2% but S&P -2.7% for week; Nov 9 Citi cut US equities to neutral on AI positioning. WATCH: RSP/SPY, IWM, XBI, credit spreads and 10Y. Broad participation with stable credit supports repair.",
-      "prompt": "Build a 2-week breadth and credit confirmation framework using Reuters Nov 6 and Nov 9 2026: https://www.reuters.com/business/citigroup-downgrades-us-equities-neutral-ai-concerns-2026-11-09/"
+      "topic": "Breadth and cross-asset confirmation",
+      "title": "Small caps lead; chips diverge",
+      "question": "Is risk appetite broadening without NVIDIA?",
+      "selfCheck": "FACT: Nov 9 Russell +3.1% versus S&P +2.3%; NVDA -4.3%. WATCH RSP/SPY, IWM, XBI, SOXX/XSD, credit spreads and 10Y (~4.87%). REJECT broadening if breadth narrows or spreads widen.",
+      "prompt": "Explain why broad participation and falling oil may matter more than a single AI leader. Source AP Nov 9 https://apnews.com/article/f7ec9680fc858e3c2505913e7b3a54e2"
     },
     {
       "category": "TECH",
-      "topic": "Inference economics and memory",
-      "title": "Bandwidth matters; ROI decides",
-      "question": "Can AI suppliers grow while customers curb capex?",
-      "selfCheck": "FACT: NVIDIA's Feb 25 Rubin announcement targeted lower inference token costs; recent AMD data-center growth supports demand. HYPOTHESIS: MU/HBM and optical benefit from efficiency shifts. TEST: qualified supply, order visibility, actual cost/token and customer cash flow.",
-      "prompt": "Trace memory bandwidth, KV cache, optics and cost per token to MU, NVDA, AMD, COHR and CRDO; distinguish company claims from deployed economics. NVIDIA Feb 25 2026 investor release https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/"
+      "topic": "AI compute versus deployment economics",
+      "title": "Demand is not deployment",
+      "question": "Which AI suppliers get paid if data centers are delayed?",
+      "selfCheck": "FACT: Nov 9 brokers disputed severe regulatory risk; some expect projects to shift 2028→2029, not vanish. HYPOTHESIS: MU, optical and power-efficiency suppliers remain resilient. REJECT if orders, utilization or margins weaken.",
+      "prompt": "Contrast durable AI chip demand with construction timing, permitting and capex returns. Reuters Nov 9 https://www.reuters.com/business/finance/wall-st-brokerages-say-ai-selloff-overdone-downplay-democrat-regulation-risks-2026-11-09/"
     },
     {
       "category": "DORMANT",
-      "topic": "Rubin and cloud deployment commitments",
-      "title": "Rubin promise meets the power grid",
-      "question": "Will announced 2026 platforms become utilized 2027 capacity?",
-      "selfCheck": "FACT: NVIDIA announced Rubin and named initial cloud adopters Feb 25, 2026. HYPOTHESIS: 2027 deployment boosts GPU, networking and HBM revenue. WATCH: rack shipments, power-on dates, utilization and capex-to-cash conversion. Delays reject timing.",
-      "prompt": "Build a dated deployment scorecard for NVIDIA Rubin, hyperscaler cloud instances and power constraints. Primary: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/"
+      "topic": "2026 Rubin platform commitments",
+      "title": "Rubin's 2027 payoff is pending",
+      "question": "When do platform promises become cash-generating capacity?",
+      "selfCheck": "FACT: NVIDIA described next-gen computing and strong data-center sales Feb 25, 2026. HYPOTHESIS: 2027 deployments lift HBM, optics and power demand. CHECK: shipments, site power-on, utilization and cost/token; slippage rejects timing.",
+      "prompt": "Build a 2027 commissioning scorecard from NVIDIA Feb 25 2026 results and subsequent platform announcements. https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026/"
     },
     {
       "category": "CATALYST",
-      "topic": "Next 1–12 months",
-      "title": "2027 budgets will test AI returns",
-      "question": "What would 2027 capex plans reveal about real demand?",
-      "selfCheck": "WINDOW: Nov 2026–Q2 2027 earnings, guidance and deployment updates. BULL: utilization and cloud revenue grow faster than capex; BEAR: delayed sites, financing stress or weaker orders. WATCH NVDA, AMZN, MSFT, MU and power suppliers.",
-      "prompt": "Construct bull/base/bear scenarios for 2027 cloud budgets and commissioning, using quarterly primary earnings releases; do not assume unverified event dates."
+      "topic": "November inflation and 2027 budgets",
+      "title": "CPI meets the AI earnings test",
+      "question": "Will rates or forward orders dominate the next quarter?",
+      "selfCheck": "WINDOW: Nov 2026 inflation/AI earnings; Q1–Q2 2027 capex plans. BULL: cooling inflation + firm orders; BEAR: sticky rates + delays. Verify release times from primary calendars; watch NVDA, MU, MSFT and CRWV.",
+      "prompt": "Create scenario matrix for November 2026 inflation, AI earnings and 2027 capex guidance; distinguish confirmed dates from estimates."
     },
     {
       "category": "PREDICT",
-      "topic": "30-day falsifiable relative-strength test",
-      "title": "Strong suppliers should separate",
-      "question": "Will funded suppliers outperform leveraged builders by Dec 9?",
-      "selfCheck": "HYPOTHESIS: diversified MU/semicap/optical basket beats CRWV/NBIS-like capital-intensive operators over 30 days if orders hold. REJECT: supplier guidance cuts or no relative outperformance with stable credit. Compare equal-weight baskets, not one volatile day.",
-      "prompt": "Define a 30-day equal-weight relative return test with entry baseline Nov 9 close, credit spreads, estimate revisions and explicit invalidation."
+      "topic": "30-day supplier/operator divergence",
+      "title": "Test suppliers against builders",
+      "question": "Will MU/optical/semicap beat financed AI operators by Dec 9?",
+      "selfCheck": "HYPOTHESIS (Nov 9 close baseline): equal-weight supplier basket outperforms CRWV/NBIS-like builders by Dec 9. TEST weekly relative returns plus credit, order and earnings revisions. REJECT if no outperformance or supplier orders deteriorate.",
+      "prompt": "Construct falsifiable Nov 9–Dec 9 2026 relative return test; control for sector beta and single-name events."
     }
   ]
 }
