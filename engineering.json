@@ -1,45 +1,45 @@
 {
-  "date": "Nov 9, 2026 · Week 1 / Day 1 · Visibility & early risk communication",
+  "date": "Nov 10, 2026 · Week 1 / Day 2 · Visibility & early risk communication",
   "cards": [
     {
       "category": "PRINCIPAL",
-      "topic": "Risk-first updates",
-      "title": "Lead with what could break",
-      "question": "PCIe Gen5 margin is 1.5 dB below target. What is your 15-second update?",
-      "selfCheck": "Say the release impact first: 'Channel margin is 1.5 dB short; layout signoff is at risk.' Add current evidence, owner, and next checkpoint. Exercise: speak it in 15 seconds.",
-      "prompt": "Coach me on a 15-second risk-first update for PCIe Gen5 channel loss. Challenge my wording and show a stronger version."
+      "topic": "Signal vs noise",
+      "title": "Escalate the decision, not the plot",
+      "question": "PCIe Gen5 insertion loss drifts 0.4 dB across builds. When is this worth escalating?",
+      "selfCheck": "Tie the drift to remaining margin, sample variation and the next release gate. Exercise: state the decision at risk in one sentence, without declaring a failure.",
+      "prompt": "Coach a senior SI engineer on escalating a 0.4 dB PCIe Gen5 loss drift with uncertainty and a decision deadline."
     },
     {
       "category": "PRINCIPAL",
-      "topic": "Proactive visibility",
-      "title": "Flag the risk before proof",
-      "question": "TDR suggests a connector discontinuity, but EM correlation is pending. When do you alert the team?",
-      "selfCheck": "Alert now if the uncertainty may affect a decision. Separate observation from hypothesis: 'TDR shows a step; connector is the leading suspect; EM correlation due tomorrow.'",
-      "prompt": "Practice proactive escalation when TDR and EM evidence are incomplete. Give a realistic SI/PI stakeholder scenario."
+      "topic": "Cross-team visibility",
+      "title": "No surprise at layout freeze",
+      "question": "A via-stub fix needs routing changes two days before freeze. Who needs to know now?",
+      "selfCheck": "Notify layout, system SI, manufacturing and the program owner with options, impact and a decision deadline. Exercise: draft a three-line early-warning note.",
+      "prompt": "Role-play an early cross-functional warning about via-stub mitigation before PCB layout freeze."
     },
     {
       "category": "PRINCIPAL",
-      "topic": "Confidence calibration",
-      "title": "Facts, hypothesis, next test",
-      "question": "A PDN impedance peak appears near 18 MHz. How do you avoid overstating the root cause?",
-      "selfCheck": "Fact: measured peak at 18 MHz. Hypothesis: capacitor/plane resonance. Next: compare simulation and component ESR sensitivity. State confidence and decision timing.",
-      "prompt": "Train me to distinguish observation, hypothesis, and proof for an 18 MHz PDN resonance. Include a 30-second update."
+      "topic": "Calibrated evidence",
+      "title": "Say what the measurement cannot prove",
+      "question": "TDR sees a 55 Ω bump; EM predicts 53 Ω. Can you call the connector the root cause?",
+      "selfCheck": "No. State measured/model agreement, calibration and de-embedding limits, and competing explanations. Propose a discriminating test and time to conclusion.",
+      "prompt": "Challenge my confidence statement for a 55-ohm TDR discontinuity versus a 53-ohm EM prediction."
     },
     {
       "category": "PRINCIPAL",
-      "topic": "Audience alignment",
-      "title": "Translate dB into decisions",
-      "question": "A program manager hears 'S21 notch at 8 GHz.' What should they hear instead?",
-      "selfCheck": "Translate technical evidence into system consequence: potential eye-margin or compliance risk, affected build, confidence, and mitigation timing. Avoid claiming failure without correlation.",
-      "prompt": "Rewrite a technical S21-notch finding for a program manager, layout lead, and SI peer; explain what changes for each audience."
+      "topic": "Risk triage",
+      "title": "Separate severity from confidence",
+      "question": "A 22 MHz PDN peak may overlap load-current energy. How do you prioritize it?",
+      "selfCheck": "Rate potential system impact and likelihood separately; compare ZPDN to target over the relevant bandwidth. Name the owner and fastest evidence that changes the priority.",
+      "prompt": "Teach a two-axis severity-versus-confidence triage for a PDN impedance peak, with a short manager update."
     },
     {
       "category": "PRINCIPAL",
-      "topic": "Accountable follow-through",
-      "title": "End with an owned checkpoint",
-      "question": "A crosstalk concern is open before layout freeze. What makes your update actionable?",
-      "selfCheck": "Name owner, test, due time, and release decision: 'I will compare NEXT extraction against budget by 2 PM; layout freeze remains conditional until review.' Exercise: draft a 30-second update.",
-      "prompt": "Give me a 30-second SI/PI risk update exercise with owner, deadline, evidence, and explicit decision gate. Critique my answer."
+      "topic": "Spiral review · 30-second drill",
+      "title": "One update, three audiences",
+      "question": "Crosstalk is 3 dB above budget near a release gate. How do you brief SI, layout and PM?",
+      "selfCheck": "Keep one fact set, tailor the ask: SI validates coupling and margin; layout evaluates spacing; PM owns the gate decision. Finish with a shared checkpoint.",
+      "prompt": "Quiz me on three concise audience-specific updates for a crosstalk over-budget finding, then critique clarity and ownership."
     }
   ]
 }
