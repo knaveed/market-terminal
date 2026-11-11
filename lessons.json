@@ -1,22 +1,22 @@
 {
-  "date": "Nov 10, 2026",
-  "selectionReason": "Nov 9 broad rally with NVDA weakness favors peer comparison (HL005); oil-led rate narrative shift favors revisiting macro assumptions (HL023). Both rotate away from Nov 9 HL024/HL015. AP Nov 9 2026.",
+  "date": "Nov 11, 2026",
+  "selectionReason": "Nov 10 CPI upside surprise and Nov 10 TSMC October sales (+59.7% YoY) make HL001 (volatility vs thesis) and HL006 (growth vs valuation) relevant. Neither repeats Nov 10's HL005/HL023. Source: TSMC Nov 10 release; Reuters Nov 10 CPI report.",
   "cards": [
     {
       "category": "LESSON",
-      "topic": "Research",
-      "title": "Compare a company with its competitors",
-      "question": "Why research peers instead of one ticker in isolation?",
-      "selfCheck": "HL005: Compare NVDA with AMD, MU and SOXX after Nov 9's unusual divergence. Check earnings and news before calling it leadership.",
-      "prompt": "Explain the investing lesson 'Compare a company with its competitors', with a practical example, limits and what evidence would falsify it."
+      "topic": "Thesis",
+      "title": "The thesis must survive daily gyrations",
+      "question": "What changed: price or business assumptions?",
+      "selfCheck": "Separate volatility from thesis damage.",
+      "prompt": "Use HL001 to distinguish Nov 10 CPI-driven repricing from changes in AI semiconductor demand. Check TSMC October sales and counterevidence; make a dated milestone list."
     },
     {
       "category": "LESSON",
-      "topic": "Macro",
-      "title": "Narratives change as incentives change",
-      "question": "Why should investors revisit an old macro story?",
-      "selfCheck": "HL023: Oil fell 5.8% Nov 9; reassess inflation and rate assumptions. Check CPI and yields: one oil move does not establish a new regime.",
-      "prompt": "Explain the investing lesson 'Narratives change as incentives change', with a practical example, limits and what evidence would falsify it."
+      "topic": "Valuation",
+      "title": "A high P/E needs a growth explanation",
+      "question": "What growth is already priced in?",
+      "selfCheck": "Compare growth with valuation assumptions.",
+      "prompt": "Use HL006 to test how higher Treasury yields change the valuation of AI chip suppliers. Contrast revenue growth, earnings forecasts and multiples, with failure conditions."
     }
   ]
 }
