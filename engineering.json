@@ -1,45 +1,45 @@
 {
-  "date": "Nov 10, 2026 · Week 1 / Day 2 · Visibility & early risk communication",
+  "date": "Nov 11, 2026 · Week 1 / Day 3 · Visibility & early risk communication",
   "cards": [
     {
       "category": "PRINCIPAL",
-      "topic": "Signal vs noise",
-      "title": "Escalate the decision, not the plot",
-      "question": "PCIe Gen5 insertion loss drifts 0.4 dB across builds. When is this worth escalating?",
-      "selfCheck": "Tie the drift to remaining margin, sample variation and the next release gate. Exercise: state the decision at risk in one sentence, without declaring a failure.",
-      "prompt": "Coach a senior SI engineer on escalating a 0.4 dB PCIe Gen5 loss drift with uncertainty and a decision deadline."
+      "topic": "Risk-first status",
+      "title": "Headline the exposure, not the activity",
+      "question": "A PCIe Gen5 channel has only 0.6 dB margin before signoff. What goes first in your update?",
+      "selfCheck": "Lead with the margin at risk, confidence and signoff date; put simulation work second. Exercise: deliver a 20-second update ending with the decision owner.",
+      "prompt": "Coach me through a 20-second risk-first status update for a PCIe Gen5 channel with 0.6 dB margin before signoff. Critique decision clarity."
     },
     {
       "category": "PRINCIPAL",
-      "topic": "Cross-team visibility",
-      "title": "No surprise at layout freeze",
-      "question": "A via-stub fix needs routing changes two days before freeze. Who needs to know now?",
-      "selfCheck": "Notify layout, system SI, manufacturing and the program owner with options, impact and a decision deadline. Exercise: draft a three-line early-warning note.",
-      "prompt": "Role-play an early cross-functional warning about via-stub mitigation before PCB layout freeze."
+      "topic": "Uncertainty and evidence",
+      "title": "Give uncertainty an expiration date",
+      "question": "EM and TDR disagree on a connector launch. How do you avoid an open-ended investigation?",
+      "selfCheck": "State competing explanations and a discriminating measurement, with owner and due date. Exercise: say 'not yet proven' without sounding passive.",
+      "prompt": "Role-play a review where TDR and EM disagree at a connector launch. Help me state confidence, a decisive test, owner and deadline."
     },
     {
       "category": "PRINCIPAL",
-      "topic": "Calibrated evidence",
-      "title": "Say what the measurement cannot prove",
-      "question": "TDR sees a 55 Ω bump; EM predicts 53 Ω. Can you call the connector the root cause?",
-      "selfCheck": "No. State measured/model agreement, calibration and de-embedding limits, and competing explanations. Propose a discriminating test and time to conclusion.",
-      "prompt": "Challenge my confidence statement for a 55-ohm TDR discontinuity versus a 53-ohm EM prediction."
+      "topic": "System-level ownership",
+      "title": "Own the handoff, not just your model",
+      "question": "A PDN resonance may amplify a processor transient, but package and VRM teams own parts of the path. Who drives closure?",
+      "selfCheck": "Name a single system-level risk owner and agree on VRM/package/board evidence. Exercise: request a cross-team checkpoint before the design gate.",
+      "prompt": "Help me lead cross-functional closure of a PDN resonance involving VRM, package and board teams without formal authority."
     },
     {
       "category": "PRINCIPAL",
-      "topic": "Risk triage",
-      "title": "Separate severity from confidence",
-      "question": "A 22 MHz PDN peak may overlap load-current energy. How do you prioritize it?",
-      "selfCheck": "Rate potential system impact and likelihood separately; compare ZPDN to target over the relevant bandwidth. Name the owner and fastest evidence that changes the priority.",
-      "prompt": "Teach a two-axis severity-versus-confidence triage for a PDN impedance peak, with a short manager update."
+      "topic": "Tradeoff before freeze",
+      "title": "Present two viable paths",
+      "question": "A crosstalk fix improves isolation but delays layout freeze. What does leadership need?",
+      "selfCheck": "Show option A/B with SI margin, schedule cost, residual risk and decision deadline. Exercise: recommend one path while naming what would reverse your choice.",
+      "prompt": "Challenge my two-option recommendation for crosstalk mitigation versus layout freeze. Make me quantify residual risk and schedule impact."
     },
     {
       "category": "PRINCIPAL",
-      "topic": "Spiral review · 30-second drill",
-      "title": "One update, three audiences",
-      "question": "Crosstalk is 3 dB above budget near a release gate. How do you brief SI, layout and PM?",
-      "selfCheck": "Keep one fact set, tailor the ask: SI validates coupling and margin; layout evaluates spacing; PM owns the gate decision. Finish with a shared checkpoint.",
-      "prompt": "Quiz me on three concise audience-specific updates for a crosstalk over-budget finding, then critique clarity and ownership."
+      "topic": "Spiral review · escalation",
+      "title": "Close the loop in one minute",
+      "question": "Yesterday you warned about a via stub; today its impact is uncertain. What update earns trust?",
+      "selfCheck": "Report what changed, what remains unknown, the next test and exact checkpoint. Exercise: write a three-sentence update for SI, layout and PM.",
+      "prompt": "Quiz me on a three-sentence follow-up after an early via-stub risk escalation. Critique confidence, ownership and next checkpoint."
     }
   ]
 }
