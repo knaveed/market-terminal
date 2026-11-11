@@ -1,53 +1,53 @@
 {
-  "date": "Nov 10, 2026",
+  "date": "Nov 11, 2026",
   "cards": [
     {
       "category": "REGIME",
-      "topic": "7/30/90-day risk repricing",
-      "title": "Broad rebound; AI still on trial",
-      "question": "Was Nov 9 a regime turn or relief from oil?",
-      "selfCheck": "FACT: Nov 9 S&P +2.3%, Nasdaq +2.7%, IWM +3.1% as Brent fell 5.8%; NVDA fell 4.3%. 7d AI drawdown persists; Oct peak and Aug oil/rate stress frame 30/90d. TEST: earnings revisions, credit and breadth over weeks.",
-      "prompt": "Compare Reuters Nov 6 AI correction with AP Nov 9 rebound. https://apnews.com/article/d938f8e6ff42b3706e1d36e6245ec56b"
+      "topic": "Inflation shock versus AI rebound",
+      "title": "AI rebounds; rates still constrain",
+      "question": "Is this a new uptrend or relief after Tuesday's selloff?",
+      "selfCheck": "FACT: Nov 10 S&P −0.38%, Nasdaq −0.74%; hot CPI drove 10Y yields near 5%. Nov 11 Nasdaq futures rebounded ~1.9%. TEST: sustained cash-session breadth and lower yields, not premarket alone.",
+      "prompt": "Explain the Nov 10 inflation shock and Nov 11 AI premarket rebound, distinguishing evidence from a durable regime change."
     },
     {
       "category": "SENTIMENT",
-      "topic": "Breadth and cross-asset confirmation",
-      "title": "Small caps lead; chips diverge",
-      "question": "Is risk appetite broadening without NVIDIA?",
-      "selfCheck": "FACT: Nov 9 Russell +3.1% versus S&P +2.3%; NVDA -4.3%. WATCH RSP/SPY, IWM, XBI, SOXX/XSD, credit spreads and 10Y (~4.87%). REJECT broadening if breadth narrows or spreads widen.",
-      "prompt": "Explain why broad participation and falling oil may matter more than a single AI leader. Source AP Nov 9 https://apnews.com/article/f7ec9680fc858e3c2505913e7b3a54e2"
+      "topic": "Breadth and confirmation",
+      "title": "A rebound needs wider participation",
+      "question": "What would prove AI strength is broadening?",
+      "selfCheck": "FACT: Nov 10 equal-weight S&P held up better than cap-weight; NVDA fell ~5.5%. WATCH: RSP/SPY, SOXX, IWM and credit. A tech-only bounce with weak breadth is less convincing.",
+      "prompt": "Analyze whether semiconductor and market breadth confirm the Nov 11 premarket rebound."
     },
     {
       "category": "TECH",
-      "topic": "AI compute versus deployment economics",
-      "title": "Demand is not deployment",
-      "question": "Which AI suppliers get paid if data centers are delayed?",
-      "selfCheck": "FACT: Nov 9 brokers disputed severe regulatory risk; some expect projects to shift 2028→2029, not vanish. HYPOTHESIS: MU, optical and power-efficiency suppliers remain resilient. REJECT if orders, utilization or margins weaken.",
-      "prompt": "Contrast durable AI chip demand with construction timing, permitting and capex returns. Reuters Nov 9 https://www.reuters.com/business/finance/wall-st-brokerages-say-ai-selloff-overdone-downplay-democrat-regulation-risks-2026-11-09/"
+      "topic": "Foundry demand and AI deployment",
+      "title": "TSMC demand is real; returns still matter",
+      "question": "What does strong foundry revenue prove—and not prove?",
+      "selfCheck": "FACT: TSMC reported October revenue growth of ~59.7% YoY. INFERENCE: advanced-node demand remains robust. NOT PROVEN: every AI supplier's margin or data-center return on capital.",
+      "prompt": "Explain how TSMC October 2026 sales inform AI semiconductor demand, and where the inference stops."
     },
     {
       "category": "DORMANT",
-      "topic": "2026 Rubin platform commitments",
-      "title": "Rubin's 2027 payoff is pending",
-      "question": "When do platform promises become cash-generating capacity?",
-      "selfCheck": "FACT: NVIDIA described next-gen computing and strong data-center sales Feb 25, 2026. HYPOTHESIS: 2027 deployments lift HBM, optics and power demand. CHECK: shipments, site power-on, utilization and cost/token; slippage rejects timing.",
-      "prompt": "Build a 2027 commissioning scorecard from NVIDIA Feb 25 2026 results and subsequent platform announcements. https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026/"
+      "topic": "AI infrastructure order conversion",
+      "title": "Backlogs must become cash flow",
+      "question": "When do AI infrastructure commitments become durable earnings?",
+      "selfCheck": "FACT: CoreWeave's raised outlook lifted AI infrastructure shares premarket. HYPOTHESIS: compute demand can support optics, memory and power suppliers. TEST: revenue conversion, financing cost, utilization and margins.",
+      "prompt": "Analyze delayed AI infrastructure demand conversion into earnings for memory, optical and power suppliers."
     },
     {
-      "category": "CATALYST",
-      "topic": "November inflation and 2027 budgets",
-      "title": "CPI meets the AI earnings test",
-      "question": "Will rates or forward orders dominate the next quarter?",
-      "selfCheck": "WINDOW: Nov 2026 inflation/AI earnings; Q1–Q2 2027 capex plans. BULL: cooling inflation + firm orders; BEAR: sticky rates + delays. Verify release times from primary calendars; watch NVDA, MU, MSFT and CRWV.",
-      "prompt": "Create scenario matrix for November 2026 inflation, AI earnings and 2027 capex guidance; distinguish confirmed dates from estimates."
+      "category": "FORWARD",
+      "topic": "Next 1–12 months",
+      "title": "Watch the post-CPI rate test",
+      "question": "Which upcoming proof points can change AI valuations?",
+      "selfCheck": "WATCH: next bond-market session after Veterans Day, upcoming AI earnings, and quarterly capex guidance. SCENARIO: strong orders with lower yields help multiples; high yields or weaker returns compress them.",
+      "prompt": "Build a forward 1–12 month catalyst map for AI semiconductors after Nov 10 2026 CPI and the Nov 11 Veterans Day bond-market closure."
     },
     {
-      "category": "PREDICT",
-      "topic": "30-day supplier/operator divergence",
-      "title": "Test suppliers against builders",
-      "question": "Will MU/optical/semicap beat financed AI operators by Dec 9?",
-      "selfCheck": "HYPOTHESIS (Nov 9 close baseline): equal-weight supplier basket outperforms CRWV/NBIS-like builders by Dec 9. TEST weekly relative returns plus credit, order and earnings revisions. REJECT if no outperformance or supplier orders deteriorate.",
-      "prompt": "Construct falsifiable Nov 9–Dec 9 2026 relative return test; control for sector beta and single-name events."
+      "category": "SYNTHESIS",
+      "topic": "Falsifiable market thesis",
+      "title": "Demand strength ≠ stock-price safety",
+      "question": "What would make this rebound investable rather than chaseable?",
+      "selfCheck": "THESIS: AI demand is resilient but valuation/rate risk persists. REQUIRE: earnings upgrades, broad chip participation and stable credit. REJECT: renewed NVDA-led distribution, falling orders or persistent 5% yields.",
+      "prompt": "Stress-test the Nov 11 2026 AI semiconductor rebound thesis with bullish and bearish evidence and clear invalidation triggers."
     }
   ]
 }
