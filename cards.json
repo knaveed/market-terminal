@@ -3,51 +3,51 @@
   "cards": [
     {
       "category": "REGIME",
-      "topic": "Inflation shock versus AI rebound",
-      "title": "AI rebounds; rates still constrain",
-      "question": "Is this a new uptrend or relief after Tuesday's selloff?",
-      "selfCheck": "FACT: Nov 10 S&P −0.38%, Nasdaq −0.74%; hot CPI drove 10Y yields near 5%. Nov 11 Nasdaq futures rebounded ~1.9%. TEST: sustained cash-session breadth and lower yields, not premarket alone.",
-      "prompt": "Explain the Nov 10 inflation shock and Nov 11 AI premarket rebound, distinguishing evidence from a durable regime change."
+      "topic": "Inflation vs AI demand",
+      "title": "Strong demand, expensive capital",
+      "question": "Can AI earnings overcome a higher discount rate?",
+      "selfCheck": "Check CPI, yields and earnings revisions.",
+      "prompt": "Compare Nov 10 CPI (+0.4% monthly, above +0.3% forecast), Treasury yields and AI earnings revisions. Explain why strong demand can coexist with falling multiples; reject a rates-led bear case if yields ease and breadth improves."
     },
     {
       "category": "SENTIMENT",
-      "topic": "Breadth and confirmation",
-      "title": "A rebound needs wider participation",
-      "question": "What would prove AI strength is broadening?",
-      "selfCheck": "FACT: Nov 10 equal-weight S&P held up better than cap-weight; NVDA fell ~5.5%. WATCH: RSP/SPY, SOXX, IWM and credit. A tech-only bounce with weak breadth is less convincing.",
-      "prompt": "Analyze whether semiconductor and market breadth confirm the Nov 11 premarket rebound."
+      "topic": "Market breadth",
+      "title": "A chip rebound needs breadth",
+      "question": "Is risk appetite expanding beyond a few AI names?",
+      "selfCheck": "Compare SOXX, RSP and IWM.",
+      "prompt": "Check SOXX vs QQQ, RSP vs SPY, IWM and credit spreads across 7/30 days. Confirm or reject breadth improvement; do not treat premarket gains as proof."
     },
     {
       "category": "TECH",
-      "topic": "Foundry demand and AI deployment",
-      "title": "TSMC demand is real; returns still matter",
-      "question": "What does strong foundry revenue prove—and not prove?",
-      "selfCheck": "FACT: TSMC reported October revenue growth of ~59.7% YoY. INFERENCE: advanced-node demand remains robust. NOT PROVEN: every AI supplier's margin or data-center return on capital.",
-      "prompt": "Explain how TSMC October 2026 sales inform AI semiconductor demand, and where the inference stops."
+      "topic": "Foundry demand",
+      "title": "Foundry sales validate demand",
+      "question": "What does TSMC growth prove—and not prove?",
+      "selfCheck": "Check TSMC sales vs customer margins.",
+      "prompt": "Use TSMC's Nov 10 October revenue release: NT$586.89B, +59.7% YoY; Jan–Oct +43.3%. Distinguish verified foundry demand from hypotheses about NVDA, AMD, MU and customer returns. Source: https://pr.tsmc.com/english/news/3349"
     },
     {
       "category": "DORMANT",
-      "topic": "AI infrastructure order conversion",
-      "title": "Backlogs must become cash flow",
-      "question": "When do AI infrastructure commitments become durable earnings?",
-      "selfCheck": "FACT: CoreWeave's raised outlook lifted AI infrastructure shares premarket. HYPOTHESIS: compute demand can support optics, memory and power suppliers. TEST: revenue conversion, financing cost, utilization and margins.",
-      "prompt": "Analyze delayed AI infrastructure demand conversion into earnings for memory, optical and power suppliers."
+      "topic": "AI capex conversion",
+      "title": "Backlog is not cash flow",
+      "question": "When will prior AI commitments turn profitable?",
+      "selfCheck": "Check backlog, utilization and free cash flow.",
+      "prompt": "Trace 2026 AI data-center commitments into 2027 commissioning, utilization and cash generation. Distinguish contracted backlog from realized revenue; look for delays, financing costs and order revisions."
     },
     {
       "category": "FORWARD",
-      "topic": "Next 1–12 months",
-      "title": "Watch the post-CPI rate test",
-      "question": "Which upcoming proof points can change AI valuations?",
-      "selfCheck": "WATCH: next bond-market session after Veterans Day, upcoming AI earnings, and quarterly capex guidance. SCENARIO: strong orders with lower yields help multiples; high yields or weaker returns compress them.",
-      "prompt": "Build a forward 1–12 month catalyst map for AI semiconductors after Nov 10 2026 CPI and the Nov 11 Veterans Day bond-market closure."
+      "topic": "2027 budgets and rates",
+      "title": "2027 budgets face a rate test",
+      "question": "What could change the AI earnings path in 1–9 months?",
+      "selfCheck": "Track 2027 capex and rate guidance.",
+      "prompt": "Map 2027 hyperscaler capex guidance and the December 2026 Fed decision. Bull: orders and utilization rise while yields stabilize. Bear: high financing costs, delays or reduced capex. Check dates against official releases."
     },
     {
       "category": "SYNTHESIS",
-      "topic": "Falsifiable market thesis",
-      "title": "Demand strength ≠ stock-price safety",
-      "question": "What would make this rebound investable rather than chaseable?",
-      "selfCheck": "THESIS: AI demand is resilient but valuation/rate risk persists. REQUIRE: earnings upgrades, broad chip participation and stable credit. REJECT: renewed NVDA-led distribution, falling orders or persistent 5% yields.",
-      "prompt": "Stress-test the Nov 11 2026 AI semiconductor rebound thesis with bullish and bearish evidence and clear invalidation triggers."
+      "topic": "Falsifiable supplier thesis",
+      "title": "Suppliers must prove resilience",
+      "question": "Can chip suppliers outperform AI infrastructure builders?",
+      "selfCheck": "Compare estimates and relative returns.",
+      "prompt": "Test over 30–90 days: MU, optical/networking and semicap vs financing-heavy AI operators. Bull case requires earnings upgrades and stable credit; reject if orders weaken or supplier relative returns lag. Separate 7/30/90-day evidence from hypothesis."
     }
   ]
 }
