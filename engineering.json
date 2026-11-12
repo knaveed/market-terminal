@@ -1,45 +1,45 @@
 {
-  "date": "Nov 11, 2026 · Week 1 / Day 3 · Visibility & early risk communication",
+  "date": "Nov 12, 2026 · Week 1 / Day 4 · Visibility & early risk communication",
   "cards": [
     {
       "category": "PRINCIPAL",
-      "topic": "Risk-first status",
-      "title": "Headline the exposure, not the activity",
-      "question": "A PCIe Gen5 channel has only 0.6 dB margin before signoff. What goes first in your update?",
-      "selfCheck": "Lead with the margin at risk, confidence and signoff date; put simulation work second. Exercise: deliver a 20-second update ending with the decision owner.",
-      "prompt": "Coach me through a 20-second risk-first status update for a PCIe Gen5 channel with 0.6 dB margin before signoff. Critique decision clarity."
+      "topic": "Executive risk signal",
+      "title": "Thirty seconds, no rabbit hole",
+      "question": "PCIe Gen5 margin falls from 1.1 to 0.4 dB before release. How do you brief the director?",
+      "selfCheck": "Lead with exposure, release impact, confidence, and the decision needed. Exercise: give a 30-second update without explaining the full channel model.",
+      "prompt": "Coach my 30-second director update: PCIe Gen5 margin declined from 1.1 to 0.4 dB before release. Challenge risk framing, confidence and ask."
     },
     {
       "category": "PRINCIPAL",
-      "topic": "Uncertainty and evidence",
-      "title": "Give uncertainty an expiration date",
-      "question": "EM and TDR disagree on a connector launch. How do you avoid an open-ended investigation?",
-      "selfCheck": "State competing explanations and a discriminating measurement, with owner and due date. Exercise: say 'not yet proven' without sounding passive.",
-      "prompt": "Role-play a review where TDR and EM disagree at a connector launch. Help me state confidence, a decisive test, owner and deadline."
+      "topic": "Progress versus decision",
+      "title": "Progress is not the headline",
+      "question": "You completed 12 EM sweeps but still cannot correlate a TDR discontinuity. What matters?",
+      "selfCheck": "Report the unresolved signoff consequence and discriminating next test, not simulation count. Exercise: replace a progress-only update with one decision-ready sentence.",
+      "prompt": "Critique a progress-heavy EM/TDR status report and rewrite it as a concise decision-ready risk update with owner and checkpoint."
     },
     {
       "category": "PRINCIPAL",
-      "topic": "System-level ownership",
-      "title": "Own the handoff, not just your model",
-      "question": "A PDN resonance may amplify a processor transient, but package and VRM teams own parts of the path. Who drives closure?",
-      "selfCheck": "Name a single system-level risk owner and agree on VRM/package/board evidence. Exercise: request a cross-team checkpoint before the design gate.",
-      "prompt": "Help me lead cross-functional closure of a PDN resonance involving VRM, package and board teams without formal authority."
+      "topic": "Calibrated uncertainty",
+      "title": "When asked: Any concerns?",
+      "question": "A 19 MHz PDN peak may violate transient margin; the load spectrum is not final. What do you say?",
+      "selfCheck": "Say 'Yes—potential droop risk, medium confidence' and name the missing load spectrum, owner and test date. Exercise: distinguish likelihood from consequence.",
+      "prompt": "Role-play a manager asking 'Any concerns?' about a 19 MHz PDN resonance with incomplete transient data. Coach concise confidence language."
     },
     {
       "category": "PRINCIPAL",
-      "topic": "Tradeoff before freeze",
-      "title": "Present two viable paths",
-      "question": "A crosstalk fix improves isolation but delays layout freeze. What does leadership need?",
-      "selfCheck": "Show option A/B with SI margin, schedule cost, residual risk and decision deadline. Exercise: recommend one path while naming what would reverse your choice.",
-      "prompt": "Challenge my two-option recommendation for crosstalk mitigation versus layout freeze. Make me quantify residual risk and schedule impact."
+      "topic": "Influence without authority",
+      "title": "Make the layout ask easy to accept",
+      "question": "A crosstalk fix needs 0.3 mm more spacing, but routing is nearly frozen. How do you gain agreement?",
+      "selfCheck": "State system impact and two layout options; ask for a bounded feasibility check before freeze. Exercise: make the request in 20 seconds without blaming layout.",
+      "prompt": "Role-play a layout lead resisting a 0.3 mm spacing change for crosstalk mitigation. Coach an influence-based request with alternatives and a deadline."
     },
     {
       "category": "PRINCIPAL",
-      "topic": "Spiral review · escalation",
-      "title": "Close the loop in one minute",
-      "question": "Yesterday you warned about a via stub; today its impact is uncertain. What update earns trust?",
-      "selfCheck": "Report what changed, what remains unknown, the next test and exact checkpoint. Exercise: write a three-sentence update for SI, layout and PM.",
-      "prompt": "Quiz me on a three-sentence follow-up after an early via-stub risk escalation. Critique confidence, ownership and next checkpoint."
+      "topic": "Spiral review · ownership",
+      "title": "The checkpoint is the commitment",
+      "question": "Yesterday's connector EM/TDR mismatch still lacks closure. What should your follow-up contain?",
+      "selfCheck": "Give new evidence, remaining uncertainty, accountable owner, and next decision checkpoint. Exercise: deliver a three-sentence update and specify an escalation trigger.",
+      "prompt": "Quiz me on closing the loop on a connector EM/TDR discrepancy. Demand a clear owner, test, deadline, and escalation trigger."
     }
   ]
 }
