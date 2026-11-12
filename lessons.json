@@ -1,22 +1,22 @@
 {
-  "date": "Nov 11, 2026",
-  "selectionReason": "Nov 10 CPI upside surprise and Nov 10 TSMC October sales (+59.7% YoY) make HL001 (volatility vs thesis) and HL006 (growth vs valuation) relevant. Neither repeats Nov 10's HL005/HL023. Source: TSMC Nov 10 release; Reuters Nov 10 CPI report.",
+  "date": "Nov 12, 2026",
+  "selectionReason": "Nov 10 TSMC October revenue +59.7% YoY and CoreWeave Nov 10 Q3 results (backlog $132.5B, >4.6GW contracted vs >1.7GW active) highlight milestone-driven technology adoption. Rotate to underused HL002 and HL014, neither selected Nov 11. These are learning matches, not price forecasts.",
   "cards": [
     {
       "category": "LESSON",
       "topic": "Thesis",
-      "title": "The thesis must survive daily gyrations",
-      "question": "What changed: price or business assumptions?",
-      "selfCheck": "Separate volatility from thesis damage.",
-      "prompt": "Use HL001 to distinguish Nov 10 CPI-driven repricing from changes in AI semiconductor demand. Check TSMC October sales and counterevidence; make a dated milestone list."
+      "title": "The market may overlook a thesis for months",
+      "question": "What milestone will reveal real progress?",
+      "selfCheck": "Track a dated operating milestone.",
+      "prompt": "Apply handwritten lesson HL002 to CoreWeave Aug 10 2026 financing and Nov 10 Q3 2026 power commitments. Examine when contracted megawatts become active, utilized and profitable; avoid inferring a price forecast. Sources: https://investors.coreweave.com/news/news-details/2026/CoreWeave-Closes-2-6-Billion-Loan-Facility-Expanding-Financing-Flexibility-for-AI-Infrastructure/default.aspx and https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
     },
     {
       "category": "LESSON",
-      "topic": "Valuation",
-      "title": "A high P/E needs a growth explanation",
-      "question": "What growth is already priced in?",
-      "selfCheck": "Compare growth with valuation assumptions.",
-      "prompt": "Use HL006 to test how higher Treasury yields change the valuation of AI chip suppliers. Contrast revenue growth, earnings forecasts and multiples, with failure conditions."
+      "topic": "Research",
+      "title": "Look for the next technology inflection",
+      "question": "Which bottleneck creates measurable revenue?",
+      "selfCheck": "Check adoption and revenue proof.",
+      "prompt": "Apply handwritten lesson HL014 to TSMC's Nov 10 October revenue (+59.7% YoY) and AI compute capacity expansion. Compare chip supply, power delivery, utilization and customer returns. Identify a counterexample where demand is high but supplier margins fall. Source: https://pr.tsmc.com/english/news/3349"
     }
   ]
 }
