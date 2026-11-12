@@ -1,53 +1,53 @@
 {
-  "date": "Nov 11, 2026",
+  "date": "Nov 12, 2026",
   "cards": [
     {
       "category": "REGIME",
-      "topic": "Inflation vs AI demand",
-      "title": "Strong demand, expensive capital",
-      "question": "Can AI earnings overcome a higher discount rate?",
-      "selfCheck": "Check CPI, yields and earnings revisions.",
-      "prompt": "Compare Nov 10 CPI (+0.4% monthly, above +0.3% forecast), Treasury yields and AI earnings revisions. Explain why strong demand can coexist with falling multiples; reject a rates-led bear case if yields ease and breadth improves."
+      "topic": "AI recovery vs rate pressure",
+      "title": "AI demand rebounds; rates still bite",
+      "question": "Is the rebound a regime shift or relief?",
+      "selfCheck": "Check breadth and yields.",
+      "prompt": "As of Nov 12 2026 compare 7/30/90-day Nasdaq, SOXX, RSP, IWM and yields. Reuters Nov 11 reports Nasdaq +1.60%, S&P +1.31% after CoreWeave earnings; Nov 10 CPI lifted rate expectations. Separate facts from hypothesis; invalidate recovery if breadth fades and yields rise. Sources: https://www.reuters.com/business/media-telecom/global-markets-global-markets-2026-11-11/ and https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-10/"
     },
     {
       "category": "SENTIMENT",
-      "topic": "Market breadth",
-      "title": "A chip rebound needs breadth",
-      "question": "Is risk appetite expanding beyond a few AI names?",
-      "selfCheck": "Compare SOXX, RSP and IWM.",
-      "prompt": "Check SOXX vs QQQ, RSP vs SPY, IWM and credit spreads across 7/30 days. Confirm or reject breadth improvement; do not treat premarket gains as proof."
+      "topic": "Positioning and breadth",
+      "title": "Positioning reset, not all-clear",
+      "question": "Can participation outlast short-covering?",
+      "selfCheck": "Compare RSP, IWM and SOXX.",
+      "prompt": "Review Reuters Nov 11 positioning report: tech positioning below April 2025 lows and weaker retail call buying. Contrast Nov 11 Nasdaq +1.60%, Russell +0.9%, and 7/30-day breadth. Hypothesis: positioning supports a bounce; reject if equal-weight and small caps weaken. https://www.reuters.com/business/finance/after-us-market-shake-out-signs-suggest-too-soon-say-worst-is-over-2026-11-11/"
     },
     {
       "category": "TECH",
-      "topic": "Foundry demand",
-      "title": "Foundry sales validate demand",
-      "question": "What does TSMC growth prove—and not prove?",
-      "selfCheck": "Check TSMC sales vs customer margins.",
-      "prompt": "Use TSMC's Nov 10 October revenue release: NT$586.89B, +59.7% YoY; Jan–Oct +43.3%. Distinguish verified foundry demand from hypotheses about NVDA, AMD, MU and customer returns. Source: https://pr.tsmc.com/english/news/3349"
+      "topic": "Foundry demand vs compute economics",
+      "title": "Chip demand is measurable",
+      "question": "Does foundry growth become profitable AI usage?",
+      "selfCheck": "Check TSMC sales and cloud margins.",
+      "prompt": "Use TSMC Nov 10 release: October NT$586.89B +59.7% YoY, Jan-Oct +43.3%. Compare with CoreWeave Nov 10 Q3 revenue $3.661B, 10% adjusted operating margin and net losses. Foundry growth is fact; sustained end-customer ROI is hypothesis. Check utilization and margins; reject if orders or pricing deteriorate. https://pr.tsmc.com/english/news/3349 https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
     },
     {
       "category": "DORMANT",
-      "topic": "AI capex conversion",
-      "title": "Backlog is not cash flow",
-      "question": "When will prior AI commitments turn profitable?",
-      "selfCheck": "Check backlog, utilization and free cash flow.",
-      "prompt": "Trace 2026 AI data-center commitments into 2027 commissioning, utilization and cash generation. Distinguish contracted backlog from realized revenue; look for delays, financing costs and order revisions."
+      "topic": "August financing commitments",
+      "title": "Old financing meets new capacity",
+      "question": "Will August's loan support profitable 2027 deployments?",
+      "selfCheck": "Compare contracts, power and interest.",
+      "prompt": "Trace CoreWeave's Aug 10 2026 $2.6B DDTL 5.5 financing (SOFR +5.50%, ~5-year loan against ~3-year customer contracts) to Nov 10 Q3 contracted power >4.6GW vs active >1.7GW, backlog $132.5B. Financing is confirmed; renewal and ROI are hypotheses. Watch conversion, renewals and interest burden. https://investors.coreweave.com/news/news-details/2026/CoreWeave-Closes-2-6-Billion-Loan-Facility-Expanding-Financing-Flexibility-for-AI-Infrastructure/default.aspx"
     },
     {
       "category": "FORWARD",
-      "topic": "2027 budgets and rates",
-      "title": "2027 budgets face a rate test",
-      "question": "What could change the AI earnings path in 1–9 months?",
-      "selfCheck": "Track 2027 capex and rate guidance.",
-      "prompt": "Map 2027 hyperscaler capex guidance and the December 2026 Fed decision. Bull: orders and utilization rise while yields stabilize. Bear: high financing costs, delays or reduced capex. Check dates against official releases."
+      "topic": "December checkpoints",
+      "title": "December tests demand and rates",
+      "question": "Which December data could reset 2027 assumptions?",
+      "selfCheck": "Track Dec 9 Fed; Dec 10 TSMC.",
+      "prompt": "Official Fed calendar lists Dec 8-9 2026 FOMC; TSMC investor calendar lists Nov sales on Dec 10 2026. Bull: rate expectations stabilize and foundry demand holds. Bear: higher yields and weaker sales/guidance. Note market already prices substantial AI growth and tighter policy; verify releases before drawing conclusions. https://www.chicagofed.org/utilities/about-us/federal-reserve-calendars https://investor.tsmc.com/english/financial-calendar"
     },
     {
       "category": "SYNTHESIS",
-      "topic": "Falsifiable supplier thesis",
-      "title": "Suppliers must prove resilience",
-      "question": "Can chip suppliers outperform AI infrastructure builders?",
-      "selfCheck": "Compare estimates and relative returns.",
-      "prompt": "Test over 30–90 days: MU, optical/networking and semicap vs financing-heavy AI operators. Bull case requires earnings upgrades and stable credit; reject if orders weaken or supplier relative returns lag. Separate 7/30/90-day evidence from hypothesis."
+      "topic": "Falsifiable AI economics",
+      "title": "Orders are real; returns unproven",
+      "question": "Can AI suppliers beat debt-funded builders?",
+      "selfCheck": "Test margins and financing costs.",
+      "prompt": "Set a 30-90-day falsifiable test from Nov 12: compare MU/TSMC and optical/semicap supplier earnings revisions with CRWV and other financed operators, plus relative returns. CoreWeave Nov 10 raised 2026 revenue guidance to $13.0-13.3B and capex to $37-39B, with Q4 interest expense guided $1.05-1.15B. Hypothesis: suppliers outperform if utilization and financing lag. Reject on supplier order cuts or improving operator free cash flow. https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
     }
   ]
 }
