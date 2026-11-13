@@ -1,22 +1,22 @@
 {
-  "date": "Nov 12, 2026",
-  "selectionReason": "Nov 10 TSMC October revenue +59.7% YoY and CoreWeave Nov 10 Q3 results (backlog $132.5B, >4.6GW contracted vs >1.7GW active) highlight milestone-driven technology adoption. Rotate to underused HL002 and HL014, neither selected Nov 11. These are learning matches, not price forecasts.",
+  "date": "Nov 13, 2026",
+  "selectionReason": "Nov 12 Nvidia CEO transition and Nebius capacity delays, against 7/30/90-day AI valuation and financing pressures, match underused HL008 and HL012. These are learning analogies, not price predictions; neither repeats Nov 12 HL002/HL014.",
   "cards": [
     {
       "category": "LESSON",
-      "topic": "Thesis",
-      "title": "The market may overlook a thesis for months",
-      "question": "What milestone will reveal real progress?",
-      "selfCheck": "Track a dated operating milestone.",
-      "prompt": "Apply handwritten lesson HL002 to CoreWeave Aug 10 2026 financing and Nov 10 Q3 2026 power commitments. Examine when contracted megawatts become active, utilized and profitable; avoid inferring a price forecast. Sources: https://investors.coreweave.com/news/news-details/2026/CoreWeave-Closes-2-6-Billion-Loan-Facility-Expanding-Financing-Flexibility-for-AI-Infrastructure/default.aspx and https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
+      "topic": "Cycles",
+      "title": "Long booms can conceal weak foundations",
+      "question": "What financing assumptions could break?",
+      "selfCheck": "Check debt and deployment timing.",
+      "prompt": "Apply original handwritten lesson HL008 to Nov 10 CoreWeave backlog and Nov 12 Nebius capacity delays. Compare 2027 committed capex, contracted vs live MW, interest burden, utilization and free cash flow; distinguish a durable boom from fragile funding. Do not predict a crash from analogy. https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx https://www.reuters.com/technology/nebius-beats-quarterly-revenue-estimates-strong-ai-demand-2026-11-12/"
     },
     {
       "category": "LESSON",
       "topic": "Research",
-      "title": "Look for the next technology inflection",
-      "question": "Which bottleneck creates measurable revenue?",
-      "selfCheck": "Check adoption and revenue proof.",
-      "prompt": "Apply handwritten lesson HL014 to TSMC's Nov 10 October revenue (+59.7% YoY) and AI compute capacity expansion. Compare chip supply, power delivery, utilization and customer returns. Identify a counterexample where demand is high but supplier margins fall. Source: https://pr.tsmc.com/english/news/3349"
+      "title": "Use multiple independent research channels",
+      "question": "Does the evidence survive source checks?",
+      "selfCheck": "Verify filings against news.",
+      "prompt": "Apply handwritten lesson HL012 to Nvidia Nov 12 leadership transition and Nov 17 earnings. Cross-check official corporate release, earnings, Reuters and competitors; distinguish verified succession from speculation about future market share. Identify disconfirming evidence. https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/"
     }
   ]
 }
