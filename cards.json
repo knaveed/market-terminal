@@ -1,53 +1,53 @@
 {
-  "date": "Nov 12, 2026",
+  "date": "Nov 13, 2026",
   "cards": [
     {
       "category": "REGIME",
-      "topic": "AI recovery vs rate pressure",
-      "title": "AI demand rebounds; rates still bite",
-      "question": "Is the rebound a regime shift or relief?",
-      "selfCheck": "Check breadth and yields.",
-      "prompt": "As of Nov 12 2026 compare 7/30/90-day Nasdaq, SOXX, RSP, IWM and yields. Reuters Nov 11 reports Nasdaq +1.60%, S&P +1.31% after CoreWeave earnings; Nov 10 CPI lifted rate expectations. Separate facts from hypothesis; invalidate recovery if breadth fades and yields rise. Sources: https://www.reuters.com/business/media-telecom/global-markets-global-markets-2026-11-11/ and https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-10/"
+      "topic": "Rates versus AI execution",
+      "title": "Growth strong; risk premium rising",
+      "question": "Is this a rates reset or AI demand failure?",
+      "selfCheck": "Compare yields with earnings revisions.",
+      "prompt": "Nov 13 research drill. Facts: Nov 10 hot CPI; Nov 12 S&P -0.35%, Nasdaq -0.39%, Russell -1.7%, yields rising. 7-day: sharp AI correction and rebound; 30-day: October highs to repricing; 90-day: high-capex AI expansion amid higher financing costs. Hypothesis: discount rates and execution risk, not confirmed end-demand collapse, dominate. Check 2Y/10Y, SOXX vs QQQ and forward estimates; disconfirm if broad revisions fall despite yields stabilizing. https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/"
     },
     {
       "category": "SENTIMENT",
-      "topic": "Positioning and breadth",
-      "title": "Positioning reset, not all-clear",
-      "question": "Can participation outlast short-covering?",
+      "topic": "Breadth and concentration",
+      "title": "A bounce without breadth is fragile",
+      "question": "Can the recovery survive weak small caps?",
       "selfCheck": "Compare RSP, IWM and SOXX.",
-      "prompt": "Review Reuters Nov 11 positioning report: tech positioning below April 2025 lows and weaker retail call buying. Contrast Nov 11 Nasdaq +1.60%, Russell +0.9%, and 7/30-day breadth. Hypothesis: positioning supports a bounce; reject if equal-weight and small caps weaken. https://www.reuters.com/business/finance/after-us-market-shake-out-signs-suggest-too-soon-say-worst-is-over-2026-11-11/"
+      "prompt": "As of Nov 12: Nasdaq -0.39%, S&P -0.35%, Russell -1.7%; declining issues outnumbered advancers, while energy gained. Nvidia -4.3%, AMD reportedly +5.9%: dispersion is not broad confirmation. Evaluate 7/30-day equal-weight and credit spreads; do not infer trend from one session. Recovery thesis weakens if IWM/RSP lag and credit spreads widen. https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/"
     },
     {
       "category": "TECH",
-      "topic": "Foundry demand vs compute economics",
-      "title": "Chip demand is measurable",
-      "question": "Does foundry growth become profitable AI usage?",
-      "selfCheck": "Check TSMC sales and cloud margins.",
-      "prompt": "Use TSMC Nov 10 release: October NT$586.89B +59.7% YoY, Jan-Oct +43.3%. Compare with CoreWeave Nov 10 Q3 revenue $3.661B, 10% adjusted operating margin and net losses. Foundry growth is fact; sustained end-customer ROI is hypothesis. Check utilization and margins; reject if orders or pricing deteriorate. https://pr.tsmc.com/english/news/3349 https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
+      "topic": "AI platform competition and governance",
+      "title": "Nvidia's roadmap meets succession risk",
+      "question": "Will the leadership change alter customer choices?",
+      "selfCheck": "Check roadmap, margins and rivals.",
+      "prompt": "Verified Nov 12: Nvidia announced CEO transition to interim CEO/CFO Colette Kress. Feb 25 Rubin roadmap promised up to 10x lower inference token cost versus Blackwell; Aug Q2 FY27 revenue $96.2B showed strong demand. Hypothesis: governance and customer concentration could shift share toward AMD/AVGO/custom ASICs; not proof of order migration. Compare Rubin delivery, developer ecosystem, margins, TSMC capacity and AMD wins. Reject share-shift thesis if Nvidia execution and customer retention remain strong. https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/default.aspx"
     },
     {
       "category": "DORMANT",
-      "topic": "August financing commitments",
-      "title": "Old financing meets new capacity",
-      "question": "Will August's loan support profitable 2027 deployments?",
-      "selfCheck": "Compare contracts, power and interest.",
-      "prompt": "Trace CoreWeave's Aug 10 2026 $2.6B DDTL 5.5 financing (SOFR +5.50%, ~5-year loan against ~3-year customer contracts) to Nov 10 Q3 contracted power >4.6GW vs active >1.7GW, backlog $132.5B. Financing is confirmed; renewal and ROI are hypotheses. Watch conversion, renewals and interest burden. https://investors.coreweave.com/news/news-details/2026/CoreWeave-Closes-2-6-Billion-Loan-Facility-Expanding-Financing-Flexibility-for-AI-Infrastructure/default.aspx"
+      "topic": "February Rubin promise approaching 2027",
+      "title": "Rubin's cost promise needs proof",
+      "question": "Will February's 10x claim improve customer ROI?",
+      "selfCheck": "Check tokens per dollar deployed.",
+      "prompt": "Dormant catalyst: Nvidia Feb 25 2026 announced Rubin platform and claimed up to 10x reduction in inference token cost relative to Blackwell, with major clouds among initial adopters. Nov 12 succession adds execution uncertainty. The market has priced substantial AI productivity gains; 2027 real-world benchmarks, networking/HBM needs and utilization determine economics. Disconfirm on delays, lower realized savings or weak adoption. Compare Nvidia, TSMC, memory and optical suppliers. https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/default.aspx https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx"
     },
     {
       "category": "FORWARD",
-      "topic": "December checkpoints",
-      "title": "December tests demand and rates",
-      "question": "Which December data could reset 2027 assumptions?",
-      "selfCheck": "Track Dec 9 Fed; Dec 10 TSMC.",
-      "prompt": "Official Fed calendar lists Dec 8-9 2026 FOMC; TSMC investor calendar lists Nov sales on Dec 10 2026. Bull: rate expectations stabilize and foundry demand holds. Bear: higher yields and weaker sales/guidance. Note market already prices substantial AI growth and tighter policy; verify releases before drawing conclusions. https://www.chicagofed.org/utilities/about-us/federal-reserve-calendars https://investor.tsmc.com/english/financial-calendar"
+      "topic": "November earnings and 2027 commissioning",
+      "title": "Nov 17 tests AI guidance and continuity",
+      "question": "Can Nvidia defend growth after succession?",
+      "selfCheck": "Check orders, margins and roadmap.",
+      "prompt": "Official Nvidia Oct 28 notice confirms Nov 17 2026 Q3 FY27 results ~1:20pm PT and call 2pm PT. Aug outlook Q3 revenue $108B +/-2% and gross margin ~74%; compare reported figures and forward guidance, CEO succession execution, Rubin timing, customer concentration. Bull: resilient orders/margins and credible roadmap; bear: guidance cut, delays or lost orders. Longer 1-12 month catalyst: Nebius delayed third-party capacity into H1 2027; watch actual commissioning, not contracts alone. https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx https://www.reuters.com/technology/nebius-beats-quarterly-revenue-estimates-strong-ai-demand-2026-11-12/"
     },
     {
       "category": "SYNTHESIS",
-      "topic": "Falsifiable AI economics",
-      "title": "Orders are real; returns unproven",
-      "question": "Can AI suppliers beat debt-funded builders?",
-      "selfCheck": "Test margins and financing costs.",
-      "prompt": "Set a 30-90-day falsifiable test from Nov 12: compare MU/TSMC and optical/semicap supplier earnings revisions with CRWV and other financed operators, plus relative returns. CoreWeave Nov 10 raised 2026 revenue guidance to $13.0-13.3B and capex to $37-39B, with Q4 interest expense guided $1.05-1.15B. Hypothesis: suppliers outperform if utilization and financing lag. Reject on supplier order cuts or improving operator free cash flow. https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
+      "topic": "30-90 day falsifiable deployment thesis",
+      "title": "Contracts are not operating cash flow",
+      "question": "Will delays hurt builders more than suppliers?",
+      "selfCheck": "Track MW online and free cash flow.",
+      "prompt": "Prediction from Nov 13 to Feb 13: if 2027 commissioning lags but hardware orders remain firm, profitable chip/memory/network suppliers should show better earnings revisions than debt-heavy AI builders. Nov 10 CoreWeave $132.5B backlog and >4.6GW contracted vs >1.7GW active; Nov 12 Nebius lowered 2026 forecast on third-party capacity delays. The market already recognizes strong AI demand; key uncertainty is time-to-cash and financing. Reject if supplier orders cut, operators rapidly improve cash flow, or deployment catches up. Compare MU, TSMC, COHR/LITE, CRWV, NBIS. https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx https://www.reuters.com/technology/nebius-beats-quarterly-revenue-estimates-strong-ai-demand-2026-11-12/"
     }
   ]
 }
