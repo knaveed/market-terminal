@@ -1,45 +1,45 @@
 {
-  "date": "Nov 13, 2026 · Week 1 / Day 5 · Visibility & early risk communication",
+  "date": "Nov 14, 2026 · Week 1 / Day 6 · Visibility & early risk communication",
   "cards": [
     {
-      "category": "PRINCIPAL",
-      "topic": "Risk-first synthesis",
-      "title": "Lead with the release exposure",
-      "question": "PCIe Gen5 margin is 0.4 dB and layout freeze is Monday. What is your 20-second headline?",
-      "selfCheck": "State the release decision at risk, measured margin, confidence, and deadline. Exercise: give the headline before mentioning any simulation activity.",
-      "prompt": "Coach a 20-second risk-first update for PCIe Gen5 0.4 dB margin before Monday layout freeze. Grade impact, confidence, decision ask and brevity."
+      "category": "PRACTICE",
+      "topic": "Early warning · Day 6",
+      "title": "Escalate before the margin vanishes",
+      "question": "PCIe margin fell from 1.2 to 0.6 dB across builds. What do you tell the program team now?",
+      "selfCheck": "Report trend, consequence and confidence before root cause is known. Exercise: state an owner, a repeat measurement and a 24-hour decision checkpoint.",
+      "prompt": "Coach my 25-second Principal Engineer escalation for PCIe Gen5 margin trending 1.2 to 0.6 dB across builds. Challenge my impact statement, uncertainty, owner and deadline."
     },
     {
-      "category": "PRINCIPAL",
-      "topic": "Evidence and uncertainty",
-      "title": "Don't turn correlation into proof",
-      "question": "EM predicts 53 Ω while TDR reads 55 Ω. Can you sign off the connector?",
-      "selfCheck": "Separate observation from cause; identify calibration, launch and model uncertainty. Exercise: name one discriminating test and a signoff checkpoint.",
-      "prompt": "Role-play a design review: EM predicts 53 ohms and TDR measures 55 ohms. Challenge my uncertainty language, test plan and signoff recommendation."
+      "category": "PRACTICE",
+      "topic": "Uncertainty · Day 6",
+      "title": "Make the mismatch testable",
+      "question": "TDR and EM disagree by 2 Ω. What evidence would change your recommendation?",
+      "selfCheck": "Distinguish launch/de-embedding error from actual geometry variation. Exercise: name the discriminating measurement, pass criterion and when to revisit signoff.",
+      "prompt": "Role-play an SI signoff review for a 2-ohm EM versus TDR mismatch. Make me state hypotheses, decisive test, acceptance criterion and confidence."
     },
     {
-      "category": "PRINCIPAL",
-      "topic": "Cross-functional ownership",
-      "title": "One risk, three owners",
-      "question": "A 19 MHz PDN peak needs VRM, package and board input. Who drives closure?",
-      "selfCheck": "Assign one integrator and explicit deliverables for each team. Exercise: request load-spectrum, impedance and transient evidence with a shared deadline.",
-      "prompt": "Help me build a concise cross-functional PDN risk closure plan for a 19 MHz peak, including VRM, package and board owners."
+      "category": "PRACTICE",
+      "topic": "Ownership · Day 6",
+      "title": "Don't let the PDN risk bounce teams",
+      "question": "A 19 MHz impedance peak crosses VRM, board and package boundaries. Who owns closure?",
+      "selfCheck": "Appoint one integrator, with explicit inputs from each team. Exercise: send a three-sentence request for transient evidence, accountable owners and due date.",
+      "prompt": "Help me write a concise cross-functional closure request for a 19 MHz PDN peak, assigning integrator and VRM, board and package deliverables."
     },
     {
-      "category": "PRINCIPAL",
-      "topic": "Tradeoff and influence",
-      "title": "Offer a bounded choice",
-      "question": "A 3 dB crosstalk miss needs spacing changes that threaten freeze. What do you propose?",
-      "selfCheck": "Present two feasible mitigation paths, their margin/schedule costs and a decision deadline. Exercise: make a non-blaming ask to layout.",
-      "prompt": "Role-play a layout freeze tradeoff meeting with a 3 dB crosstalk budget miss. Coach two options, decision criteria and influence without authority."
+      "category": "PRACTICE",
+      "topic": "Tradeoff · Day 6",
+      "title": "Protect the decision window",
+      "question": "A 3 dB NEXT miss has two fixes: reroute now or validate a shield. How do you frame it?",
+      "selfCheck": "Compare margin, validation effort and freeze impact; recommend a reversible next step. Exercise: ask layout and PM for a decision by a named checkpoint.",
+      "prompt": "Run a 60-second crosstalk mitigation tradeoff drill: reroute versus shielding before layout freeze. Score my recommendation, tradeoff clarity and decision ask."
     },
     {
       "category": "REVIEW",
-      "topic": "Week 1 synthesis · Day 5",
-      "title": "Five risks, one decision memo",
-      "question": "How do you brief a director on PCIe, TDR, PDN and crosstalk in 60 seconds?",
-      "selfCheck": "Rank by release impact; give confidence, owner, next proof and escalation trigger for the top risk. Exercise: finish with one specific decision request.",
-      "prompt": "Conduct a Week 1 Principal Engineer oral review. Give me four SI/PI risks; ask for a 60-second prioritized executive update, score risk framing, uncertainty, ownership, deadline and decision request."
+      "topic": "Spiral review · Week 1 Day 6",
+      "title": "Can your update survive a director's interruption?",
+      "question": "A director asks, 'Are we safe to freeze?' while four SI/PI risks remain open. What is your answer?",
+      "selfCheck": "Lead with a conditional go/no-go recommendation; name top risk, evidence gap, owner and next checkpoint. Exercise: deliver it in 30 seconds without hiding uncertainty.",
+      "prompt": "Act as a skeptical hardware director. Interrupt my 30-second layout-freeze update covering PCIe margin, EM/TDR mismatch, PDN peak and crosstalk. Score my clarity, calibration, ownership and decision framing."
     }
   ]
 }
