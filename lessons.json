@@ -1,22 +1,22 @@
 {
-  "date": "Nov 13, 2026",
-  "selectionReason": "Nov 12 Nvidia CEO transition and Nebius capacity delays, against 7/30/90-day AI valuation and financing pressures, match underused HL008 and HL012. These are learning analogies, not price predictions; neither repeats Nov 12 HL002/HL014.",
+  "date": "Nov 14, 2026",
+  "selectionReason": "Nov 13 index recovery but AI-specific weakness and elevated inflation favor underused HL010 and HL013; neither repeats Nov 13 HL008/HL012. Learning analogies, not price forecasts.",
   "cards": [
     {
       "category": "LESSON",
-      "topic": "Cycles",
-      "title": "Long booms can conceal weak foundations",
-      "question": "What financing assumptions could break?",
-      "selfCheck": "Check debt and deployment timing.",
-      "prompt": "Apply original handwritten lesson HL008 to Nov 10 CoreWeave backlog and Nov 12 Nebius capacity delays. Compare 2027 committed capex, contracted vs live MW, interest burden, utilization and free cash flow; distinguish a durable boom from fragile funding. Do not predict a crash from analogy. https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx https://www.reuters.com/technology/nebius-beats-quarterly-revenue-estimates-strong-ai-demand-2026-11-12/"
+      "topic": "Market",
+      "title": "Bear markets create opportunities—and traps",
+      "question": "When is a beaten-down AI stock a trap?",
+      "selfCheck": "Check balance sheet and roadmap.",
+      "prompt": "Apply handwritten HL010 to Nov 13 AI-stock dispersion and the October-November correction. Compare durable product demand, net debt, liquidity, financing commitments, earnings revisions and upcoming product milestones. Avoid treating lower share price as proof of value. https://www.reuters.com/business/nasdaq-futures-dip-nvidia-tumult-keeps-investors-edge-2026-11-13/"
     },
     {
       "category": "LESSON",
       "topic": "Research",
-      "title": "Use multiple independent research channels",
-      "question": "Does the evidence survive source checks?",
-      "selfCheck": "Verify filings against news.",
-      "prompt": "Apply handwritten lesson HL012 to Nvidia Nov 12 leadership transition and Nov 17 earnings. Cross-check official corporate release, earnings, Reuters and competitors; distinguish verified succession from speculation about future market share. Identify disconfirming evidence. https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/"
+      "title": "Build the company story before the ticker trade",
+      "question": "What business evidence survives the selloff?",
+      "selfCheck": "Name milestone and failure signal.",
+      "prompt": "Apply handwritten HL013 to Nov 10 TSMC +59.7% year-on-year October revenue and Nov 12-13 divergence among AI hardware providers. Write a 6-12 month technology, customer, margin and financing thesis, including dated milestone and disconfirmation. This lesson is not a price prediction. https://pr.tsmc.com/english/news/3349 https://www.reuters.com/business/cerebras-raises-annual-sales-forecast-strong-ai-linked-demand-2026-11-12/"
     }
   ]
 }
