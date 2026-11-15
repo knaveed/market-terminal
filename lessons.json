@@ -1,22 +1,22 @@
 {
-  "date": "Nov 14, 2026",
-  "selectionReason": "Nov 13 index recovery but AI-specific weakness and elevated inflation favor underused HL010 and HL013; neither repeats Nov 13 HL008/HL012. Learning analogies, not price forecasts.",
+  "date": "Nov 15, 2026",
+  "selectionReason": "Nov 13 rising Treasury yields support the financing lesson HL022; Nov 10 TSMC revenue supports technology-adoption lesson HL025. Neither repeats Nov 14 HL010/HL013; learning analogies, not price forecasts.",
   "cards": [
     {
       "category": "LESSON",
-      "topic": "Market",
-      "title": "Bear markets create opportunities—and traps",
-      "question": "When is a beaten-down AI stock a trap?",
-      "selfCheck": "Check balance sheet and roadmap.",
-      "prompt": "Apply handwritten HL010 to Nov 13 AI-stock dispersion and the October-November correction. Compare durable product demand, net debt, liquidity, financing commitments, earnings revisions and upcoming product milestones. Avoid treating lower share price as proof of value. https://www.reuters.com/business/nasdaq-futures-dip-nvidia-tumult-keeps-investors-edge-2026-11-13/"
+      "topic": "Macro",
+      "title": "Housing affordability can reverse a boom",
+      "question": "How do rising yields change financing economics?",
+      "selfCheck": "Compare rates and affordability.",
+      "prompt": "Apply handwritten HL022 to Nov 13 2026 Treasury yield rise, explaining the historical housing-financing mechanism and limits of comparing housing with AI data-center financing. Check mortgage rates, affordability and demand; separate analogy from prediction. Sources https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def"
     },
     {
       "category": "LESSON",
-      "topic": "Research",
-      "title": "Build the company story before the ticker trade",
-      "question": "What business evidence survives the selloff?",
-      "selfCheck": "Name milestone and failure signal.",
-      "prompt": "Apply handwritten HL013 to Nov 10 TSMC +59.7% year-on-year October revenue and Nov 12-13 divergence among AI hardware providers. Write a 6-12 month technology, customer, margin and financing thesis, including dated milestone and disconfirmation. This lesson is not a price prediction. https://pr.tsmc.com/english/news/3349 https://www.reuters.com/business/cerebras-raises-annual-sales-forecast-strong-ai-linked-demand-2026-11-12/"
+      "topic": "Opportunity",
+      "title": "A new strategy can reset the investment case",
+      "question": "When does a new AI platform become a real business?",
+      "selfCheck": "Check adoption and revenue proof.",
+      "prompt": "Apply handwritten HL025 to TSMC Nov 10 sales growth and 2027 inference architecture changes. Identify dated customer qualification, recurring orders, gross margins and disconfirmation. Do not claim a stock-price forecast. https://pr.tsmc.com/english/news/3349"
     }
   ]
 }
