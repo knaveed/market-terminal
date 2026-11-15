@@ -1,45 +1,45 @@
 {
-  "date": "Nov 14, 2026 · Week 1 / Day 6 · Visibility & early risk communication",
+  "date": "Nov 15, 2026 · Week 1 / Day 7 · Synthesis and spiral review",
   "cards": [
     {
-      "category": "PRACTICE",
-      "topic": "Early warning · Day 6",
-      "title": "Escalate before the margin vanishes",
-      "question": "PCIe margin fell from 1.2 to 0.6 dB across builds. What do you tell the program team now?",
-      "selfCheck": "Report trend, consequence and confidence before root cause is known. Exercise: state an owner, a repeat measurement and a 24-hour decision checkpoint.",
-      "prompt": "Coach my 25-second Principal Engineer escalation for PCIe Gen5 margin trending 1.2 to 0.6 dB across builds. Challenge my impact statement, uncertainty, owner and deadline."
-    },
-    {
-      "category": "PRACTICE",
-      "topic": "Uncertainty · Day 6",
-      "title": "Make the mismatch testable",
-      "question": "TDR and EM disagree by 2 Ω. What evidence would change your recommendation?",
-      "selfCheck": "Distinguish launch/de-embedding error from actual geometry variation. Exercise: name the discriminating measurement, pass criterion and when to revisit signoff.",
-      "prompt": "Role-play an SI signoff review for a 2-ohm EM versus TDR mismatch. Make me state hypotheses, decisive test, acceptance criterion and confidence."
-    },
-    {
-      "category": "PRACTICE",
-      "topic": "Ownership · Day 6",
-      "title": "Don't let the PDN risk bounce teams",
-      "question": "A 19 MHz impedance peak crosses VRM, board and package boundaries. Who owns closure?",
-      "selfCheck": "Appoint one integrator, with explicit inputs from each team. Exercise: send a three-sentence request for transient evidence, accountable owners and due date.",
-      "prompt": "Help me write a concise cross-functional closure request for a 19 MHz PDN peak, assigning integrator and VRM, board and package deliverables."
-    },
-    {
-      "category": "PRACTICE",
-      "topic": "Tradeoff · Day 6",
-      "title": "Protect the decision window",
-      "question": "A 3 dB NEXT miss has two fixes: reroute now or validate a shield. How do you frame it?",
-      "selfCheck": "Compare margin, validation effort and freeze impact; recommend a reversible next step. Exercise: ask layout and PM for a decision by a named checkpoint.",
-      "prompt": "Run a 60-second crosstalk mitigation tradeoff drill: reroute versus shielding before layout freeze. Score my recommendation, tradeoff clarity and decision ask."
+      "category": "SYNTHESIS",
+      "topic": "Week 1 / Day 7 · Risk-first leadership",
+      "title": "One release, one risk picture",
+      "question": "Four teams report green, but PCIe margin is shrinking. What do you tell the release owner?",
+      "selfCheck": "Integrate evidence across teams; lead with release exposure, not individual status. Exercise: give a 20-second risk headline, confidence level and decision deadline.",
+      "prompt": "Role-play a release owner questioning my Week 1 synthesis: PCIe Gen5 margin shrinking despite green team dashboards. Score my risk-first update and decision ask."
     },
     {
       "category": "REVIEW",
-      "topic": "Spiral review · Week 1 Day 6",
-      "title": "Can your update survive a director's interruption?",
-      "question": "A director asks, 'Are we safe to freeze?' while four SI/PI risks remain open. What is your answer?",
-      "selfCheck": "Lead with a conditional go/no-go recommendation; name top risk, evidence gap, owner and next checkpoint. Exercise: deliver it in 30 seconds without hiding uncertainty.",
-      "prompt": "Act as a skeptical hardware director. Interrupt my 30-second layout-freeze update covering PCIe margin, EM/TDR mismatch, PDN peak and crosstalk. Score my clarity, calibration, ownership and decision framing."
+      "topic": "Week 1 / Day 7 · Calibrated uncertainty",
+      "title": "Confidence is not permission",
+      "question": "EM predicts 53 Ω and TDR reads 55 Ω. Can you sign off the channel?",
+      "selfCheck": "Separate confidence in the measurement from confidence in the system decision. Exercise: specify the decisive correlation test, tolerance and owner before signoff.",
+      "prompt": "Challenge my conditional SI signoff decision for a 53-ohm EM versus 55-ohm TDR mismatch. Require evidence thresholds and accountable owners."
+    },
+    {
+      "category": "OWNERSHIP",
+      "topic": "Week 1 / Day 7 · Cross-team PDN",
+      "title": "The handoff is the failure mode",
+      "question": "A 19 MHz PDN peak spans VRM, board and package. Who closes the risk?",
+      "selfCheck": "Name one integration owner, with VRM, board and package evidence due at a shared checkpoint. Exercise: write a three-line ownership agreement and escalation trigger.",
+      "prompt": "Coach me through assigning cross-functional ownership of a 19 MHz PDN resonance before release. Critique my closure plan and escalation threshold."
+    },
+    {
+      "category": "TRADEOFF",
+      "topic": "Week 1 / Day 7 · Freeze gate",
+      "title": "Don't offer an unbounded maybe",
+      "question": "A 3 dB NEXT miss has reroute and shielding options. What is your freeze recommendation?",
+      "selfCheck": "Compare predicted margin, schedule cost and validation uncertainty. Exercise: choose a preferred path, fallback and latest responsible decision time.",
+      "prompt": "Act as layout lead and program manager challenging my reroute-versus-shield decision for a 3 dB NEXT miss at layout freeze."
+    },
+    {
+      "category": "SYNTHESIS",
+      "topic": "Week 1 / Day 7 · Weekly review",
+      "title": "The 60-second Principal brief",
+      "question": "Can you turn a week of SI/PI risks into one decision-ready recommendation?",
+      "selfCheck": "State recommendation, top two risks, confidence, owners and next gate. Exercise: deliver in 60 seconds; then reduce it to a 15-second executive version.",
+      "prompt": "Run a Week 1 Principal Engineer capstone. Give me a director's release-gate scenario with PCIe, EM/TDR, PDN and crosstalk risks; score my 60-second and 15-second briefs."
     }
   ]
 }
