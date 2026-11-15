@@ -1,53 +1,53 @@
 {
-  "date": "Nov 14, 2026",
+  "date": "Nov 15, 2026",
   "cards": [
     {
       "category": "REGIME",
-      "topic": "Rates and AI risk premium",
-      "title": "Recovery, but not an AI all-clear",
-      "question": "Is the weekly rebound broad enough to survive higher rates?",
-      "selfCheck": "Compare breadth, yields, revisions.",
-      "prompt": "Weekend Nov 14 drill. Verified Nov 13: S&P -0.4%, Nasdaq -0.91%, Dow +0.1%; S&P gained 2.5% and Nasdaq 2.3% for week. October PPI +6.5% y/y; rate pressure persists. 7d: relief rally amid AI governance concerns; 30d: correction from October high; 90d: high-capex AI cycle. Hypothesis: risk premium reset, not proven demand collapse. Check RSP/IWM vs SPY, 2Y/10Y and forward estimates. Disconfirm if earnings cuts spread despite stable rates. Sources: https://www.reuters.com/business/nasdaq-futures-dip-nvidia-tumult-keeps-investors-edge-2026-11-13/ https://apnews.com/article/f8edd0eeb1494d4d2584715686c5e619"
+      "topic": "Higher discount rates versus earnings",
+      "title": "Recovery meets a higher rate hurdle",
+      "question": "Can AI earnings growth outrun the rise in discount rates?",
+      "selfCheck": "Check 10Y yield vs revisions.",
+      "prompt": "Nov 13 AP: S&P +2.5% for week, Nasdaq +2.3%, despite Friday losses. FT Nov 13: 10Y near 5.14%, +28bp on week after October inflation. 7d rebound; 30d reset since October highs; 90d AI capex expansion. Hypothesis: higher discount rate, not confirmed end of AI demand. What is priced in: strong AI growth; disconfirm risk-premium thesis if yields ease and revisions improve. Analyze SOXX/RSP/IWM and rates. Sources https://apnews.com/article/12c1e8155fb85c3c7b09e058ed6d3c74 https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def"
     },
     {
       "category": "SENTIMENT",
-      "topic": "Breadth versus AI concentration",
-      "title": "Index recovery hides chip stress",
-      "question": "Are investors rotating or exiting risk?",
-      "selfCheck": "Compare RSP, IWM, SOXX.",
-      "prompt": "Nov 13 Reuters: Nasdaq -0.91% while Dow +0.1%, Nvidia fell for sixth consecutive week. AP: most S&P stocks gained Friday despite index decline; weekly S&P +2.5%, Russell +1.3%. Interpret as dispersion, not necessarily risk-off. Compare 7/30-day equal-weight, credit spreads, semiconductor leadership and IWM. Disconfirm broadening if breadth reverses and spreads widen. https://www.reuters.com/business/nasdaq-futures-dip-nvidia-tumult-keeps-investors-edge-2026-11-13/ https://apnews.com/article/f8edd0eeb1494d4d2584715686c5e619"
+      "topic": "Breadth and cross-asset divergence",
+      "title": "Broad recovery, narrow doubts",
+      "question": "Did risk appetite improve beyond megacap AI?",
+      "selfCheck": "Compare RSP, IWM, credit.",
+      "prompt": "AP Nov 13: S&P +2.5% weekly versus Russell +1.3%; Friday Nasdaq -0.9% versus Dow +0.1%. FT: bond yields jumped. 7d relief, 30d technology correction, 90d concentration. Hypothesis: rotation rather than universal risk-off. Test equal-weight breadth, HY credit spreads and SOXX relative strength. Disconfirm if breadth weakens with spreads widening. https://apnews.com/article/12c1e8155fb85c3c7b09e058ed6d3c74 https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def"
     },
     {
       "category": "TECH",
-      "topic": "Inference platform competition",
-      "title": "AI demand, rival architectures",
-      "question": "Can alternative inference systems win durable share?",
-      "selfCheck": "Check customers and gross margins.",
-      "prompt": "Verified TSMC Nov 10: October sales NT$586.89B, +59.7% y/y; Reuters Nov 12-13: Cerebras raised annual sales outlook, while Nvidia governance uncertainty weighs on sector. Hypothesis: customers diversify inference hardware; not proof of sustained market-share migration. Compare Cerebras, AMD, Nvidia, Broadcom on repeat customers, software compatibility, throughput per dollar and gross margin. Disconfirm if adoption is concentrated in one contract or Nvidia execution remains dominant. https://pr.tsmc.com/english/news/3349 https://www.reuters.com/business/cerebras-raises-annual-sales-forecast-strong-ai-linked-demand-2026-11-12/"
+      "topic": "Foundry demand and inference economics",
+      "title": "Foundry sales are real; ROI is next",
+      "question": "Does silicon demand become profitable inference?",
+      "selfCheck": "Check sales vs customer margins.",
+      "prompt": "Verified TSMC Nov 10: October revenue NT$586.89B, +59.7% year over year; Jan-Oct +43.3%. 7d concrete order proxy; 30d AI valuation reset; 90d growing inference demand and capacity investment. Hypothesis: TSMC/packaging/memory benefit while operators face cost pressure. Priced in: sustained AI orders. Disconfirm if foundry growth decelerates, customer utilization or gross margins fall. https://pr.tsmc.com/english/news/3349"
     },
     {
       "category": "DORMANT",
-      "topic": "Contracted AI capacity versus live capacity",
-      "title": "Old commitments face delivery day",
-      "question": "When do contracted megawatts earn revenue?",
+      "topic": "2026 AI commitments approaching commissioning",
+      "title": "Contracts must turn into live megawatts",
+      "question": "Which 2026 capacity commitments deliver in 2027?",
       "selfCheck": "Compare contracted vs live MW.",
-      "prompt": "Dormant thesis: AI infrastructure commitments made during 2026 now approach 2027 commissioning. CoreWeave Nov 10 reported $132.5B revenue backlog and over 4.6 GW contracted power versus over 1.7 GW active; Nebius Nov 12 reported delays in third-party capacity. Hypothesis: commissioning lag hurts builders' cash flows before suppliers' orders; priced-in: strong demand, less certain: time-to-cash. Disconfirm if live capacity and cash conversion accelerate or supplier orders fall. https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx https://www.reuters.com/technology/nebius-beats-quarterly-revenue-estimates-strong-ai-demand-2026-11-12/"
+      "prompt": "2026 infrastructure contracts and power reservations approach 2027 delivery. Previously reported CoreWeave Nov 10 backlog $132.5B and contracted >4.6GW vs active >1.7GW; independently check future filings before relying on progress. Hypothesis: conversion timing drives builder cash flow and optical/memory order timing. Priced in: large backlog; uncertain: deployment pace. Disconfirm if utilization and FCF accelerate or orders cancel. https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
     },
     {
       "category": "FORWARD",
-      "topic": "Nov 17 earnings and 2027 capital budgets",
-      "title": "Tuesday tests AI economics",
-      "question": "Will guidance support 2027 spending assumptions?",
-      "selfCheck": "Check guidance, margins, financing.",
-      "prompt": "Forward catalyst Nov 17 Nvidia Q3 FY27 earnings, officially scheduled. Bull: resilient order visibility, margins, Rubin roadmap and continuity; bear: weaker guidance, financing pullback, delayed platforms or lost customers. 1-12 months: 2027 capex budgets and actual commissioning. Price already reflects strong AI demand; measure surprise relative to expectations. Do not presume earnings outcome. https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx https://www.reuters.com/business/nasdaq-futures-dip-nvidia-tumult-keeps-investors-edge-2026-11-13/"
+      "topic": "November earnings to 2027 budgets",
+      "title": "November 17 is a guidance test",
+      "question": "Will AI platform guidance validate 2027 spending?",
+      "selfCheck": "Check orders, margin, delivery.",
+      "prompt": "Upcoming Nov 17 Nvidia earnings per company schedule, followed by 2027 hyperscaler budget and commissioning updates over 1-12 months. Bull: sustained order visibility, margins and delivery; bear: order delays, lower gross margins or financing constraints. High demand is widely expected; measure surprise versus guidance and estimates, not headlines. https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx"
     },
     {
       "category": "SYNTHESIS",
-      "topic": "30-90 day falsifiable supplier versus builder test",
-      "title": "Test orders against cash conversion",
-      "question": "Can suppliers hold estimates while builders lag?",
-      "selfCheck": "Track orders, MW, free cash flow.",
-      "prompt": "Hypothesis initiated Nov 14, evaluate Dec 14 and Feb 14: profitable memory, foundry, optical and semicap suppliers should retain stronger earnings revisions than debt-intensive neocloud builders if AI demand holds but deployment is delayed. Compare TSMC/MU/COHR/LITE versus CRWV/NBIS, adjusting for valuation and balance sheet. Disconfirm if suppliers' orders or estimates weaken first, or builders commission capacity and generate positive free cash flow faster. Separate operating evidence from stock momentum. https://pr.tsmc.com/english/news/3349 https://www.reuters.com/technology/nebius-beats-quarterly-revenue-estimates-strong-ai-demand-2026-11-12/"
+      "topic": "Falsifiable 30-90 day supplier test",
+      "title": "Will suppliers beat builders on revisions?",
+      "question": "Can suppliers hold estimates while builders fund growth?",
+      "selfCheck": "Compare revisions, FCF, MW.",
+      "prompt": "Hypothesis carried from Nov 14; check Dec 14 and Feb 14. Compare TSMC/MU/COHR/LITE earnings revisions with CRWV/NBIS free cash flow, financing and commissioned MW, adjusting for valuation. Higher Treasury yields may affect both. Reject if supplier orders or estimates fall first, or builder cash conversion accelerates. Avoid daily price-chasing. Sources https://pr.tsmc.com/english/news/3349 https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def"
     }
   ]
 }
