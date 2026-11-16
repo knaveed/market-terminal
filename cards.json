@@ -1,53 +1,53 @@
 {
-  "date": "Nov 15, 2026",
+  "date": "Nov 16, 2026",
   "cards": [
     {
-      "category": "REGIME",
-      "topic": "Higher discount rates versus earnings",
-      "title": "Recovery meets a higher rate hurdle",
-      "question": "Can AI earnings growth outrun the rise in discount rates?",
-      "selfCheck": "Check 10Y yield vs revisions.",
-      "prompt": "Nov 13 AP: S&P +2.5% for week, Nasdaq +2.3%, despite Friday losses. FT Nov 13: 10Y near 5.14%, +28bp on week after October inflation. 7d rebound; 30d reset since October highs; 90d AI capex expansion. Hypothesis: higher discount rate, not confirmed end of AI demand. What is priced in: strong AI growth; disconfirm risk-premium thesis if yields ease and revisions improve. Analyze SOXX/RSP/IWM and rates. Sources https://apnews.com/article/12c1e8155fb85c3c7b09e058ed6d3c74 https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def"
+      "category": "DISCOVERY",
+      "topic": "Hidden shift · optical scale-up",
+      "title": "Copper's limit moves inside the rack",
+      "question": "Will AI scale-up networks shift from copper to optical co-design?",
+      "selfCheck": "Power and reach constrain copper; test optical design wins and watts/bit.",
+      "prompt": "FACT: Marvell-Lumentum merger announced Nov 2, 2026; company says scale-up/scale-in is shifting toward integrated optics. Marvell acquired Celestial AI Feb 2, 2026. HYPOTHESIS: optical adoption moves closer to accelerators, creating photonics and packaging content. TEST: dated customer qualifications, power per bit, volume shipments; disconfirm if copper/AEC retains economics. 7d: no new verified design win; 30d: Nov 2 deal; 90d: expanding interconnect thesis. https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-26-000019/mrvl-20260502.htm"
     },
     {
-      "category": "SENTIMENT",
-      "topic": "Breadth and cross-asset divergence",
-      "title": "Broad recovery, narrow doubts",
-      "question": "Did risk appetite improve beyond megacap AI?",
-      "selfCheck": "Compare RSP, IWM, credit.",
-      "prompt": "AP Nov 13: S&P +2.5% weekly versus Russell +1.3%; Friday Nasdaq -0.9% versus Dow +0.1%. FT: bond yields jumped. 7d relief, 30d technology correction, 90d concentration. Hypothesis: rotation rather than universal risk-off. Test equal-weight breadth, HY credit spreads and SOXX relative strength. Disconfirm if breadth weakens with spreads widening. https://apnews.com/article/12c1e8155fb85c3c7b09e058ed6d3c74 https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def"
+      "category": "DISCOVERY",
+      "topic": "Beneficiary · MRVL custom plus optics",
+      "title": "MRVL: more dollars per AI rack?",
+      "question": "Could Marvell monetize both custom XPUs and their connections?",
+      "selfCheck": "XPU attach adds content; test FY27 optical and switching revenue.",
+      "prompt": "FACT: Marvell May 13 proxy: optics roughly half of data-center revenue, custom silicon about 25%; March 5 presentation forecast FY27 1.6T ramp and switching revenue above $600M versus $300M FY26. HYPOTHESIS: integration captures more per AI rack. Not an undiscovered name; acquisition and growth widely public. TEST: reported FY27 product revenue, gross margin, customer concentration and deal dilution. https://investor.marvell.com/sec-filings/all-sec-filings/content/0001104659-26-060253/tm261486-1_def14a.htm https://investor.marvell.com/_assets/_de258ecc084556935b61ff8ecc599288/marvell/db/3735/35341/file/2026_03_05_Marvell_Q4_FY26_financial_business_results_FINAL.pdf"
     },
     {
-      "category": "TECH",
-      "topic": "Foundry demand and inference economics",
-      "title": "Foundry sales are real; ROI is next",
-      "question": "Does silicon demand become profitable inference?",
-      "selfCheck": "Check sales vs customer margins.",
-      "prompt": "Verified TSMC Nov 10: October revenue NT$586.89B, +59.7% year over year; Jan-Oct +43.3%. 7d concrete order proxy; 30d AI valuation reset; 90d growing inference demand and capacity investment. Hypothesis: TSMC/packaging/memory benefit while operators face cost pressure. Priced in: sustained AI orders. Disconfirm if foundry growth decelerates, customer utilization or gross margins fall. https://pr.tsmc.com/english/news/3349"
+      "category": "DISCOVERY",
+      "topic": "Sleeper statement · March 5 forecast",
+      "title": "A 2026 promise reaches FY27",
+      "question": "Can Marvell's earlier 1.6T and XPU-attach targets become reported sales?",
+      "selfCheck": "March 5 promise: FY27 ramp; test shipments, revenue mix and margins.",
+      "prompt": "ORIGINAL DATE March 5, 2026: Marvell FY26 results forecast rapid 1.6T optical ramp, XPU attach programs ramping FY27, AEC/retimer aggregate revenue doubling FY27, switching >$600M FY27. NEW PROOF Nov 2: announced Lumentum combination and preliminary fiscal Q3 revenue in line with guidance; neither verifies those individual ramps. TEST: upcoming detailed results and customer production orders; disconfirm on slips or margin erosion. https://investor.marvell.com/_assets/_de258ecc084556935b61ff8ecc599288/marvell/db/3735/35341/file/2026_03_05_Marvell_Q4_FY26_financial_business_results_FINAL.pdf https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity"
     },
     {
-      "category": "DORMANT",
-      "topic": "2026 AI commitments approaching commissioning",
-      "title": "Contracts must turn into live megawatts",
-      "question": "Which 2026 capacity commitments deliver in 2027?",
-      "selfCheck": "Compare contracted vs live MW.",
-      "prompt": "2026 infrastructure contracts and power reservations approach 2027 delivery. Previously reported CoreWeave Nov 10 backlog $132.5B and contracted >4.6GW vs active >1.7GW; independently check future filings before relying on progress. Hypothesis: conversion timing drives builder cash flow and optical/memory order timing. Priced in: large backlog; uncertain: deployment pace. Disconfirm if utilization and FCF accelerate or orders cancel. https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
+      "category": "INVESTMENT",
+      "topic": "Expectation gap · execution vs deal",
+      "title": "A huge TAM is not earnings",
+      "question": "Which MRVL growth assumptions survive merger dilution and integration?",
+      "selfCheck": "Separate organic growth from synergies; test margins and share count.",
+      "prompt": "FACT Nov 2: MRVL-LITE all-stock deal, implied LITE enterprise value $115B; projected >$1B annual run-rate cost synergies, expected close H1 2028, 4.5 MRVL shares per LITE share. These are management expectations, not realized profit. No verified current sell-side consensus or multiple: do not assert mispricing. Compare organic optical/custom growth, acquisition-related dilution, integration costs, adjusted vs GAAP EPS, and antitrust risk. https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity"
     },
     {
-      "category": "FORWARD",
-      "topic": "November earnings to 2027 budgets",
-      "title": "November 17 is a guidance test",
-      "question": "Will AI platform guidance validate 2027 spending?",
-      "selfCheck": "Check orders, margin, delivery.",
-      "prompt": "Upcoming Nov 17 Nvidia earnings per company schedule, followed by 2027 hyperscaler budget and commissioning updates over 1-12 months. Bull: sustained order visibility, margins and delivery; bear: order delays, lower gross margins or financing constraints. High demand is widely expected; measure surprise versus guidance and estimates, not headlines. https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx"
+      "category": "INVESTMENT",
+      "topic": "Investable setup · conditional watch",
+      "title": "Watch MRVL; demand proof first",
+      "question": "What would justify adding it to a research shortlist?",
+      "selfCheck": "Wait for FY27 mix and margins; reject on missed ramps or dilution.",
+      "prompt": "Decision framework: WATCH, not automatic buy. Upcoming proof in Marvell detailed quarterly results and 2027 customer ramps; compare forward valuation to organic EPS growth and post-deal share count before entry. Nov 2 merger is already public; do not pay for hypothetical $550B TAM. Bull: 1.6T and XPU attach shipments scale, margins resilient. Bear: design wins slip, integration/dilution overwhelms organic growth, optical adoption slower. Also compare COHR and independent optical suppliers. Sources https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity https://investor.marvell.com/_assets/_de258ecc084556935b61ff8ecc599288/marvell/db/3735/35341/file/2026_03_05_Marvell_Q4_FY26_financial_business_results_FINAL.pdf"
     },
     {
-      "category": "SYNTHESIS",
-      "topic": "Falsifiable 30-90 day supplier test",
-      "title": "Will suppliers beat builders on revisions?",
-      "question": "Can suppliers hold estimates while builders fund growth?",
-      "selfCheck": "Compare revisions, FCF, MW.",
-      "prompt": "Hypothesis carried from Nov 14; check Dec 14 and Feb 14. Compare TSMC/MU/COHR/LITE earnings revisions with CRWV/NBIS free cash flow, financing and commissioned MW, adjusting for valuation. Higher Treasury yields may affect both. Reject if supplier orders or estimates fall first, or builder cash conversion accelerates. Avoid daily price-chasing. Sources https://pr.tsmc.com/english/news/3349 https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def"
+      "category": "EDUCATIONAL",
+      "topic": "Investor's edge · proof ladder",
+      "title": "Follow the revenue bridge",
+      "question": "How do you spot an inflection before quarterly EPS shows it?",
+      "selfCheck": "Trace claim → qualification → shipments → mix → margin.",
+      "prompt": "Teach the proof ladder with MRVL: March 5 FY27 1.6T ramp forecast; Nov 2 optical merger announcement is strategy, not shipment proof; next check design wins, production volume, reported product revenue, margin, share count. Compare with Micron March 16 HBM4 high-volume production and later financial results as a more mature proof stage. Explain why a press release and price rally alone are insufficient. https://investor.marvell.com/_assets/_de258ecc084556935b61ff8ecc599288/marvell/db/3735/35341/file/2026_03_05_Marvell_Q4_FY26_financial_business_results_FINAL.pdf https://investors.micron.com/news/press-release/2026/Micron-in-High-Volume-Production-of-HBM4-Designed-for-NVIDIA-Vera-Rubin-PCIe-Gen6-SSD-and-SOCAMM2-03-16-2026/default.aspx"
     }
   ]
 }
