@@ -1,22 +1,22 @@
 {
-  "date": "Nov 15, 2026",
-  "selectionReason": "Nov 13 rising Treasury yields support the financing lesson HL022; Nov 10 TSMC revenue supports technology-adoption lesson HL025. Neither repeats Nov 14 HL010/HL013; learning analogies, not price forecasts.",
+  "date": "Nov 16, 2026",
+  "selectionReason": "Marvell March 5 FY27 optical ramp and Nov 2 Lumentum merger offer a dated technology and valuation case. HL009/HL007 are distinct from Nov 15 HL022/HL025; lessons are research analogies, not price forecasts.",
   "cards": [
     {
       "category": "LESSON",
-      "topic": "Macro",
-      "title": "Housing affordability can reverse a boom",
-      "question": "How do rising yields change financing economics?",
-      "selfCheck": "Compare rates and affordability.",
-      "prompt": "Apply handwritten HL022 to Nov 13 2026 Treasury yield rise, explaining the historical housing-financing mechanism and limits of comparing housing with AI data-center financing. Check mortgage rates, affordability and demand; separate analogy from prediction. Sources https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def"
+      "topic": "Research",
+      "title": "Company history is a clue, not a verdict",
+      "question": "Does an old product roadmap predict execution?",
+      "selfCheck": "Compare past targets with actual shipments.",
+      "prompt": "Apply handwritten HL009 to Marvell March 5 2026 FY27 optical and switching forecasts. Contrast dated management targets with later evidence and failures; no price prediction. https://investor.marvell.com/_assets/_de258ecc084556935b61ff8ecc599288/marvell/db/3735/35341/file/2026_03_05_Marvell_Q4_FY26_financial_business_results_FINAL.pdf"
     },
     {
       "category": "LESSON",
-      "topic": "Opportunity",
-      "title": "A new strategy can reset the investment case",
-      "question": "When does a new AI platform become a real business?",
-      "selfCheck": "Check adoption and revenue proof.",
-      "prompt": "Apply handwritten HL025 to TSMC Nov 10 sales growth and 2027 inference architecture changes. Identify dated customer qualification, recurring orders, gross margins and disconfirmation. Do not claim a stock-price forecast. https://pr.tsmc.com/english/news/3349"
+      "topic": "Valuation",
+      "title": "Demand and scarcity can inflate multiples",
+      "question": "Is optical scarcity creating cash flow or just enthusiasm?",
+      "selfCheck": "Check revenue, margin and valuation.",
+      "prompt": "Apply handwritten HL007 to Nov 2 Marvell-Lumentum optical merger. Distinguish genuine bandwidth constraints from $550B TAM projections and stock valuation. Test margins and share dilution; this is a learning analogy, not price forecast. https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity"
     }
   ]
 }
