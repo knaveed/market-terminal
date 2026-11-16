@@ -1,45 +1,45 @@
 {
-  "date": "Nov 15, 2026 · Week 1 / Day 7 · Synthesis and spiral review",
+  "date": "Nov 16, 2026 · Week 2 / Day 1 · Decision-driven meetings and tradeoffs",
   "cards": [
     {
-      "category": "SYNTHESIS",
-      "topic": "Week 1 / Day 7 · Risk-first leadership",
-      "title": "One release, one risk picture",
-      "question": "Four teams report green, but PCIe margin is shrinking. What do you tell the release owner?",
-      "selfCheck": "Integrate evidence across teams; lead with release exposure, not individual status. Exercise: give a 20-second risk headline, confidence level and decision deadline.",
-      "prompt": "Role-play a release owner questioning my Week 1 synthesis: PCIe Gen5 margin shrinking despite green team dashboards. Score my risk-first update and decision ask."
-    },
-    {
-      "category": "REVIEW",
-      "topic": "Week 1 / Day 7 · Calibrated uncertainty",
-      "title": "Confidence is not permission",
-      "question": "EM predicts 53 Ω and TDR reads 55 Ω. Can you sign off the channel?",
-      "selfCheck": "Separate confidence in the measurement from confidence in the system decision. Exercise: specify the decisive correlation test, tolerance and owner before signoff.",
-      "prompt": "Challenge my conditional SI signoff decision for a 53-ohm EM versus 55-ohm TDR mismatch. Require evidence thresholds and accountable owners."
-    },
-    {
-      "category": "OWNERSHIP",
-      "topic": "Week 1 / Day 7 · Cross-team PDN",
-      "title": "The handoff is the failure mode",
-      "question": "A 19 MHz PDN peak spans VRM, board and package. Who closes the risk?",
-      "selfCheck": "Name one integration owner, with VRM, board and package evidence due at a shared checkpoint. Exercise: write a three-line ownership agreement and escalation trigger.",
-      "prompt": "Coach me through assigning cross-functional ownership of a 19 MHz PDN resonance before release. Critique my closure plan and escalation threshold."
+      "category": "DECIDE",
+      "topic": "Week 2 / Day 1 · Decision-driven meetings",
+      "title": "Open with the decision",
+      "question": "PCIe Gen5 margin is 0.8 dB below target. What should a 15-minute review decide?",
+      "selfCheck": "Define the gate: reroute now or accept a bounded validation risk. Exercise: open with decision, options, evidence needed and decision owner in 20 seconds.",
+      "prompt": "Role-play a PCIe design review. Challenge my 20-second opening and help me turn technical status into a clear decision request."
     },
     {
       "category": "TRADEOFF",
-      "topic": "Week 1 / Day 7 · Freeze gate",
-      "title": "Don't offer an unbounded maybe",
-      "question": "A 3 dB NEXT miss has reroute and shielding options. What is your freeze recommendation?",
-      "selfCheck": "Compare predicted margin, schedule cost and validation uncertainty. Exercise: choose a preferred path, fallback and latest responsible decision time.",
-      "prompt": "Act as layout lead and program manager challenging my reroute-versus-shield decision for a 3 dB NEXT miss at layout freeze."
+      "topic": "Week 2 / Day 1 · Margin versus schedule",
+      "title": "Two paths, one recommendation",
+      "question": "A via redesign recovers 0.6 dB but costs four days. How do you frame the choice?",
+      "selfCheck": "Compare margin gained, confidence, schedule exposure and fallback; recommend one path conditionally. Exercise: write a two-option decision table and one-sentence recommendation.",
+      "prompt": "Act as SI lead and program manager. Pressure-test my conditional via-redesign recommendation, including margin, confidence and four-day schedule impact."
     },
     {
-      "category": "SYNTHESIS",
-      "topic": "Week 1 / Day 7 · Weekly review",
-      "title": "The 60-second Principal brief",
-      "question": "Can you turn a week of SI/PI risks into one decision-ready recommendation?",
-      "selfCheck": "State recommendation, top two risks, confidence, owners and next gate. Exercise: deliver in 60 seconds; then reduce it to a 15-second executive version.",
-      "prompt": "Run a Week 1 Principal Engineer capstone. Give me a director's release-gate scenario with PCIe, EM/TDR, PDN and crosstalk risks; score my 60-second and 15-second briefs."
+      "category": "EVIDENCE",
+      "topic": "Week 2 / Day 1 · Correlation gate",
+      "title": "Agree on proof before debate",
+      "question": "EM predicts 53 Ω while TDR shows 55 Ω. What evidence ends the meeting?",
+      "selfCheck": "Set a correlation tolerance, measurement calibration check, named owner and deadline before discussing signoff. Exercise: propose a pass/fail gate in three sentences.",
+      "prompt": "Simulate a contentious EM/TDR review. Make me define an objective acceptance criterion, calibration checks and the next decision checkpoint."
+    },
+    {
+      "category": "ALIGN",
+      "topic": "Week 2 / Day 1 · Cross-functional PDN",
+      "title": "One owner for the decision",
+      "question": "Board, package and VRM teams disagree on a 19 MHz PDN peak. Who decides next steps?",
+      "selfCheck": "Assign one system-level decision owner while keeping each team's evidence owner explicit. Exercise: close a meeting with owner, deliverable, due time and escalation trigger.",
+      "prompt": "Role-play VRM, package and board leads disagreeing over a 19 MHz PDN resonance. Coach me to gain alignment without formal authority."
+    },
+    {
+      "category": "PRACTICE",
+      "topic": "Week 2 / Day 1 · Decision memo",
+      "title": "End with a reversible call",
+      "question": "A 3 dB NEXT miss threatens layout freeze. How do you avoid an endless review?",
+      "selfCheck": "Recommend reroute or conditional freeze with a dated validation gate and rollback trigger. Exercise: deliver a 30-second decision memo: choice, rationale, risk, owner, checkpoint.",
+      "prompt": "Give me a release-gate scenario involving a 3 dB NEXT miss. Score my 30-second decision memo for clarity, tradeoffs, reversibility and ownership."
     }
   ]
 }
