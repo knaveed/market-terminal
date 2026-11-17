@@ -1,45 +1,45 @@
 {
-  "date": "Nov 16, 2026 · Week 2 / Day 1 · Decision-driven meetings and tradeoffs",
+  "date": "Nov 17, 2026 · Week 2 / Day 2 · Decision-driven meetings and tradeoffs",
   "cards": [
     {
-      "category": "DECIDE",
-      "topic": "Week 2 / Day 1 · Decision-driven meetings",
-      "title": "Open with the decision",
-      "question": "PCIe Gen5 margin is 0.8 dB below target. What should a 15-minute review decide?",
-      "selfCheck": "Define the gate: reroute now or accept a bounded validation risk. Exercise: open with decision, options, evidence needed and decision owner in 20 seconds.",
-      "prompt": "Role-play a PCIe design review. Challenge my 20-second opening and help me turn technical status into a clear decision request."
+      "category": "FACILITATE",
+      "topic": "Week 2 / Day 2 · Decision rights",
+      "title": "Who actually makes the call?",
+      "question": "PCIe margin misses target, but SI and layout both believe the other team owns the fix. How do you unblock the review?",
+      "selfCheck": "Name the accountable decision-maker, evidence owners and escalation deadline. Exercise: close the meeting with one decision owner and two dated deliverables.",
+      "prompt": "Role-play a PCIe Gen5 design review where SI and layout disagree on ownership. Challenge me to establish decision rights without claiming authority I do not have."
     },
     {
       "category": "TRADEOFF",
-      "topic": "Week 2 / Day 1 · Margin versus schedule",
-      "title": "Two paths, one recommendation",
-      "question": "A via redesign recovers 0.6 dB but costs four days. How do you frame the choice?",
-      "selfCheck": "Compare margin gained, confidence, schedule exposure and fallback; recommend one path conditionally. Exercise: write a two-option decision table and one-sentence recommendation.",
-      "prompt": "Act as SI lead and program manager. Pressure-test my conditional via-redesign recommendation, including margin, confidence and four-day schedule impact."
+      "topic": "Week 2 / Day 2 · Risk-weighted options",
+      "title": "Compare risk, not just dB",
+      "question": "A connector change improves insertion loss by 0.5 dB but increases mechanical and sourcing risk. What should decide?",
+      "selfCheck": "Compare system margin, validation confidence, supply impact and schedule in one option table. Exercise: make a conditional recommendation and state what would reverse it.",
+      "prompt": "Give me a realistic connector change decision with SI, mechanical and sourcing stakeholders. Test whether my recommendation weighs total system risk rather than just S21."
     },
     {
-      "category": "EVIDENCE",
-      "topic": "Week 2 / Day 1 · Correlation gate",
-      "title": "Agree on proof before debate",
-      "question": "EM predicts 53 Ω while TDR shows 55 Ω. What evidence ends the meeting?",
-      "selfCheck": "Set a correlation tolerance, measurement calibration check, named owner and deadline before discussing signoff. Exercise: propose a pass/fail gate in three sentences.",
-      "prompt": "Simulate a contentious EM/TDR review. Make me define an objective acceptance criterion, calibration checks and the next decision checkpoint."
+      "category": "CALIBRATE",
+      "topic": "Week 2 / Day 2 · Evidence quality",
+      "title": "A model is not a vote",
+      "question": "Two EM models predict acceptable via performance, but one calibrated TDR measurement disagrees. How do you move forward?",
+      "selfCheck": "Check reference planes, bandwidth, fixture de-embedding and model assumptions; define the decisive correlation test. Exercise: state what is known, suspected and still unproven in 25 seconds.",
+      "prompt": "Play skeptical measurement and modeling leads in a via EM/TDR disagreement. Help me frame uncertainty and choose a discriminating experiment before signoff."
     },
     {
       "category": "ALIGN",
-      "topic": "Week 2 / Day 1 · Cross-functional PDN",
-      "title": "One owner for the decision",
-      "question": "Board, package and VRM teams disagree on a 19 MHz PDN peak. Who decides next steps?",
-      "selfCheck": "Assign one system-level decision owner while keeping each team's evidence owner explicit. Exercise: close a meeting with owner, deliverable, due time and escalation trigger.",
-      "prompt": "Role-play VRM, package and board leads disagreeing over a 19 MHz PDN resonance. Coach me to gain alignment without formal authority."
+      "topic": "Week 2 / Day 2 · Cross-team decision",
+      "title": "Turn disagreement into a gate",
+      "question": "A 20 MHz PDN peak concerns PI, while the power architect says the load profile makes it harmless. What meeting outcome matters?",
+      "selfCheck": "Agree on the relevant transient spectrum, allowable droop and validation method, then assign an owner and date. Exercise: write a pass/fail gate both teams can accept.",
+      "prompt": "Simulate a PDN signoff debate between PI and power architecture. Ask me to establish a shared load-transient acceptance criterion and a concrete test owner."
     },
     {
       "category": "PRACTICE",
-      "topic": "Week 2 / Day 1 · Decision memo",
-      "title": "End with a reversible call",
-      "question": "A 3 dB NEXT miss threatens layout freeze. How do you avoid an endless review?",
-      "selfCheck": "Recommend reroute or conditional freeze with a dated validation gate and rollback trigger. Exercise: deliver a 30-second decision memo: choice, rationale, risk, owner, checkpoint.",
-      "prompt": "Give me a release-gate scenario involving a 3 dB NEXT miss. Score my 30-second decision memo for clarity, tradeoffs, reversibility and ownership."
+      "topic": "Week 2 / Day 2 · Decision closeout",
+      "title": "Leave with a decision log",
+      "question": "A crosstalk mitigation review ends with 'we'll investigate.' What did the meeting fail to produce?",
+      "selfCheck": "Record decision or deferral reason, alternatives, risk accepted, owner and next checkpoint. Exercise: deliver a 40-second closeout and identify the escalation trigger.",
+      "prompt": "Coach my 40-second closeout for a NEXT violation near layout freeze. Evaluate decision clarity, owner, due date, residual risk and escalation threshold."
     }
   ]
 }
