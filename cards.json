@@ -1,53 +1,53 @@
 {
-  "date": "Nov 16, 2026",
+  "date": "Nov 17, 2026",
   "cards": [
     {
       "category": "DISCOVERY",
-      "topic": "Hidden shift · optical scale-up",
-      "title": "Copper's limit moves inside the rack",
-      "question": "Will AI scale-up networks shift from copper to optical co-design?",
-      "selfCheck": "Power and reach constrain copper; test optical design wins and watts/bit.",
-      "prompt": "FACT: Marvell-Lumentum merger announced Nov 2, 2026; company says scale-up/scale-in is shifting toward integrated optics. Marvell acquired Celestial AI Feb 2, 2026. HYPOTHESIS: optical adoption moves closer to accelerators, creating photonics and packaging content. TEST: dated customer qualifications, power per bit, volume shipments; disconfirm if copper/AEC retains economics. 7d: no new verified design win; 30d: Nov 2 deal; 90d: expanding interconnect thesis. https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-26-000019/mrvl-20260502.htm"
+      "topic": "Hidden shift · integrated photonics",
+      "title": "Optics moves from parts to systems",
+      "question": "Will customers pay for integrated optical assemblies, not just lasers?",
+      "selfCheck": "Integration can raise content per link; test qualified assemblies.",
+      "prompt": "FACT Sep 21: Coherent launched PhotonLink integrating lasers, silicon photonics, assembly and test for CPO/NPO. HYPOTHESIS: customers outsource difficult optical packaging, raising supplier content and switching costs. TEST: named production qualifications, assembly revenue and yield; copper/AEC and alternative integration remain threats. 7d: no verified new qualification; 30d: Nov 4 results; 90d: Sep 21 launch. https://coherent.gcs-web.com/news-releases/news-release-details/coherent-launches-photonlinktm-integrated-optics-platform-ai https://coherent.gcs-web.com/news-releases/news-release-details/coherent-corp-reports-first-quarter-fiscal-2027-results"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Beneficiary · MRVL custom plus optics",
-      "title": "MRVL: more dollars per AI rack?",
-      "question": "Could Marvell monetize both custom XPUs and their connections?",
-      "selfCheck": "XPU attach adds content; test FY27 optical and switching revenue.",
-      "prompt": "FACT: Marvell May 13 proxy: optics roughly half of data-center revenue, custom silicon about 25%; March 5 presentation forecast FY27 1.6T ramp and switching revenue above $600M versus $300M FY26. HYPOTHESIS: integration captures more per AI rack. Not an undiscovered name; acquisition and growth widely public. TEST: reported FY27 product revenue, gross margin, customer concentration and deal dilution. https://investor.marvell.com/sec-filings/all-sec-filings/content/0001104659-26-060253/tm261486-1_def14a.htm https://investor.marvell.com/_assets/_de258ecc084556935b61ff8ecc599288/marvell/db/3735/35341/file/2026_03_05_Marvell_Q4_FY26_financial_business_results_FINAL.pdf"
+      "topic": "Beneficiary · COHR vertical integration",
+      "title": "COHR sells the whole optical path",
+      "question": "Can Coherent capture more economics than a component-only vendor?",
+      "selfCheck": "Full assemblies may lift value; test datacenter mix and gross margin.",
+      "prompt": "FACT Nov 4: Coherent fiscal Q1 revenue $2.37B (+50% reported y/y), GAAP GM 39.1%, non-GAAP GM 40.6%. FACT Sep 21 PhotonLink offers integrated optical assemblies. HYPOTHESIS: vertical integration yields higher value per AI link; no claim it is undiscovered. TEST: datacenter-specific organic growth, margins and capex returns; peer comparison MRVL, LITE. https://coherent.gcs-web.com/news-releases/news-release-details/coherent-corp-reports-first-quarter-fiscal-2027-results https://coherent.gcs-web.com/news-releases/news-release-details/coherent-launches-photonlinktm-integrated-optics-platform-ai"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Sleeper statement · March 5 forecast",
-      "title": "A 2026 promise reaches FY27",
-      "question": "Can Marvell's earlier 1.6T and XPU-attach targets become reported sales?",
-      "selfCheck": "March 5 promise: FY27 ramp; test shipments, revenue mix and margins.",
-      "prompt": "ORIGINAL DATE March 5, 2026: Marvell FY26 results forecast rapid 1.6T optical ramp, XPU attach programs ramping FY27, AEC/retimer aggregate revenue doubling FY27, switching >$600M FY27. NEW PROOF Nov 2: announced Lumentum combination and preliminary fiscal Q3 revenue in line with guidance; neither verifies those individual ramps. TEST: upcoming detailed results and customer production orders; disconfirm on slips or margin erosion. https://investor.marvell.com/_assets/_de258ecc084556935b61ff8ecc599288/marvell/db/3735/35341/file/2026_03_05_Marvell_Q4_FY26_financial_business_results_FINAL.pdf https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity"
+      "topic": "Sleeper · March 2 NVIDIA commitment",
+      "title": "A purchase promise needs shipment proof",
+      "question": "When does NVIDIA's optical commitment become recurring COHR sales?",
+      "selfCheck": "March 2 commitment is real; verify product shipments and capacity.",
+      "prompt": "ORIGINAL Mar 2 2026: NVIDIA-Coherent nonexclusive multiyear optical agreement includes multibillion-dollar purchase commitment and NVIDIA $2B investment; commitment is not recognized revenue. Jun 16 Sherman InP expansion announced, capacity quadrupling planned (not delivered). NEW PROOF Nov 4 Coherent $2.37B revenue and GM expansion, but no attribution of that growth to NVIDIA commitment. TEST 2027 capacity commissioning, qualification and product revenue; disconfirm delays, weaker yields or alternate sourcing. https://coherent.gcs-web.com/news-releases/news-release-details/nvidia-and-coherent-announce-strategic-partnership-develop https://coherent.gcs-web.com/news-releases/news-release-details/coherent-announces-chips-letter-intent-50-million-expand-world https://coherent.gcs-web.com/news-releases/news-release-details/coherent-corp-reports-first-quarter-fiscal-2027-results"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Expectation gap · execution vs deal",
-      "title": "A huge TAM is not earnings",
-      "question": "Which MRVL growth assumptions survive merger dilution and integration?",
-      "selfCheck": "Separate organic growth from synergies; test margins and share count.",
-      "prompt": "FACT Nov 2: MRVL-LITE all-stock deal, implied LITE enterprise value $115B; projected >$1B annual run-rate cost synergies, expected close H1 2028, 4.5 MRVL shares per LITE share. These are management expectations, not realized profit. No verified current sell-side consensus or multiple: do not assert mispricing. Compare organic optical/custom growth, acquisition-related dilution, integration costs, adjusted vs GAAP EPS, and antitrust risk. https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity"
+      "topic": "Expectation gap · growth vs returns",
+      "title": "Revenue growth is not free cash flow",
+      "question": "Will optical growth justify the manufacturing buildout?",
+      "selfCheck": "Revenue +50%; test cash conversion after fab spending.",
+      "prompt": "FACT Nov 4 Coherent Q1 FY27 $2.37B revenue +50% y/y, GAAP GM 39.1%, non-GAAP GM 40.6%; Nov 4 outlook and filings needed to assess forward cash flow. HYPOTHESIS: integrated photonics boosts operating leverage but fab capex and customer concentration may absorb returns. Current market multiple and consensus revisions not independently verified; DO NOT assert mispricing. TEST: capex, operating cash flow, GAAP margin, working capital and return on new InP capacity. https://coherent.gcs-web.com/news-releases/news-release-details/coherent-corp-reports-first-quarter-fiscal-2027-results https://coherent.gcs-web.com/news-releases/news-release-details/coherent-announces-chips-letter-intent-50-million-expand-world"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Investable setup · conditional watch",
-      "title": "Watch MRVL; demand proof first",
-      "question": "What would justify adding it to a research shortlist?",
-      "selfCheck": "Wait for FY27 mix and margins; reject on missed ramps or dilution.",
-      "prompt": "Decision framework: WATCH, not automatic buy. Upcoming proof in Marvell detailed quarterly results and 2027 customer ramps; compare forward valuation to organic EPS growth and post-deal share count before entry. Nov 2 merger is already public; do not pay for hypothetical $550B TAM. Bull: 1.6T and XPU attach shipments scale, margins resilient. Bear: design wins slip, integration/dilution overwhelms organic growth, optical adoption slower. Also compare COHR and independent optical suppliers. Sources https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity https://investor.marvell.com/_assets/_de258ecc084556935b61ff8ecc599288/marvell/db/3735/35341/file/2026_03_05_Marvell_Q4_FY26_financial_business_results_FINAL.pdf"
+      "topic": "Setup · COHR watch, not chase",
+      "title": "Wait for optical margin proof",
+      "question": "What evidence earns COHR a place on the investable shortlist?",
+      "selfCheck": "WATCH; require mix, yield and cash flow; reject margin erosion.",
+      "prompt": "Educational WATCH framework, not trade instruction. Next 2-6 months: monitor Coherent fiscal Q2 FY27 results (date not verified), PhotonLink production orders, 6-inch InP capacity yield, gross margin and FCF. Compare enterprise value and forward earnings to organic growth when verified; no invented target price or consensus. Bull: assembly revenue scales faster than cost. Bear: capex, competition, customer concentration, yields or demand delay erase benefit. Compare MRVL merger thesis from Nov 16 against COHR standalone execution. https://coherent.gcs-web.com/news-releases/news-release-details/coherent-corp-reports-first-quarter-fiscal-2027-results https://coherent.gcs-web.com/news-releases/news-release-details/coherent-launches-photonlinktm-integrated-optics-platform-ai https://coherent.gcs-web.com/news-releases/news-release-details/coherent-announces-chips-letter-intent-50-million-expand-world"
     },
     {
       "category": "EDUCATIONAL",
-      "topic": "Investor's edge · proof ladder",
-      "title": "Follow the revenue bridge",
-      "question": "How do you spot an inflection before quarterly EPS shows it?",
-      "selfCheck": "Trace claim → qualification → shipments → mix → margin.",
-      "prompt": "Teach the proof ladder with MRVL: March 5 FY27 1.6T ramp forecast; Nov 2 optical merger announcement is strategy, not shipment proof; next check design wins, production volume, reported product revenue, margin, share count. Compare with Micron March 16 HBM4 high-volume production and later financial results as a more mature proof stage. Explain why a press release and price rally alone are insufficient. https://investor.marvell.com/_assets/_de258ecc084556935b61ff8ecc599288/marvell/db/3735/35341/file/2026_03_05_Marvell_Q4_FY26_financial_business_results_FINAL.pdf https://investors.micron.com/news/press-release/2026/Micron-in-High-Volume-Production-of-HBM4-Designed-for-NVIDIA-Vera-Rubin-PCIe-Gen6-SSD-and-SOCAMM2-03-16-2026/default.aspx"
+      "topic": "Investor edge · commitment conversion",
+      "title": "Find the hidden revenue bridge",
+      "question": "What turns an old customer promise into an early investment signal?",
+      "selfCheck": "Date commitment → capacity → shipment → margin; verify each step.",
+      "prompt": "Teach a reusable research method using COHR Mar 2 NVIDIA purchase commitment, Jun 16 planned Sherman fab expansion, Sep 21 PhotonLink launch, Nov 4 FY27 Q1 growth. None alone proves NVIDIA-derived revenue. Map contract -> qualification -> capacity -> shipments -> revenue recognition -> incremental margins -> free cash flow. Compare with yesterday's MRVL roadmap, distinguishing strategy from proof. Avoid momentum and hindsight bias. https://coherent.gcs-web.com/news-releases/news-release-details/nvidia-and-coherent-announce-strategic-partnership-develop https://coherent.gcs-web.com/news-releases/news-release-details/coherent-announces-chips-letter-intent-50-million-expand-world https://coherent.gcs-web.com/news-releases/news-release-details/coherent-launches-photonlinktm-integrated-optics-platform-ai https://coherent.gcs-web.com/news-releases/news-release-details/coherent-corp-reports-first-quarter-fiscal-2027-results"
     }
   ]
 }
