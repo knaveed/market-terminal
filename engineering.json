@@ -1,45 +1,45 @@
 {
-  "date": "Nov 17, 2026 · Week 2 / Day 2 · Decision-driven meetings and tradeoffs",
+  "date": "Nov 18, 2026 · Week 2 / Day 3 · Decision-driven meetings and tradeoffs",
   "cards": [
     {
-      "category": "FACILITATE",
-      "topic": "Week 2 / Day 2 · Decision rights",
-      "title": "Who actually makes the call?",
-      "question": "PCIe margin misses target, but SI and layout both believe the other team owns the fix. How do you unblock the review?",
-      "selfCheck": "Name the accountable decision-maker, evidence owners and escalation deadline. Exercise: close the meeting with one decision owner and two dated deliverables.",
-      "prompt": "Role-play a PCIe Gen5 design review where SI and layout disagree on ownership. Challenge me to establish decision rights without claiming authority I do not have."
+      "category": "FRAME",
+      "topic": "Week 2 / Day 3 · Decision framing",
+      "title": "What must we decide today?",
+      "question": "A PCIe Gen5 review has 12 plots and 20 minutes. What single decision belongs on the agenda?",
+      "selfCheck": "Frame the choice: accept current margin, authorize a layout change, or hold signoff. Exercise: open in 20 seconds with decision, deadline and consequence of delay.",
+      "prompt": "Role-play a time-boxed PCIe Gen5 release review. Make me open with a precise decision and challenge vague agendas."
     },
     {
       "category": "TRADEOFF",
-      "topic": "Week 2 / Day 2 · Risk-weighted options",
-      "title": "Compare risk, not just dB",
-      "question": "A connector change improves insertion loss by 0.5 dB but increases mechanical and sourcing risk. What should decide?",
-      "selfCheck": "Compare system margin, validation confidence, supply impact and schedule in one option table. Exercise: make a conditional recommendation and state what would reverse it.",
-      "prompt": "Give me a realistic connector change decision with SI, mechanical and sourcing stakeholders. Test whether my recommendation weighs total system risk rather than just S21."
+      "topic": "Week 2 / Day 3 · Reversibility",
+      "title": "Separate reversible from costly",
+      "question": "A via-backdrill ECO may recover 0.7 dB but risks a three-day board slip. What can be decided now?",
+      "selfCheck": "Separate a reversible simulation/prototype step from an irreversible fab release. Exercise: recommend the smallest commitment that preserves the decision window.",
+      "prompt": "Coach me through a via-backdrill ECO decision under schedule pressure. Test my reasoning about reversibility, evidence and deadlines."
     },
     {
-      "category": "CALIBRATE",
-      "topic": "Week 2 / Day 2 · Evidence quality",
-      "title": "A model is not a vote",
-      "question": "Two EM models predict acceptable via performance, but one calibrated TDR measurement disagrees. How do you move forward?",
-      "selfCheck": "Check reference planes, bandwidth, fixture de-embedding and model assumptions; define the decisive correlation test. Exercise: state what is known, suspected and still unproven in 25 seconds.",
-      "prompt": "Play skeptical measurement and modeling leads in a via EM/TDR disagreement. Help me frame uncertainty and choose a discriminating experiment before signoff."
+      "category": "FACILITATE",
+      "topic": "Week 2 / Day 3 · Evidence arbitration",
+      "title": "Stop debating the wrong plot",
+      "question": "EM and TDR teams dispute a 2 Ω impedance difference. How do you keep the meeting productive?",
+      "selfCheck": "Agree on the decision tolerance first, then reference planes, bandwidth and a correlation owner. Exercise: ask one question that determines whether the mismatch changes signoff.",
+      "prompt": "Act as conflicting EM and lab leads. Challenge me to redirect a technical argument toward the acceptance criterion and decisive experiment."
     },
     {
       "category": "ALIGN",
-      "topic": "Week 2 / Day 2 · Cross-team decision",
-      "title": "Turn disagreement into a gate",
-      "question": "A 20 MHz PDN peak concerns PI, while the power architect says the load profile makes it harmless. What meeting outcome matters?",
-      "selfCheck": "Agree on the relevant transient spectrum, allowable droop and validation method, then assign an owner and date. Exercise: write a pass/fail gate both teams can accept.",
-      "prompt": "Simulate a PDN signoff debate between PI and power architecture. Ask me to establish a shared load-transient acceptance criterion and a concrete test owner."
+      "topic": "Week 2 / Day 3 · Shared constraints",
+      "title": "Trade droop against schedule",
+      "question": "A 19 MHz PDN peak could violate transient droop, but a capacitor ECO threatens layout freeze. How do you align teams?",
+      "selfCheck": "Quantify droop against the actual load transient; compare ECO and validation paths with power, layout and program leads. Exercise: state a conditional recommendation with one owner and trigger.",
+      "prompt": "Simulate a cross-functional PDN meeting. Press me to balance load-transient evidence, mitigation cost and signoff risk without false certainty."
     },
     {
       "category": "PRACTICE",
-      "topic": "Week 2 / Day 2 · Decision closeout",
-      "title": "Leave with a decision log",
-      "question": "A crosstalk mitigation review ends with 'we'll investigate.' What did the meeting fail to produce?",
-      "selfCheck": "Record decision or deferral reason, alternatives, risk accepted, owner and next checkpoint. Exercise: deliver a 40-second closeout and identify the escalation trigger.",
-      "prompt": "Coach my 40-second closeout for a NEXT violation near layout freeze. Evaluate decision clarity, owner, due date, residual risk and escalation threshold."
+      "topic": "Week 2 / Day 3 · Meeting synthesis",
+      "title": "Close with a real choice",
+      "question": "A 3 dB NEXT miss remains after two mitigation proposals. How do you end the review in 30 seconds?",
+      "selfCheck": "State the preferred option, residual risk, decision authority, due date and fallback if evidence fails. Exercise: deliver a concise closeout that names what would change your recommendation.",
+      "prompt": "Evaluate my 30-second NEXT review closeout as a Principal Engineer. Score decision clarity, tradeoff, uncertainty, accountable owner and fallback."
     }
   ]
 }
