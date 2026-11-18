@@ -1,53 +1,53 @@
 {
-  "date": "Nov 17, 2026",
+  "date": "Nov 18, 2026",
   "cards": [
     {
       "category": "DISCOVERY",
-      "topic": "Hidden shift · integrated photonics",
-      "title": "Optics moves from parts to systems",
-      "question": "Will customers pay for integrated optical assemblies, not just lasers?",
-      "selfCheck": "Integration can raise content per link; test qualified assemblies.",
-      "prompt": "FACT Sep 21: Coherent launched PhotonLink integrating lasers, silicon photonics, assembly and test for CPO/NPO. HYPOTHESIS: customers outsource difficult optical packaging, raising supplier content and switching costs. TEST: named production qualifications, assembly revenue and yield; copper/AEC and alternative integration remain threats. 7d: no verified new qualification; 30d: Nov 4 results; 90d: Sep 21 launch. https://coherent.gcs-web.com/news-releases/news-release-details/coherent-launches-photonlinktm-integrated-optics-platform-ai https://coherent.gcs-web.com/news-releases/news-release-details/coherent-corp-reports-first-quarter-fiscal-2027-results"
+      "topic": "Hidden shift · Rubin network density",
+      "title": "Rubin changes the network bill",
+      "question": "Does rack-scale AI move more spending into optical links and switching?",
+      "selfCheck": "More rack traffic needs links; test ports and optics revenue.",
+      "prompt": "FACT Aug 2026: NVIDIA said Spectrum-6 with pluggable and co-packaged optics was arriving in AI factories. NEW PROOF Nov 17: NVIDIA says Vera Rubin NVL72 has shipped and announced Cisco USFP optical-module form factor for higher density and efficiency. HYPOTHESIS: growing rack and cluster bandwidth increases switch and optical dollars per installed accelerator. TEST: port shipments, optical attach, power/bit, production revenue; disconfirm copper/AEC persistence and lower network content. 7d Nov17 launch; 30d optics thesis COHR/MRVL; 90d Aug production roadmap. https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/ https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Beneficiary · COHR vertical integration",
-      "title": "COHR sells the whole optical path",
-      "question": "Can Coherent capture more economics than a component-only vendor?",
-      "selfCheck": "Full assemblies may lift value; test datacenter mix and gross margin.",
-      "prompt": "FACT Nov 4: Coherent fiscal Q1 revenue $2.37B (+50% reported y/y), GAAP GM 39.1%, non-GAAP GM 40.6%. FACT Sep 21 PhotonLink offers integrated optical assemblies. HYPOTHESIS: vertical integration yields higher value per AI link; no claim it is undiscovered. TEST: datacenter-specific organic growth, margins and capex returns; peer comparison MRVL, LITE. https://coherent.gcs-web.com/news-releases/news-release-details/coherent-corp-reports-first-quarter-fiscal-2027-results https://coherent.gcs-web.com/news-releases/news-release-details/coherent-launches-photonlinktm-integrated-optics-platform-ai"
+      "topic": "Beneficiary · CSCO AI networking",
+      "title": "Cisco's AI mix is changing",
+      "question": "Can CSCO convert hyperscaler AI demand into durable high-margin sales?",
+      "selfCheck": "FY27 AI target $9B; test organic mix and margins.",
+      "prompt": "FACT Nov 12 Cisco raised FY27 hyperscaler AI infrastructure revenue expectation to $9B, more than twice FY26 total; Q1 FY27 company revenue $18.5B (+24% y/y). FACT Nov17 NVIDIA announced Cisco USFP optical-module work. HYPOTHESIS: Cisco captures more AI network economics than its legacy enterprise-networking identity implies; this is publicly disclosed, not undiscovered. TEST: quarterly hyperscaler revenue, order conversion, operating margin, organic vs acquired contribution. Counter: hyperscaler concentration, rival switching and margin dilution. https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Sleeper · March 2 NVIDIA commitment",
-      "title": "A purchase promise needs shipment proof",
-      "question": "When does NVIDIA's optical commitment become recurring COHR sales?",
-      "selfCheck": "March 2 commitment is real; verify product shipments and capacity.",
-      "prompt": "ORIGINAL Mar 2 2026: NVIDIA-Coherent nonexclusive multiyear optical agreement includes multibillion-dollar purchase commitment and NVIDIA $2B investment; commitment is not recognized revenue. Jun 16 Sherman InP expansion announced, capacity quadrupling planned (not delivered). NEW PROOF Nov 4 Coherent $2.37B revenue and GM expansion, but no attribution of that growth to NVIDIA commitment. TEST 2027 capacity commissioning, qualification and product revenue; disconfirm delays, weaker yields or alternate sourcing. https://coherent.gcs-web.com/news-releases/news-release-details/nvidia-and-coherent-announce-strategic-partnership-develop https://coherent.gcs-web.com/news-releases/news-release-details/coherent-announces-chips-letter-intent-50-million-expand-world https://coherent.gcs-web.com/news-releases/news-release-details/coherent-corp-reports-first-quarter-fiscal-2027-results"
+      "topic": "Sleeper · Nov 12 commitment",
+      "title": "The $9B promise has a clock",
+      "question": "What must Cisco deliver to make its FY27 AI forecast credible?",
+      "selfCheck": "Nov 12 target is guidance; verify quarterly AI shipments.",
+      "prompt": "ORIGINAL Nov 12 2026: Cisco projected $9B FY27 AI infrastructure revenue from hyperscalers, more than 2x FY26. NEW Nov17 NVIDIA announced Cisco collaboration on USFP optics; no proof yet of material USFP revenue. HYPOTHESIS: FY27 order conversion reveals a business mix shift. TEST: next Cisco quarterly AI sales, order backlog, margins and USFP qualifications. Distinguish FY27 forecast from booked and recognized sales; failure if mix or margins disappoint. https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Expectation gap · growth vs returns",
-      "title": "Revenue growth is not free cash flow",
-      "question": "Will optical growth justify the manufacturing buildout?",
-      "selfCheck": "Revenue +50%; test cash conversion after fab spending.",
-      "prompt": "FACT Nov 4 Coherent Q1 FY27 $2.37B revenue +50% y/y, GAAP GM 39.1%, non-GAAP GM 40.6%; Nov 4 outlook and filings needed to assess forward cash flow. HYPOTHESIS: integrated photonics boosts operating leverage but fab capex and customer concentration may absorb returns. Current market multiple and consensus revisions not independently verified; DO NOT assert mispricing. TEST: capex, operating cash flow, GAAP margin, working capital and return on new InP capacity. https://coherent.gcs-web.com/news-releases/news-release-details/coherent-corp-reports-first-quarter-fiscal-2027-results https://coherent.gcs-web.com/news-releases/news-release-details/coherent-announces-chips-letter-intent-50-million-expand-world"
+      "topic": "Expectation gap · revenue vs margin",
+      "title": "A $9B target isn't a rerating",
+      "question": "Is Cisco's incremental AI growth profitable enough to change its earnings profile?",
+      "selfCheck": "Test AI growth against incremental operating profit.",
+      "prompt": "FACT Cisco Nov12 Q1 revenue $18.5B (+24%) and non-GAAP operating margin 37.8%; FY27 hyperscaler AI revenue expectation $9B. HYPOTHESIS: AI mix could raise revenue but compress margins; alternative operating leverage could surprise. Consensus EPS revisions and current valuation not independently verified: do not assert undervaluation. TEST next 2-6 months: segment/mix disclosures, gross and operating margin, cash conversion, forward EV/earnings vs verified estimates. https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Setup · COHR watch, not chase",
-      "title": "Wait for optical margin proof",
-      "question": "What evidence earns COHR a place on the investable shortlist?",
-      "selfCheck": "WATCH; require mix, yield and cash flow; reject margin erosion.",
-      "prompt": "Educational WATCH framework, not trade instruction. Next 2-6 months: monitor Coherent fiscal Q2 FY27 results (date not verified), PhotonLink production orders, 6-inch InP capacity yield, gross margin and FCF. Compare enterprise value and forward earnings to organic growth when verified; no invented target price or consensus. Bull: assembly revenue scales faster than cost. Bear: capex, competition, customer concentration, yields or demand delay erase benefit. Compare MRVL merger thesis from Nov 16 against COHR standalone execution. https://coherent.gcs-web.com/news-releases/news-release-details/coherent-corp-reports-first-quarter-fiscal-2027-results https://coherent.gcs-web.com/news-releases/news-release-details/coherent-launches-photonlinktm-integrated-optics-platform-ai https://coherent.gcs-web.com/news-releases/news-release-details/coherent-announces-chips-letter-intent-50-million-expand-world"
+      "topic": "Setup · CSCO watchlist test",
+      "title": "Watch Cisco; demand margin proof",
+      "question": "When does Cisco's AI-network growth become investable rather than a headline?",
+      "selfCheck": "WATCH: verify AI mix, margins, valuation; reject misses.",
+      "prompt": "Educational WATCH not buy instruction. 2-8 weeks: read Cisco Nov12 release and upcoming quarterly guidance; 2-6 months compare actual hyperscaler AI infrastructure revenue run-rate to $9B FY27 target. Compare price/forward earnings and estimates only from verified current data. Bull: profitable AI switching and optics attach. Bear: customer insourcing, white-box switching, weaker mix, margin erosion or delayed orders. Contrast with Nov16 MRVL and Nov17 COHR optical thesis; no fabricated target price. https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
     },
     {
       "category": "EDUCATIONAL",
-      "topic": "Investor edge · commitment conversion",
-      "title": "Find the hidden revenue bridge",
-      "question": "What turns an old customer promise into an early investment signal?",
-      "selfCheck": "Date commitment → capacity → shipment → margin; verify each step.",
-      "prompt": "Teach a reusable research method using COHR Mar 2 NVIDIA purchase commitment, Jun 16 planned Sherman fab expansion, Sep 21 PhotonLink launch, Nov 4 FY27 Q1 growth. None alone proves NVIDIA-derived revenue. Map contract -> qualification -> capacity -> shipments -> revenue recognition -> incremental margins -> free cash flow. Compare with yesterday's MRVL roadmap, distinguishing strategy from proof. Avoid momentum and hindsight bias. https://coherent.gcs-web.com/news-releases/news-release-details/nvidia-and-coherent-announce-strategic-partnership-develop https://coherent.gcs-web.com/news-releases/news-release-details/coherent-announces-chips-letter-intent-50-million-expand-world https://coherent.gcs-web.com/news-releases/news-release-details/coherent-launches-photonlinktm-integrated-optics-platform-ai https://coherent.gcs-web.com/news-releases/news-release-details/coherent-corp-reports-first-quarter-fiscal-2027-results"
+      "topic": "Investor edge · product-to-profit",
+      "title": "A design win is not a margin",
+      "question": "How do you detect a network inflection before it appears in EPS?",
+      "selfCheck": "Follow design → port shipment → revenue → profit.",
+      "prompt": "Teach investment evidence ladder using Cisco Nov12 FY27 $9B AI guidance and Nov17 NVIDIA USFP collaboration: dated claim, qualification, production, shipment, recognized revenue, incremental margin and cash. Distinguish roadmap from shipment and shipment from profitability. Compare MRVL and COHR theses from Nov16-17. Disconfirm with lost sockets, hyperscaler insourcing or lower switch margins. https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
     }
   ]
 }
