@@ -1,22 +1,22 @@
 {
-  "date": "Nov 18, 2026",
-  "selectionReason": "Nov 12 Cisco AI revenue guidance and Nov 17 NVIDIA USFP collaboration create a dated networking earnings-bridge lesson match; HL005 and HL024 differ from Nov 17 HL002/HL015. No price prediction.",
+  "date": "Nov 19, 2026",
+  "selectionReason": "Amkor's Oct 26 computing mix and Nov 17 NVIDIA capacity confirmation make strategy validation and patient milestone-based investing relevant; selected HL025 and HL011 instead of yesterday's HL005 and HL024. These are educational analogies, not price forecasts.",
   "cards": [
     {
       "category": "LESSON",
-      "topic": "Research",
-      "title": "Compare a company with its competitors",
-      "question": "Who captures the most profit per AI network?",
-      "selfCheck": "Compare Cisco, MRVL and COHR economics.",
-      "prompt": "Apply handwritten HL005 to Cisco Nov12 $9B FY27 AI revenue outlook and NVIDIA Nov17 optical form-factor announcement. Compare CSCO switching with MRVL silicon and COHR optics, recognizing different revenue bases and margins. This is a research match, not price prediction. https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
+      "topic": "Opportunity",
+      "title": "A new strategy can reset the investment case",
+      "question": "Does a funded packaging expansion create profitable adoption?",
+      "selfCheck": "Track capacity, utilization and profit.",
+      "prompt": "Apply handwritten HL025: Explain how to validate a company's new strategy before consensus recognizes it. Current dated evidence: Amkor Jul23 NVIDIA partnership, Oct21 expanded agreements, Oct26 computing mix and Nov17 NVIDIA supply-chain update. Treat this as a learning match, not a price forecast. Test cash flow, margin and customer shipment milestones. https://ir.amkor.com/news-releases/news-release-details/amkor-technology-and-nvidia-advance-strategic-partnership-ai https://ir.amkor.com/news-releases/news-release-details/amkor-technology-reports-financial-results-third-quarter-2026 https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Expands-Commitments-With-Supply-Chain-Partners-to-Support-AI-Infrastructure-Buildout/default.aspx"
     },
     {
       "category": "LESSON",
-      "topic": "Valuation",
-      "title": "Watch the gap between promise and profits",
-      "question": "Does a large AI sales target create attractive returns?",
-      "selfCheck": "Test revenue guidance against incremental profit.",
-      "prompt": "Apply handwritten HL024 to Cisco Nov12 FY27 $9B AI infrastructure expectation. Separate guidance, recognized revenue, gross margin and cash flow; explain how a high expectation can disappoint even if sales grow. No claim note predicts prices. https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html"
+      "topic": "Market",
+      "title": "Avoid making every trade a quick buck",
+      "question": "Can a 2–6 month packaging thesis survive daily price noise?",
+      "selfCheck": "Set milestones; ignore daily noise.",
+      "prompt": "Apply handwritten HL011: Explain the investing lesson 'Avoid making every trade a quick buck', with a practical example, limits and what evidence would falsify it. Current dated evidence: Amkor Jul23 NVIDIA partnership, Oct21 expanded agreements, Oct26 computing mix and Nov17 NVIDIA supply-chain update. Treat this as a learning match, not a price forecast. Test cash flow, margin and customer shipment milestones. https://ir.amkor.com/news-releases/news-release-details/amkor-technology-and-nvidia-advance-strategic-partnership-ai https://ir.amkor.com/news-releases/news-release-details/amkor-technology-reports-financial-results-third-quarter-2026 https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Expands-Commitments-With-Supply-Chain-Partners-to-Support-AI-Infrastructure-Buildout/default.aspx"
     }
   ]
 }
