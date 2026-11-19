@@ -1,53 +1,53 @@
 {
-  "date": "Nov 18, 2026",
+  "date": "Nov 19, 2026",
   "cards": [
     {
       "category": "DISCOVERY",
-      "topic": "Hidden shift · Rubin network density",
-      "title": "Rubin changes the network bill",
-      "question": "Does rack-scale AI move more spending into optical links and switching?",
-      "selfCheck": "More rack traffic needs links; test ports and optics revenue.",
-      "prompt": "FACT Aug 2026: NVIDIA said Spectrum-6 with pluggable and co-packaged optics was arriving in AI factories. NEW PROOF Nov 17: NVIDIA says Vera Rubin NVL72 has shipped and announced Cisco USFP optical-module form factor for higher density and efficiency. HYPOTHESIS: growing rack and cluster bandwidth increases switch and optical dollars per installed accelerator. TEST: port shipments, optical attach, power/bit, production revenue; disconfirm copper/AEC persistence and lower network content. 7d Nov17 launch; 30d optics thesis COHR/MRVL; 90d Aug production roadmap. https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/ https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx"
+      "topic": "Hidden shift · packaging capacity",
+      "title": "AI's next bottleneck is assembly",
+      "question": "Could advanced packaging capacity matter as much as wafer supply?",
+      "selfCheck": "Rubin volume needs packaging; track capacity and yields.",
+      "prompt": "FACT Nov 17 NVIDIA said Rubin NVL72 and Vera CPUs began volume shipments in Q3 and expanded Amkor/SPIL packaging relationships. HYPOTHESIS packaging and test capacity becomes a binding constraint as complex heterogeneous AI systems ramp; more chips do not automatically mean more profitable packages. TEST OSAT utilization, advanced-package shipments, yields, lead times and cost/package. 7d Nov17 supplier update; 30d Oct21 Amkor capacity commitment; 90d Jul23 agreement. https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Expands-Commitments-With-Supply-Chain-Partners-to-Support-AI-Infrastructure-Buildout/default.aspx https://ir.amkor.com/news-releases/news-release-details/amkor-technology-and-nvidia-advance-strategic-partnership-ai"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Beneficiary · CSCO AI networking",
-      "title": "Cisco's AI mix is changing",
-      "question": "Can CSCO convert hyperscaler AI demand into durable high-margin sales?",
-      "selfCheck": "FY27 AI target $9B; test organic mix and margins.",
-      "prompt": "FACT Nov 12 Cisco raised FY27 hyperscaler AI infrastructure revenue expectation to $9B, more than twice FY26 total; Q1 FY27 company revenue $18.5B (+24% y/y). FACT Nov17 NVIDIA announced Cisco USFP optical-module work. HYPOTHESIS: Cisco captures more AI network economics than its legacy enterprise-networking identity implies; this is publicly disclosed, not undiscovered. TEST: quarterly hyperscaler revenue, order conversion, operating margin, organic vs acquired contribution. Counter: hyperscaler concentration, rival switching and margin dilution. https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
+      "topic": "Beneficiary · AMKR advanced packaging",
+      "title": "AMKR: paid to assemble AI",
+      "question": "Can Amkor capture incremental AI system value without owning the GPU?",
+      "selfCheck": "Computing mix rose to 26%; test profit per package.",
+      "prompt": "FACT Amkor Oct26 Q3 2026 sales $1.991B, computing 26% of sales versus 19% a year earlier; total advanced products $1.632B vs $1.684B a year earlier, so not every advanced metric is growing. NVIDIA Nov17 named Amkor as expanded packaging partner. HYPOTHESIS higher-value heterogeneous assembly raises AMKR computing contribution and utilization; cannot assume all computing is AI. TEST computing mix, advanced-product revenue, gross margin, cash flow. Counter: weak communications, overcapacity, costly ramp. https://ir.amkor.com/news-releases/news-release-details/amkor-technology-reports-financial-results-third-quarter-2026 https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Expands-Commitments-With-Supply-Chain-Partners-to-Support-AI-Infrastructure-Buildout/default.aspx"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Sleeper · Nov 12 commitment",
-      "title": "The $9B promise has a clock",
-      "question": "What must Cisco deliver to make its FY27 AI forecast credible?",
-      "selfCheck": "Nov 12 target is guidance; verify quarterly AI shipments.",
-      "prompt": "ORIGINAL Nov 12 2026: Cisco projected $9B FY27 AI infrastructure revenue from hyperscalers, more than 2x FY26. NEW Nov17 NVIDIA announced Cisco collaboration on USFP optics; no proof yet of material USFP revenue. HYPOTHESIS: FY27 order conversion reveals a business mix shift. TEST: next Cisco quarterly AI sales, order backlog, margins and USFP qualifications. Distinguish FY27 forecast from booked and recognized sales; failure if mix or margins disappoint. https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
+      "topic": "Sleeper · Jul 23 commitment",
+      "title": "A $3B capacity bridge has a clock",
+      "question": "When do NVIDIA's Amkor prepayments become operating earnings?",
+      "selfCheck": "July deal, October expansion; test shipments and margins.",
+      "prompt": "ORIGINAL Jul23 2026 Amkor announced $1.5B multiyear NVIDIA packaging and development agreement with prepayment. Oct21 Amkor announced $1.3B Korea expansion and said total Arizona/Korea multiyear agreements $3B. NEW Nov17 NVIDIA named Amkor in packaging capacity expansion; Rubin volume shipments began. These agreements are NOT $3B of recognized AMKR revenue and terms may include prepayments and capacity funding. TEST next 2-6 months capacity commissioning, advanced computing shipments, utilization and margin; verify financial accounting. https://ir.amkor.com/news-releases/news-release-details/amkor-technology-announces-strategic-partnership-nvidia-expand https://ir.amkor.com/news-releases/news-release-details/amkor-technology-and-nvidia-advance-strategic-partnership-ai https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Expands-Commitments-With-Supply-Chain-Partners-to-Support-AI-Infrastructure-Buildout/default.aspx"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Expectation gap · revenue vs margin",
-      "title": "A $9B target isn't a rerating",
-      "question": "Is Cisco's incremental AI growth profitable enough to change its earnings profile?",
-      "selfCheck": "Test AI growth against incremental operating profit.",
-      "prompt": "FACT Cisco Nov12 Q1 revenue $18.5B (+24%) and non-GAAP operating margin 37.8%; FY27 hyperscaler AI revenue expectation $9B. HYPOTHESIS: AI mix could raise revenue but compress margins; alternative operating leverage could surprise. Consensus EPS revisions and current valuation not independently verified: do not assert undervaluation. TEST next 2-6 months: segment/mix disclosures, gross and operating margin, cash conversion, forward EV/earnings vs verified estimates. https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html"
+      "topic": "Expectation gap · capex versus earnings",
+      "title": "Capacity funding isn't free profit",
+      "question": "Will AMKR's $2.5B 2026 capex earn attractive incremental returns?",
+      "selfCheck": "Q3 margin improved; test FCF after capex.",
+      "prompt": "FACT Oct26 Amkor Q3 sales $1.991B, gross profit $364M, operating income $225M; FY26 capex outlook ~$2.5B. Its Q3 computing revenue mix rose from 19% year-ago to 26%; advanced-product revenue declined year over year. HYPOTHESIS customer-backed investment can lower demand risk but capex/depreciation and ramp costs may constrain free cash flow. No verified current forward multiple or analyst consensus; do NOT assert mispricing. TEST incremental operating income, utilization, cash flow after capex, forward EV/EBIT and estimates if verified. https://ir.amkor.com/news-releases/news-release-details/amkor-technology-reports-financial-results-third-quarter-2026 https://ir.amkor.com/news-releases/news-release-details/amkor-technology-and-nvidia-advance-strategic-partnership-ai"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Setup · CSCO watchlist test",
-      "title": "Watch Cisco; demand margin proof",
-      "question": "When does Cisco's AI-network growth become investable rather than a headline?",
-      "selfCheck": "WATCH: verify AI mix, margins, valuation; reject misses.",
-      "prompt": "Educational WATCH not buy instruction. 2-8 weeks: read Cisco Nov12 release and upcoming quarterly guidance; 2-6 months compare actual hyperscaler AI infrastructure revenue run-rate to $9B FY27 target. Compare price/forward earnings and estimates only from verified current data. Bull: profitable AI switching and optics attach. Bear: customer insourcing, white-box switching, weaker mix, margin erosion or delayed orders. Contrast with Nov16 MRVL and Nov17 COHR optical thesis; no fabricated target price. https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
+      "topic": "Setup · AMKR watch",
+      "title": "Watch AMKR; demand cash proof",
+      "question": "What would make this packaging ramp investable over 2–6 months?",
+      "selfCheck": "WATCH: require computing growth, margin and FCF; reject misses.",
+      "prompt": "Educational WATCH, not trade instruction. Evidence: NVIDIA Nov17 expanded packaging capacity commitment and Oct21 Amkor $3B total multiyear agreements; Q3 computing mix 26% vs 19% year-ago. Check next quarterly results for computing mix, gross margin relative to Q4 guide 18-19%, and free cash flow/capex. Compare verified valuation and forward earnings before considering entry; avoid price chasing. Invalidated by prolonged underutilization, capex overruns, shrinking advanced-product sales, deteriorating cash conversion or lost program share. https://ir.amkor.com/news-releases/news-release-details/amkor-technology-reports-financial-results-third-quarter-2026 https://ir.amkor.com/news-releases/news-release-details/amkor-technology-and-nvidia-advance-strategic-partnership-ai https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Expands-Commitments-With-Supply-Chain-Partners-to-Support-AI-Infrastructure-Buildout/default.aspx"
     },
     {
       "category": "EDUCATIONAL",
-      "topic": "Investor edge · product-to-profit",
-      "title": "A design win is not a margin",
-      "question": "How do you detect a network inflection before it appears in EPS?",
-      "selfCheck": "Follow design → port shipment → revenue → profit.",
-      "prompt": "Teach investment evidence ladder using Cisco Nov12 FY27 $9B AI guidance and Nov17 NVIDIA USFP collaboration: dated claim, qualification, production, shipment, recognized revenue, incremental margin and cash. Distinguish roadmap from shipment and shipment from profitability. Compare MRVL and COHR theses from Nov16-17. Disconfirm with lost sockets, hyperscaler insourcing or lower switch margins. https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
+      "topic": "Investor edge · funded capacity",
+      "title": "Follow the customer-funded factory",
+      "question": "How do you recognize a supplier inflection before EPS?",
+      "selfCheck": "Trace prepayment → capacity → yield → cash profit.",
+      "prompt": "Teach the evidence ladder using Amkor Jul23 $1.5B NVIDIA prepayment-backed agreement, Oct21 total $3B agreements, Nov17 NVIDIA capacity update, and Oct26 Q3 computing mix. Customer funding validates strategic intent but not return on capital. Distinguish customer prepayment from supplier revenue, capacity from utilization, shipments from profit. Historical analogy: semiconductor capacity cycles reward disciplined utilization and punish excess capex. Test next quarter margins, depreciation, cash flow and qualification. https://ir.amkor.com/news-releases/news-release-details/amkor-technology-announces-strategic-partnership-nvidia-expand https://ir.amkor.com/news-releases/news-release-details/amkor-technology-and-nvidia-advance-strategic-partnership-ai https://ir.amkor.com/news-releases/news-release-details/amkor-technology-reports-financial-results-third-quarter-2026 https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Expands-Commitments-With-Supply-Chain-Partners-to-Support-AI-Infrastructure-Buildout/default.aspx"
     }
   ]
 }
