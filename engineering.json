@@ -1,45 +1,45 @@
 {
-  "date": "Nov 18, 2026 · Week 2 / Day 3 · Decision-driven meetings and tradeoffs",
+  "date": "Nov 19, 2026 · Week 2 / Day 4 · Decision-driven meetings and tradeoffs",
   "cards": [
     {
-      "category": "FRAME",
-      "topic": "Week 2 / Day 3 · Decision framing",
-      "title": "What must we decide today?",
-      "question": "A PCIe Gen5 review has 12 plots and 20 minutes. What single decision belongs on the agenda?",
-      "selfCheck": "Frame the choice: accept current margin, authorize a layout change, or hold signoff. Exercise: open in 20 seconds with decision, deadline and consequence of delay.",
-      "prompt": "Role-play a time-boxed PCIe Gen5 release review. Make me open with a precise decision and challenge vague agendas."
+      "category": "DECIDE",
+      "topic": "Week 2 / Day 4 · Decision thresholds",
+      "title": "Define the stop line first",
+      "question": "PCIe margin is positive in simulation but close to the limit. What evidence makes this a go, conditional go, or hold?",
+      "selfCheck": "Set the required margin and correlation confidence before reviewing plots. Exercise: state a conditional release gate in 25 seconds, including who can approve the exception.",
+      "prompt": "Role-play a PCIe release-gate meeting. Challenge me to set measurable go/hold thresholds, decision authority and an escalation trigger."
     },
     {
-      "category": "TRADEOFF",
-      "topic": "Week 2 / Day 3 · Reversibility",
-      "title": "Separate reversible from costly",
-      "question": "A via-backdrill ECO may recover 0.7 dB but risks a three-day board slip. What can be decided now?",
-      "selfCheck": "Separate a reversible simulation/prototype step from an irreversible fab release. Exercise: recommend the smallest commitment that preserves the decision window.",
-      "prompt": "Coach me through a via-backdrill ECO decision under schedule pressure. Test my reasoning about reversibility, evidence and deadlines."
+      "category": "NEGOTIATE",
+      "topic": "Week 2 / Day 4 · Tradeoff currency",
+      "title": "Trade in system outcomes",
+      "question": "Layout offers a longer return path to avoid a connector re-spin. How do you compare schedule benefit with SI risk?",
+      "selfCheck": "Translate the routing change into channel impact and validation effort, not just trace length. Exercise: present two options and recommend one with a deadline.",
+      "prompt": "Act as a skeptical layout lead and program manager. Coach me to negotiate a connector-routing tradeoff using system consequences and a bounded decision."
     },
     {
       "category": "FACILITATE",
-      "topic": "Week 2 / Day 3 · Evidence arbitration",
-      "title": "Stop debating the wrong plot",
-      "question": "EM and TDR teams dispute a 2 Ω impedance difference. How do you keep the meeting productive?",
-      "selfCheck": "Agree on the decision tolerance first, then reference planes, bandwidth and a correlation owner. Exercise: ask one question that determines whether the mismatch changes signoff.",
-      "prompt": "Act as conflicting EM and lab leads. Challenge me to redirect a technical argument toward the acceptance criterion and decisive experiment."
+      "topic": "Week 2 / Day 4 · Disagreement closure",
+      "title": "Time-box the unresolved",
+      "question": "Lab wants another TDR sweep; modeling says the discrepancy is harmless. What do you decide before the meeting ends?",
+      "selfCheck": "Name the decision that depends on the mismatch, the minimum discriminating measurement and a time-boxed owner. Exercise: close the discussion in 30 seconds without pretending consensus.",
+      "prompt": "Simulate a tense EM-versus-TDR review. Test whether I can acknowledge dissent, select decisive evidence and record a closure criterion."
     },
     {
       "category": "ALIGN",
-      "topic": "Week 2 / Day 3 · Shared constraints",
-      "title": "Trade droop against schedule",
-      "question": "A 19 MHz PDN peak could violate transient droop, but a capacitor ECO threatens layout freeze. How do you align teams?",
-      "selfCheck": "Quantify droop against the actual load transient; compare ECO and validation paths with power, layout and program leads. Exercise: state a conditional recommendation with one owner and trigger.",
-      "prompt": "Simulate a cross-functional PDN meeting. Press me to balance load-transient evidence, mitigation cost and signoff risk without false certainty."
+      "topic": "Week 2 / Day 4 · Cross-team commitments",
+      "title": "An owner is not a handoff",
+      "question": "A PDN peak spans VRM, package and PCB. Each team offers analysis, but no one owns the release recommendation. What is your move?",
+      "selfCheck": "Assign one integrator accountable for the system droop verdict while preserving domain owners for evidence. Exercise: write a one-sentence decision record with dependencies and checkpoint.",
+      "prompt": "Coach me through assigning cross-functional PDN ownership without formal authority. Press for a named integrator, deliverables and a decision date."
     },
     {
       "category": "PRACTICE",
-      "topic": "Week 2 / Day 3 · Meeting synthesis",
-      "title": "Close with a real choice",
-      "question": "A 3 dB NEXT miss remains after two mitigation proposals. How do you end the review in 30 seconds?",
-      "selfCheck": "State the preferred option, residual risk, decision authority, due date and fallback if evidence fails. Exercise: deliver a concise closeout that names what would change your recommendation.",
-      "prompt": "Evaluate my 30-second NEXT review closeout as a Principal Engineer. Score decision clarity, tradeoff, uncertainty, accountable owner and fallback."
+      "topic": "Week 2 / Day 4 · Spiral review",
+      "title": "Interrupt the status parade",
+      "question": "In a crosstalk review, five engineers report progress but nobody asks for a decision. How do you reset the room?",
+      "selfCheck": "Revisit Week 1 risk-first framing: summarize exposure, then ask for the decision, options and accountable approver. Exercise: deliver a 20-second interruption and a 20-second closeout.",
+      "prompt": "Role-play a meandering crosstalk meeting. Interrupt me as stakeholders do, then grade my risk-first reset, tradeoff recommendation and decision closeout."
     }
   ]
 }
