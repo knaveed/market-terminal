@@ -1,45 +1,45 @@
 {
-  "date": "Nov 19, 2026 · Week 2 / Day 4 · Decision-driven meetings and tradeoffs",
+  "date": "Nov 20, 2026 · Week 2 / Day 5 · Decision-driven meetings and tradeoffs",
   "cards": [
     {
       "category": "DECIDE",
-      "topic": "Week 2 / Day 4 · Decision thresholds",
-      "title": "Define the stop line first",
-      "question": "PCIe margin is positive in simulation but close to the limit. What evidence makes this a go, conditional go, or hold?",
-      "selfCheck": "Set the required margin and correlation confidence before reviewing plots. Exercise: state a conditional release gate in 25 seconds, including who can approve the exception.",
-      "prompt": "Role-play a PCIe release-gate meeting. Challenge me to set measurable go/hold thresholds, decision authority and an escalation trigger."
+      "topic": "Week 2 / Day 5 · Decision memo",
+      "title": "A recommendation, not a menu",
+      "question": "PCIe Gen5 margin can gain 0.5 dB through a connector ECO, but it costs five days. What do you recommend at the release review?",
+      "selfCheck": "State your preferred path, system benefit, schedule cost and reversal trigger. Exercise: give a 30-second recommendation with one explicit ask.",
+      "prompt": "Role-play a release director. Challenge my PCIe ECO recommendation, including opportunity cost, evidence and a decision deadline."
     },
     {
-      "category": "NEGOTIATE",
-      "topic": "Week 2 / Day 4 · Tradeoff currency",
-      "title": "Trade in system outcomes",
-      "question": "Layout offers a longer return path to avoid a connector re-spin. How do you compare schedule benefit with SI risk?",
-      "selfCheck": "Translate the routing change into channel impact and validation effort, not just trace length. Exercise: present two options and recommend one with a deadline.",
-      "prompt": "Act as a skeptical layout lead and program manager. Coach me to negotiate a connector-routing tradeoff using system consequences and a bounded decision."
+      "category": "CALIBRATE",
+      "topic": "Week 2 / Day 5 · Evidence thresholds",
+      "title": "How much proof is enough?",
+      "question": "EM predicts a 52-ohm launch; TDR reads 55 ohms. Layout freeze is tomorrow. What minimum evidence changes your decision?",
+      "selfCheck": "Separate model uncertainty from actual channel risk. Exercise: specify one discriminating test, an acceptance threshold and the fallback if results arrive late.",
+      "prompt": "Act as lab and EM leads disputing launch impedance. Make me define decision-relevant proof, deadline and conditional action."
     },
     {
-      "category": "FACILITATE",
-      "topic": "Week 2 / Day 4 · Disagreement closure",
-      "title": "Time-box the unresolved",
-      "question": "Lab wants another TDR sweep; modeling says the discrepancy is harmless. What do you decide before the meeting ends?",
-      "selfCheck": "Name the decision that depends on the mismatch, the minimum discriminating measurement and a time-boxed owner. Exercise: close the discussion in 30 seconds without pretending consensus.",
-      "prompt": "Simulate a tense EM-versus-TDR review. Test whether I can acknowledge dissent, select decisive evidence and record a closure criterion."
+      "category": "PRIORITIZE",
+      "topic": "Week 2 / Day 5 · Competing risks",
+      "title": "Two fires, one lab slot",
+      "question": "A 20 MHz PDN peak and a PCIe eye-margin concern both need validation today. How do you allocate the only lab slot?",
+      "selfCheck": "Rank by release impact, uncertainty reduction and decision urgency—not who asks loudest. Exercise: defend a test order and communicate the deferred risk.",
+      "prompt": "Give me a lab-capacity conflict between PDN and PCIe. Challenge my prioritization and stakeholder update."
     },
     {
-      "category": "ALIGN",
-      "topic": "Week 2 / Day 4 · Cross-team commitments",
-      "title": "An owner is not a handoff",
-      "question": "A PDN peak spans VRM, package and PCB. Each team offers analysis, but no one owns the release recommendation. What is your move?",
-      "selfCheck": "Assign one integrator accountable for the system droop verdict while preserving domain owners for evidence. Exercise: write a one-sentence decision record with dependencies and checkpoint.",
-      "prompt": "Coach me through assigning cross-functional PDN ownership without formal authority. Press for a named integrator, deliverables and a decision date."
+      "category": "INFLUENCE",
+      "topic": "Week 2 / Day 5 · Conditional agreement",
+      "title": "Make the yes safe",
+      "question": "Layout resists a crosstalk reroute because it threatens the schedule. How do you win agreement without authority?",
+      "selfCheck": "Offer a bounded experiment, objective pass/fail criteria and a pre-agreed fallback. Exercise: make a 25-second ask that respects layout constraints.",
+      "prompt": "Role-play a skeptical layout manager. Coach me to secure a crosstalk mitigation decision without relying on authority."
     },
     {
-      "category": "PRACTICE",
-      "topic": "Week 2 / Day 4 · Spiral review",
-      "title": "Interrupt the status parade",
-      "question": "In a crosstalk review, five engineers report progress but nobody asks for a decision. How do you reset the room?",
-      "selfCheck": "Revisit Week 1 risk-first framing: summarize exposure, then ask for the decision, options and accountable approver. Exercise: deliver a 20-second interruption and a 20-second closeout.",
-      "prompt": "Role-play a meandering crosstalk meeting. Interrupt me as stakeholders do, then grade my risk-first reset, tradeoff recommendation and decision closeout."
+      "category": "SYNTHESIZE",
+      "topic": "Week 2 / Day 5 · Spiral review",
+      "title": "The decision board in 60 seconds",
+      "question": "At a design gate, PCIe, PDN and crosstalk risks compete. Can you lead the meeting to one defensible release decision?",
+      "selfCheck": "Use Week 1 risk-first visibility plus Week 2 decision rights: recommendation, top uncertainty, owners and checkpoint. Exercise: deliver a 60-second gate brief and a 15-second version.",
+      "prompt": "Simulate a cross-functional SI/PI release gate. Score my 60-second synthesis on risk clarity, tradeoffs, decision authority and follow-through."
     }
   ]
 }
