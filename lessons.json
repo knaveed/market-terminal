@@ -1,22 +1,22 @@
 {
-  "date": "Nov 19, 2026",
-  "selectionReason": "Amkor's Oct 26 computing mix and Nov 17 NVIDIA capacity confirmation make strategy validation and patient milestone-based investing relevant; selected HL025 and HL011 instead of yesterday's HL005 and HL024. These are educational analogies, not price forecasts.",
+  "date": "Nov 20, 2026",
+  "selectionReason": "HL014 technology adoption and HL023 changing narratives fit dated GF optical/interposer commitments and Q3 financial evidence. Neither repeats Nov 19 HL025/HL011. Learning matches, not price forecasts.",
   "cards": [
     {
       "category": "LESSON",
-      "topic": "Opportunity",
-      "title": "A new strategy can reset the investment case",
-      "question": "Does a funded packaging expansion create profitable adoption?",
-      "selfCheck": "Track capacity, utilization and profit.",
-      "prompt": "Apply handwritten HL025: Explain how to validate a company's new strategy before consensus recognizes it. Current dated evidence: Amkor Jul23 NVIDIA partnership, Oct21 expanded agreements, Oct26 computing mix and Nov17 NVIDIA supply-chain update. Treat this as a learning match, not a price forecast. Test cash flow, margin and customer shipment milestones. https://ir.amkor.com/news-releases/news-release-details/amkor-technology-and-nvidia-advance-strategic-partnership-ai https://ir.amkor.com/news-releases/news-release-details/amkor-technology-reports-financial-results-third-quarter-2026 https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Expands-Commitments-With-Supply-Chain-Partners-to-Support-AI-Infrastructure-Buildout/default.aspx"
+      "topic": "Research",
+      "title": "Look for the next technology inflection",
+      "question": "What can make a company relevant before consensus notices?",
+      "selfCheck": "Find adoption; verify paid volume.",
+      "prompt": "Explain the investing lesson 'Look for the next technology inflection', with a practical example, limits and what evidence would falsify it. Apply to GF's Sep 17 Marvell SiGe expansion, Oct 8 TSMC interposer agreement (1H 2028 ramp) and Nov 4 Q3 earnings. Explain what is proven, unproven, and the next measurable test. Educational analogy only, not a price forecast. https://gf.com/news-and-events/news/globalfoundries-and-marvell-expand-collaboration-fornext-generation-optical-connectivity/ https://gf.com/news-and-events/news/globalfoundries-reaches-agreement-to-establish-us-based-supply-of-silicon-interposers-for-advanced-ai-packaging/ https://investors.gf.com/news-releases/news-release-details/globalfoundries-reports-third-quarter-2026-financial-results"
     },
     {
       "category": "LESSON",
-      "topic": "Market",
-      "title": "Avoid making every trade a quick buck",
-      "question": "Can a 2–6 month packaging thesis survive daily price noise?",
-      "selfCheck": "Set milestones; ignore daily noise.",
-      "prompt": "Apply handwritten HL011: Explain the investing lesson 'Avoid making every trade a quick buck', with a practical example, limits and what evidence would falsify it. Current dated evidence: Amkor Jul23 NVIDIA partnership, Oct21 expanded agreements, Oct26 computing mix and Nov17 NVIDIA supply-chain update. Treat this as a learning match, not a price forecast. Test cash flow, margin and customer shipment milestones. https://ir.amkor.com/news-releases/news-release-details/amkor-technology-and-nvidia-advance-strategic-partnership-ai https://ir.amkor.com/news-releases/news-release-details/amkor-technology-reports-financial-results-third-quarter-2026 https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Expands-Commitments-With-Supply-Chain-Partners-to-Support-AI-Infrastructure-Buildout/default.aspx"
+      "topic": "Macro",
+      "title": "Narratives change as incentives change",
+      "question": "Why should investors revisit an old macro story?",
+      "selfCheck": "Separate old claims from new proof.",
+      "prompt": "Explain the investing lesson 'Narratives change as incentives change', with a practical example, limits and what evidence would falsify it. Apply to GF's Sep 17 Marvell SiGe expansion, Oct 8 TSMC interposer agreement (1H 2028 ramp) and Nov 4 Q3 earnings. Explain what is proven, unproven, and the next measurable test. Educational analogy only, not a price forecast. https://gf.com/news-and-events/news/globalfoundries-and-marvell-expand-collaboration-fornext-generation-optical-connectivity/ https://gf.com/news-and-events/news/globalfoundries-reaches-agreement-to-establish-us-based-supply-of-silicon-interposers-for-advanced-ai-packaging/ https://investors.gf.com/news-releases/news-release-details/globalfoundries-reports-third-quarter-2026-financial-results"
     }
   ]
 }
