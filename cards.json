@@ -1,53 +1,53 @@
 {
-  "date": "Nov 19, 2026",
+  "date": "Nov 20, 2026",
   "cards": [
     {
       "category": "DISCOVERY",
-      "topic": "Hidden shift · packaging capacity",
-      "title": "AI's next bottleneck is assembly",
-      "question": "Could advanced packaging capacity matter as much as wafer supply?",
-      "selfCheck": "Rubin volume needs packaging; track capacity and yields.",
-      "prompt": "FACT Nov 17 NVIDIA said Rubin NVL72 and Vera CPUs began volume shipments in Q3 and expanded Amkor/SPIL packaging relationships. HYPOTHESIS packaging and test capacity becomes a binding constraint as complex heterogeneous AI systems ramp; more chips do not automatically mean more profitable packages. TEST OSAT utilization, advanced-package shipments, yields, lead times and cost/package. 7d Nov17 supplier update; 30d Oct21 Amkor capacity commitment; 90d Jul23 agreement. https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Expands-Commitments-With-Supply-Chain-Partners-to-Support-AI-Infrastructure-Buildout/default.aspx https://ir.amkor.com/news-releases/news-release-details/amkor-technology-and-nvidia-advance-strategic-partnership-ai"
+      "topic": "Hidden shift · specialty silicon",
+      "title": "AI needs chips beyond the GPU",
+      "question": "Could optical links and power devices become the next foundry growth engine?",
+      "selfCheck": "SiGe moves optical bits; test shipments and mix.",
+      "prompt": "FACT: Sep 17 GF and Marvell expanded SiGe capacity for optical transceivers, NPO and CPO; Nov 4 GF reported record YoY communications infrastructure/data-center growth without a segment-specific dollar bridge. HYPOTHESIS: scaling AI racks creates profitable demand for specialty SiGe and power processes, not only leading-edge logic. TEST next 2-6 months qualified capacity, shipments, data-center revenue and margins. 7d: no independently verified new shipment milestone; 30d: Nov 4 Q3 report; 90d: Sep 17 optical agreement. Sources https://gf.com/news-and-events/news/globalfoundries-and-marvell-expand-collaboration-fornext-generation-optical-connectivity/ https://investors.gf.com/news-releases/news-release-details/globalfoundries-reports-third-quarter-2026-financial-results"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Beneficiary · AMKR advanced packaging",
-      "title": "AMKR: paid to assemble AI",
-      "question": "Can Amkor capture incremental AI system value without owning the GPU?",
-      "selfCheck": "Computing mix rose to 26%; test profit per package.",
-      "prompt": "FACT Amkor Oct26 Q3 2026 sales $1.991B, computing 26% of sales versus 19% a year earlier; total advanced products $1.632B vs $1.684B a year earlier, so not every advanced metric is growing. NVIDIA Nov17 named Amkor as expanded packaging partner. HYPOTHESIS higher-value heterogeneous assembly raises AMKR computing contribution and utilization; cannot assume all computing is AI. TEST computing mix, advanced-product revenue, gross margin, cash flow. Counter: weak communications, overcapacity, costly ramp. https://ir.amkor.com/news-releases/news-release-details/amkor-technology-reports-financial-results-third-quarter-2026 https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Expands-Commitments-With-Supply-Chain-Partners-to-Support-AI-Infrastructure-Buildout/default.aspx"
+      "topic": "Beneficiary · GFS specialty foundry",
+      "title": "GFS: the overlooked optical foundry?",
+      "question": "Does GlobalFoundries capture more AI value through Marvell's optical supply chain?",
+      "selfCheck": "Marvell needs SiGe; verify GF's profitable volume.",
+      "prompt": "FACT: GF's Sep 17 expansion with MRVL names pluggable, near-packaged and co-packaged optics. Nov 4 GF Q3 revenue $1.899B, non-IFRS gross margin 31.4%, adjusted FCF $136M; GF reported communications infrastructure/data-center strength but no disclosed SiGe-only revenue. HYPOTHESIS GFS earns foundry economics from growing optical front-end demand. Not a claim that shares are undiscovered or undervalued. TEST product qualifications, disclosed mix, gross margin and free cash flow; counter: insourcing, alternatives, weak yields. https://gf.com/news-and-events/news/globalfoundries-and-marvell-expand-collaboration-fornext-generation-optical-connectivity/ https://investors.gf.com/news-releases/news-release-details/globalfoundries-reports-third-quarter-2026-financial-results"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Sleeper · Jul 23 commitment",
-      "title": "A $3B capacity bridge has a clock",
-      "question": "When do NVIDIA's Amkor prepayments become operating earnings?",
-      "selfCheck": "July deal, October expansion; test shipments and margins.",
-      "prompt": "ORIGINAL Jul23 2026 Amkor announced $1.5B multiyear NVIDIA packaging and development agreement with prepayment. Oct21 Amkor announced $1.3B Korea expansion and said total Arizona/Korea multiyear agreements $3B. NEW Nov17 NVIDIA named Amkor in packaging capacity expansion; Rubin volume shipments began. These agreements are NOT $3B of recognized AMKR revenue and terms may include prepayments and capacity funding. TEST next 2-6 months capacity commissioning, advanced computing shipments, utilization and margin; verify financial accounting. https://ir.amkor.com/news-releases/news-release-details/amkor-technology-announces-strategic-partnership-nvidia-expand https://ir.amkor.com/news-releases/news-release-details/amkor-technology-and-nvidia-advance-strategic-partnership-ai https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Expands-Commitments-With-Supply-Chain-Partners-to-Support-AI-Infrastructure-Buildout/default.aspx"
+      "topic": "Sleeper · September 17 SiGe agreement",
+      "title": "A September promise needs a ramp",
+      "question": "When will the GF–Marvell capacity expansion reach reported revenue?",
+      "selfCheck": "Sep 17 commitment → qualification → paid wafers.",
+      "prompt": "ORIGINAL Sep 17 2026 GF–Marvell expanded multi-year SiGe capacity for AI optical connectivity. NEW Nov 4 GF reported strong data-center/communications growth, but did not attribute incremental revenue to the Sep agreement. DIFFERENT CLOCK: Oct 8 $2B TSMC interposer agreement only expects volume in 1H 2028, not a 2027 earnings catalyst. TEST 2027 guidance, wafer starts, SiGe mix, utilization and incremental margins; do not count future interposer contract value as current revenue. https://gf.com/news-and-events/news/globalfoundries-and-marvell-expand-collaboration-fornext-generation-optical-connectivity/ https://investors.gf.com/news-releases/news-release-details/globalfoundries-reports-third-quarter-2026-financial-results https://gf.com/news-and-events/news/globalfoundries-reaches-agreement-to-establish-us-based-supply-of-silicon-interposers-for-advanced-ai-packaging/"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Expectation gap · capex versus earnings",
-      "title": "Capacity funding isn't free profit",
-      "question": "Will AMKR's $2.5B 2026 capex earn attractive incremental returns?",
-      "selfCheck": "Q3 margin improved; test FCF after capex.",
-      "prompt": "FACT Oct26 Amkor Q3 sales $1.991B, gross profit $364M, operating income $225M; FY26 capex outlook ~$2.5B. Its Q3 computing revenue mix rose from 19% year-ago to 26%; advanced-product revenue declined year over year. HYPOTHESIS customer-backed investment can lower demand risk but capex/depreciation and ramp costs may constrain free cash flow. No verified current forward multiple or analyst consensus; do NOT assert mispricing. TEST incremental operating income, utilization, cash flow after capex, forward EV/EBIT and estimates if verified. https://ir.amkor.com/news-releases/news-release-details/amkor-technology-reports-financial-results-third-quarter-2026 https://ir.amkor.com/news-releases/news-release-details/amkor-technology-and-nvidia-advance-strategic-partnership-ai"
+      "topic": "Expectation gap · mix versus valuation",
+      "title": "The AI label isn't the earnings bridge",
+      "question": "Could specialty AI mix improve GFS profits before its headline revenue accelerates?",
+      "selfCheck": "Mix can lift margins; verify incremental profit.",
+      "prompt": "FACT Nov 4 GF Q3 revenue $1.899B, non-IFRS gross margin 31.4%, adjusted FCF $136M; IFRS loss included $441M noncash share issuance charge. HYPOTHESIS higher-value SiGe optical mix could raise margins faster than total revenue; offset by new capacity costs. Consensus forecasts and forward multiple not independently verified: do not claim market mispricing. TEST next quarters gross-margin mix, capex, cash conversion, estimate revisions, and independently verified EV/EBIT. https://investors.gf.com/news-releases/news-release-details/globalfoundries-reports-third-quarter-2026-financial-results https://gf.com/news-and-events/news/globalfoundries-and-marvell-expand-collaboration-fornext-generation-optical-connectivity/"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Setup · AMKR watch",
-      "title": "Watch AMKR; demand cash proof",
-      "question": "What would make this packaging ramp investable over 2–6 months?",
-      "selfCheck": "WATCH: require computing growth, margin and FCF; reject misses.",
-      "prompt": "Educational WATCH, not trade instruction. Evidence: NVIDIA Nov17 expanded packaging capacity commitment and Oct21 Amkor $3B total multiyear agreements; Q3 computing mix 26% vs 19% year-ago. Check next quarterly results for computing mix, gross margin relative to Q4 guide 18-19%, and free cash flow/capex. Compare verified valuation and forward earnings before considering entry; avoid price chasing. Invalidated by prolonged underutilization, capex overruns, shrinking advanced-product sales, deteriorating cash conversion or lost program share. https://ir.amkor.com/news-releases/news-release-details/amkor-technology-reports-financial-results-third-quarter-2026 https://ir.amkor.com/news-releases/news-release-details/amkor-technology-and-nvidia-advance-strategic-partnership-ai https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Expands-Commitments-With-Supply-Chain-Partners-to-Support-AI-Infrastructure-Buildout/default.aspx"
+      "topic": "Setup · GFS evidence watch",
+      "title": "Watch GFS; don't buy the headline",
+      "question": "What specific evidence would justify upgrading this optical thesis?",
+      "selfCheck": "WATCH: SiGe volume + margin; reject weak cash.",
+      "prompt": "Educational WATCH framework, not personalized trading. In next 2-6 months seek GF commentary on SiGe utilization, optical customer volume, data-center mix and improving incremental operating profit; compare verified forward valuation and estimates before any entry decision. INVALIDATION: optical program delays, poor utilization, gross-margin erosion, capex absorbing cash, or customer sourcing changes. Oct 8 TSMC interposer ramp in 1H 2028 is a long-duration option, not immediate catalyst. https://investors.gf.com/news-releases/news-release-details/globalfoundries-reports-third-quarter-2026-financial-results https://gf.com/news-and-events/news/globalfoundries-and-marvell-expand-collaboration-fornext-generation-optical-connectivity/ https://gf.com/news-and-events/news/globalfoundries-reaches-agreement-to-establish-us-based-supply-of-silicon-interposers-for-advanced-ai-packaging/"
     },
     {
       "category": "EDUCATIONAL",
-      "topic": "Investor edge · funded capacity",
-      "title": "Follow the customer-funded factory",
-      "question": "How do you recognize a supplier inflection before EPS?",
-      "selfCheck": "Trace prepayment → capacity → yield → cash profit.",
-      "prompt": "Teach the evidence ladder using Amkor Jul23 $1.5B NVIDIA prepayment-backed agreement, Oct21 total $3B agreements, Nov17 NVIDIA capacity update, and Oct26 Q3 computing mix. Customer funding validates strategic intent but not return on capital. Distinguish customer prepayment from supplier revenue, capacity from utilization, shipments from profit. Historical analogy: semiconductor capacity cycles reward disciplined utilization and punish excess capex. Test next quarter margins, depreciation, cash flow and qualification. https://ir.amkor.com/news-releases/news-release-details/amkor-technology-announces-strategic-partnership-nvidia-expand https://ir.amkor.com/news-releases/news-release-details/amkor-technology-and-nvidia-advance-strategic-partnership-ai https://ir.amkor.com/news-releases/news-release-details/amkor-technology-reports-financial-results-third-quarter-2026 https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Expands-Commitments-With-Supply-Chain-Partners-to-Support-AI-Infrastructure-Buildout/default.aspx"
+      "topic": "Investor edge · separate catalyst clocks",
+      "title": "One company, two different clocks",
+      "question": "Why must you separate a 2027 optical ramp from a 2028 packaging ramp?",
+      "selfCheck": "Date each milestone; never pull revenue forward.",
+      "prompt": "Teach the timeline discipline with GF: Sep 17 2026 SiGe/Marvell optical expansion (possible 2027 evidence), Oct 8 2026 $2B TSMC interposer agreement (volume planned 1H 2028), Nov 4 Q3 reported results (not proof either agreement has generated material incremental revenue). Distinguish signed contract, wafer qualification, volume, booked revenue, margin and free cash flow. Use 7/30/90-day continuity without conflating clocks. https://gf.com/news-and-events/news/globalfoundries-and-marvell-expand-collaboration-fornext-generation-optical-connectivity/ https://gf.com/news-and-events/news/globalfoundries-reaches-agreement-to-establish-us-based-supply-of-silicon-interposers-for-advanced-ai-packaging/ https://investors.gf.com/news-releases/news-release-details/globalfoundries-reports-third-quarter-2026-financial-results"
     }
   ]
 }
