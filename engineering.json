@@ -1,45 +1,45 @@
 {
-  "date": "Nov 20, 2026 · Week 2 / Day 5 · Decision-driven meetings and tradeoffs",
+  "date": "Nov 21, 2026 · Week 2 / Day 6 · Decision-driven meetings and tradeoffs",
   "cards": [
     {
       "category": "DECIDE",
-      "topic": "Week 2 / Day 5 · Decision memo",
-      "title": "A recommendation, not a menu",
-      "question": "PCIe Gen5 margin can gain 0.5 dB through a connector ECO, but it costs five days. What do you recommend at the release review?",
-      "selfCheck": "State your preferred path, system benefit, schedule cost and reversal trigger. Exercise: give a 30-second recommendation with one explicit ask.",
-      "prompt": "Role-play a release director. Challenge my PCIe ECO recommendation, including opportunity cost, evidence and a decision deadline."
+      "topic": "Week 2 / Day 6 · Decision dependencies",
+      "title": "Sequence the calls",
+      "question": "A Gen5 channel needs either a retimer or a stackup change. Mechanical clearance is unresolved. Which decision comes first?",
+      "selfCheck": "Resolve the constraint that eliminates options before committing resources. Name the owner and decision deadline.",
+      "prompt": "Role-play a mechanical lead and program manager. Ask me to sequence the retimer versus stackup decisions, identify dependencies and deliver a 30-second recommendation."
     },
     {
-      "category": "CALIBRATE",
-      "topic": "Week 2 / Day 5 · Evidence thresholds",
-      "title": "How much proof is enough?",
-      "question": "EM predicts a 52-ohm launch; TDR reads 55 ohms. Layout freeze is tomorrow. What minimum evidence changes your decision?",
-      "selfCheck": "Separate model uncertainty from actual channel risk. Exercise: specify one discriminating test, an acceptance threshold and the fallback if results arrive late.",
-      "prompt": "Act as lab and EM leads disputing launch impedance. Make me define decision-relevant proof, deadline and conditional action."
+      "category": "CHALLENGE",
+      "topic": "Week 2 / Day 6 · Constructive dissent",
+      "title": "Invite the strongest objection",
+      "question": "Your team favors release despite marginal PCIe BER evidence. How do you uncover risks that consensus may hide?",
+      "selfCheck": "Ask for the strongest counterargument and evidence that would change the call. Record dissent and the disposition.",
+      "prompt": "Role-play a release review with a skeptical validation engineer. Challenge my recommendation and coach me to surface dissent without derailing the decision."
     },
     {
-      "category": "PRIORITIZE",
-      "topic": "Week 2 / Day 5 · Competing risks",
-      "title": "Two fires, one lab slot",
-      "question": "A 20 MHz PDN peak and a PCIe eye-margin concern both need validation today. How do you allocate the only lab slot?",
-      "selfCheck": "Rank by release impact, uncertainty reduction and decision urgency—not who asks loudest. Exercise: defend a test order and communicate the deferred risk.",
-      "prompt": "Give me a lab-capacity conflict between PDN and PCIe. Challenge my prioritization and stakeholder update."
+      "category": "TRADEOFF",
+      "topic": "Week 2 / Day 6 · Resource allocation",
+      "title": "Buy information, not simulations",
+      "question": "A PDN resonance has three plausible causes. You have four hours before the ECO deadline. Which investigation deserves resources?",
+      "selfCheck": "Choose the test most likely to change the ECO decision in time. State what you will do for each outcome.",
+      "prompt": "Give me three plausible PDN resonance hypotheses and competing tests. Make me choose based on decision value, time and fallback rather than technical curiosity."
     },
     {
-      "category": "INFLUENCE",
-      "topic": "Week 2 / Day 5 · Conditional agreement",
-      "title": "Make the yes safe",
-      "question": "Layout resists a crosstalk reroute because it threatens the schedule. How do you win agreement without authority?",
-      "selfCheck": "Offer a bounded experiment, objective pass/fail criteria and a pre-agreed fallback. Exercise: make a 25-second ask that respects layout constraints.",
-      "prompt": "Role-play a skeptical layout manager. Coach me to secure a crosstalk mitigation decision without relying on authority."
+      "category": "ALIGN",
+      "topic": "Week 2 / Day 6 · Pre-meeting alignment",
+      "title": "Resolve surprises before the room",
+      "question": "A crosstalk reroute consumes routing space reserved for another interface. How do you prepare for the design review?",
+      "selfCheck": "Pre-align with affected owners on constraints and acceptable alternatives. Bring unresolved tradeoffs to the decision maker.",
+      "prompt": "Role-play separate conversations with the layout and competing interface leads. Coach me to negotiate shared criteria and a concise decision request without authority."
     },
     {
-      "category": "SYNTHESIZE",
-      "topic": "Week 2 / Day 5 · Spiral review",
-      "title": "The decision board in 60 seconds",
-      "question": "At a design gate, PCIe, PDN and crosstalk risks compete. Can you lead the meeting to one defensible release decision?",
-      "selfCheck": "Use Week 1 risk-first visibility plus Week 2 decision rights: recommendation, top uncertainty, owners and checkpoint. Exercise: deliver a 60-second gate brief and a 15-second version.",
-      "prompt": "Simulate a cross-functional SI/PI release gate. Score my 60-second synthesis on risk clarity, tradeoffs, decision authority and follow-through."
+      "category": "REVIEW",
+      "topic": "Week 2 / Day 6 · Spiral review",
+      "title": "Update the call when facts change",
+      "question": "A conditional EM/TDR signoff depended on correlation within 3 ohms. New data shows a 5-ohm mismatch. What do you tell leadership?",
+      "selfCheck": "Reopen the agreed gate; explain the changed evidence, release exposure and next action. Exercise: deliver a 20-second update.",
+      "prompt": "Act as a director who already approved conditional signoff. Challenge my 20-second update on the failed correlation criterion, decision ownership, fallback and checkpoint."
     }
   ]
 }
