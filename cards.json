@@ -1,53 +1,53 @@
 {
-  "date": "Nov 20, 2026",
+  "date": "Nov 21, 2026",
   "cards": [
     {
       "category": "DISCOVERY",
-      "topic": "Hidden shift · specialty silicon",
-      "title": "AI needs chips beyond the GPU",
-      "question": "Could optical links and power devices become the next foundry growth engine?",
-      "selfCheck": "SiGe moves optical bits; test shipments and mix.",
-      "prompt": "FACT: Sep 17 GF and Marvell expanded SiGe capacity for optical transceivers, NPO and CPO; Nov 4 GF reported record YoY communications infrastructure/data-center growth without a segment-specific dollar bridge. HYPOTHESIS: scaling AI racks creates profitable demand for specialty SiGe and power processes, not only leading-edge logic. TEST next 2-6 months qualified capacity, shipments, data-center revenue and margins. 7d: no independently verified new shipment milestone; 30d: Nov 4 Q3 report; 90d: Sep 17 optical agreement. Sources https://gf.com/news-and-events/news/globalfoundries-and-marvell-expand-collaboration-fornext-generation-optical-connectivity/ https://investors.gf.com/news-releases/news-release-details/globalfoundries-reports-third-quarter-2026-financial-results"
+      "topic": "Hidden shift · rack-scale fabric",
+      "title": "The switch moves inside the rack",
+      "question": "Why does scaling AI accelerators create a new switching silicon market?",
+      "selfCheck": "Scorpio fabric links GPUs; test switch attach per rack.",
+      "prompt": "FACT: Astera Nov 3 Q3 Scorpio X-Series 320-lane fabric switches entered volume production and became its largest product family. HYPOTHESIS: rack-scale fabrics increase connectivity silicon dollars per accelerator as systems grow. TEST port counts, switch attach, competing in-house silicon, power per bit and sustainable gross margin. 7d: no new verified product-specific milestone; 30d: Nov 3 earnings; 90d: earlier rack-scale roadmap. https://asteralabs.gcs-web.com/news-releases/news-release-details/astera-labs-reports-third-quarter-2026-financial-results"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Beneficiary · GFS specialty foundry",
-      "title": "GFS: the overlooked optical foundry?",
-      "question": "Does GlobalFoundries capture more AI value through Marvell's optical supply chain?",
-      "selfCheck": "Marvell needs SiGe; verify GF's profitable volume.",
-      "prompt": "FACT: GF's Sep 17 expansion with MRVL names pluggable, near-packaged and co-packaged optics. Nov 4 GF Q3 revenue $1.899B, non-IFRS gross margin 31.4%, adjusted FCF $136M; GF reported communications infrastructure/data-center strength but no disclosed SiGe-only revenue. HYPOTHESIS GFS earns foundry economics from growing optical front-end demand. Not a claim that shares are undiscovered or undervalued. TEST product qualifications, disclosed mix, gross margin and free cash flow; counter: insourcing, alternatives, weak yields. https://gf.com/news-and-events/news/globalfoundries-and-marvell-expand-collaboration-fornext-generation-optical-connectivity/ https://investors.gf.com/news-releases/news-release-details/globalfoundries-reports-third-quarter-2026-financial-results"
+      "topic": "Beneficiary · Astera Labs ALAB",
+      "title": "ALAB's new revenue engine",
+      "question": "Can Scorpio's scale outpace legacy retimer demand?",
+      "selfCheck": "Scorpio led Q3; test mix, customer concentration.",
+      "prompt": "FACT: Nov 3 Astera reported Q3 revenue $584.9M, +49% sequentially and +154% YoY, with Scorpio its largest product family. HYPOTHESIS: fabric switches increase addressable content per AI rack beyond retimers. Not undiscovered or necessarily cheap. TEST Scorpio revenue mix, customer diversity, margin sustainability, competing switch designs. https://asteralabs.gcs-web.com/news-releases/news-release-details/astera-labs-reports-third-quarter-2026-financial-results"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Sleeper · September 17 SiGe agreement",
-      "title": "A September promise needs a ramp",
-      "question": "When will the GF–Marvell capacity expansion reach reported revenue?",
-      "selfCheck": "Sep 17 commitment → qualification → paid wafers.",
-      "prompt": "ORIGINAL Sep 17 2026 GF–Marvell expanded multi-year SiGe capacity for AI optical connectivity. NEW Nov 4 GF reported strong data-center/communications growth, but did not attribute incremental revenue to the Sep agreement. DIFFERENT CLOCK: Oct 8 $2B TSMC interposer agreement only expects volume in 1H 2028, not a 2027 earnings catalyst. TEST 2027 guidance, wafer starts, SiGe mix, utilization and incremental margins; do not count future interposer contract value as current revenue. https://gf.com/news-and-events/news/globalfoundries-and-marvell-expand-collaboration-fornext-generation-optical-connectivity/ https://investors.gf.com/news-releases/news-release-details/globalfoundries-reports-third-quarter-2026-financial-results https://gf.com/news-and-events/news/globalfoundries-reaches-agreement-to-establish-us-based-supply-of-silicon-interposers-for-advanced-ai-packaging/"
+      "topic": "Sleeper · November 3 volume ramp",
+      "title": "Volume now; durability next",
+      "question": "What did the Nov 3 Scorpio production milestone actually establish?",
+      "selfCheck": "Volume is real; repeat orders are unproven.",
+      "prompt": "ORIGINAL Nov 3 2026 management disclosure: Scorpio X-Series 320-lane fabric switch reached high-volume production and largest product family. NEW PROOF: none independently verified since; avoid calling a prior announcement fresh. NEXT 2-6 months: follow sequential Scorpio shipments, inventory, design wins and repeat orders. FAILURE: hyperscaler insourcing or slowing orders. https://asteralabs.gcs-web.com/news-releases/news-release-details/astera-labs-reports-third-quarter-2026-financial-results"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Expectation gap · mix versus valuation",
-      "title": "The AI label isn't the earnings bridge",
-      "question": "Could specialty AI mix improve GFS profits before its headline revenue accelerates?",
-      "selfCheck": "Mix can lift margins; verify incremental profit.",
-      "prompt": "FACT Nov 4 GF Q3 revenue $1.899B, non-IFRS gross margin 31.4%, adjusted FCF $136M; IFRS loss included $441M noncash share issuance charge. HYPOTHESIS higher-value SiGe optical mix could raise margins faster than total revenue; offset by new capacity costs. Consensus forecasts and forward multiple not independently verified: do not claim market mispricing. TEST next quarters gross-margin mix, capex, cash conversion, estimate revisions, and independently verified EV/EBIT. https://investors.gf.com/news-releases/news-release-details/globalfoundries-reports-third-quarter-2026-financial-results https://gf.com/news-and-events/news/globalfoundries-and-marvell-expand-collaboration-fornext-generation-optical-connectivity/"
+      "topic": "Expectation gap · growth versus durability",
+      "title": "154% growth sets a high bar",
+      "question": "What if extraordinary Q3 growth normalizes faster than expected?",
+      "selfCheck": "Growth is proven; valuation support needs repeatability.",
+      "prompt": "FACT Q3 revenue +154% YoY and +49% QoQ. HYPOTHESIS market could overestimate durability if initial Scorpio stocking is mistaken for steady-state demand; alternatively multiple platforms can sustain growth. No verified current consensus or forward multiple, so no mispricing claim. TEST sequential revenue, guidance, gross margin, inventories, customer concentration and verified valuation before action. https://asteralabs.gcs-web.com/news-releases/news-release-details/astera-labs-reports-third-quarter-2026-financial-results"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Setup · GFS evidence watch",
-      "title": "Watch GFS; don't buy the headline",
-      "question": "What specific evidence would justify upgrading this optical thesis?",
-      "selfCheck": "WATCH: SiGe volume + margin; reject weak cash.",
-      "prompt": "Educational WATCH framework, not personalized trading. In next 2-6 months seek GF commentary on SiGe utilization, optical customer volume, data-center mix and improving incremental operating profit; compare verified forward valuation and estimates before any entry decision. INVALIDATION: optical program delays, poor utilization, gross-margin erosion, capex absorbing cash, or customer sourcing changes. Oct 8 TSMC interposer ramp in 1H 2028 is a long-duration option, not immediate catalyst. https://investors.gf.com/news-releases/news-release-details/globalfoundries-reports-third-quarter-2026-financial-results https://gf.com/news-and-events/news/globalfoundries-and-marvell-expand-collaboration-fornext-generation-optical-connectivity/ https://gf.com/news-and-events/news/globalfoundries-reaches-agreement-to-establish-us-based-supply-of-silicon-interposers-for-advanced-ai-packaging/"
+      "topic": "Setup · ALAB evidence gate",
+      "title": "WATCH ALAB; require repeat orders",
+      "question": "Which evidence upgrades a successful launch to a durable investment case?",
+      "selfCheck": "WATCH repeat switch orders and margins; reject one-off stocking.",
+      "prompt": "Educational WATCH, not a trade instruction. Before entry require a second sequential quarter of Scorpio-led growth, stable margin, expanding customer base and a separately verified forward valuation with reasonable growth assumptions. INVALIDATE if switching designs are displaced, inventory swells, growth slows abruptly or margin erodes. 2-6 month checkpoint: next two earnings disclosures. https://asteralabs.gcs-web.com/news-releases/news-release-details/astera-labs-reports-third-quarter-2026-financial-results"
     },
     {
       "category": "EDUCATIONAL",
-      "topic": "Investor edge · separate catalyst clocks",
-      "title": "One company, two different clocks",
-      "question": "Why must you separate a 2027 optical ramp from a 2028 packaging ramp?",
-      "selfCheck": "Date each milestone; never pull revenue forward.",
-      "prompt": "Teach the timeline discipline with GF: Sep 17 2026 SiGe/Marvell optical expansion (possible 2027 evidence), Oct 8 2026 $2B TSMC interposer agreement (volume planned 1H 2028), Nov 4 Q3 reported results (not proof either agreement has generated material incremental revenue). Distinguish signed contract, wafer qualification, volume, booked revenue, margin and free cash flow. Use 7/30/90-day continuity without conflating clocks. https://gf.com/news-and-events/news/globalfoundries-and-marvell-expand-collaboration-fornext-generation-optical-connectivity/ https://gf.com/news-and-events/news/globalfoundries-reaches-agreement-to-establish-us-based-supply-of-silicon-interposers-for-advanced-ai-packaging/ https://investors.gf.com/news-releases/news-release-details/globalfoundries-reports-third-quarter-2026-financial-results"
+      "topic": "Investor edge · launch versus annuity",
+      "title": "A ramp isn't recurring demand",
+      "question": "How do you distinguish channel fill from lasting deployment?",
+      "selfCheck": "Compare sell-in, repeat orders and installed capacity.",
+      "prompt": "Use Astera's Nov 3 Scorpio production milestone as a case study: design win -> first production -> initial stocking -> repeat deployment -> margin/cash conversion. Q3 volume establishes initial adoption, not an annuity. Look for independent customer deployment and second-quarter follow-through. Contrast with Nov 20 GF SiGe agreement, which remains earlier in the revenue bridge. https://asteralabs.gcs-web.com/news-releases/news-release-details/astera-labs-reports-third-quarter-2026-financial-results"
     }
   ]
 }
