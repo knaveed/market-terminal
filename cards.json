@@ -1,53 +1,53 @@
 {
-  "date": "Nov 21, 2026",
+  "date": "Nov 22, 2026",
   "cards": [
     {
       "category": "DISCOVERY",
-      "topic": "Hidden shift · rack-scale fabric",
-      "title": "The switch moves inside the rack",
-      "question": "Why does scaling AI accelerators create a new switching silicon market?",
-      "selfCheck": "Scorpio fabric links GPUs; test switch attach per rack.",
-      "prompt": "FACT: Astera Nov 3 Q3 Scorpio X-Series 320-lane fabric switches entered volume production and became its largest product family. HYPOTHESIS: rack-scale fabrics increase connectivity silicon dollars per accelerator as systems grow. TEST port counts, switch attach, competing in-house silicon, power per bit and sustainable gross margin. 7d: no new verified product-specific milestone; 30d: Nov 3 earnings; 90d: earlier rack-scale roadmap. https://asteralabs.gcs-web.com/news-releases/news-release-details/astera-labs-reports-third-quarter-2026-financial-results"
+      "topic": "Hidden shift · power per AI rack",
+      "title": "The next AI bottleneck is power",
+      "question": "Why does higher compute density raise power-chip content per rack?",
+      "selfCheck": "800V and vertical delivery add conversion content; test € per kW.",
+      "prompt": "FACT: Infineon Nov 10 describes 800V distribution, GaN bus converters and vertical power delivery as density rises. HYPOTHESIS: more semiconductor content per kW, not merely more racks, lifts supplier economics. TEST design adoption, power losses, € per kW and shipments. 7d: no verified new company milestone; 30d: Nov 10 results; 90d: Sep 9 SolarEdge 800V breaker collaboration. https://www.infineon.com/assets/row/public/documents/corporate/investors/presentations/2026/2026-11-10-q4-fy26-intro-statement-analyst-call-v01-00-en.pdf https://www.infineon.com/press-release/2026/infpr202609-138"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Beneficiary · Astera Labs ALAB",
-      "title": "ALAB's new revenue engine",
-      "question": "Can Scorpio's scale outpace legacy retimer demand?",
-      "selfCheck": "Scorpio led Q3; test mix, customer concentration.",
-      "prompt": "FACT: Nov 3 Astera reported Q3 revenue $584.9M, +49% sequentially and +154% YoY, with Scorpio its largest product family. HYPOTHESIS: fabric switches increase addressable content per AI rack beyond retimers. Not undiscovered or necessarily cheap. TEST Scorpio revenue mix, customer diversity, margin sustainability, competing switch designs. https://asteralabs.gcs-web.com/news-releases/news-release-details/astera-labs-reports-third-quarter-2026-financial-results"
+      "topic": "Beneficiary · Infineon IFX / IFNNY",
+      "title": "Infineon gets paid grid-to-core",
+      "question": "Could power semiconductors become a larger earnings driver than autos?",
+      "selfCheck": "FY26 data-center €2.2B; test FY27 €4B ramp and margin.",
+      "prompt": "FACT: Nov 10 Infineon reported FY26 dedicated AI power €1.7B and broader data-center €2.2B; FY27 data-center outlook nearly €4B. PSS Q4 margin 30.8%. HYPOTHESIS: higher content per kW and Dresden fab utilization improve mix. TEST data-center revenue, Power Systems margin, fab utilization; auto cycle can distort consolidated results. Not an undiscovered thesis. https://www.infineon.com/assets/row/public/documents/corporate/investors/presentations/2026/2026-11-10-q4-fy26-intro-statement-analyst-call-v01-00-en.pdf"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Sleeper · November 3 volume ramp",
-      "title": "Volume now; durability next",
-      "question": "What did the Nov 3 Scorpio production milestone actually establish?",
-      "selfCheck": "Volume is real; repeat orders are unproven.",
-      "prompt": "ORIGINAL Nov 3 2026 management disclosure: Scorpio X-Series 320-lane fabric switch reached high-volume production and largest product family. NEW PROOF: none independently verified since; avoid calling a prior announcement fresh. NEXT 2-6 months: follow sequential Scorpio shipments, inventory, design wins and repeat orders. FAILURE: hyperscaler insourcing or slowing orders. https://asteralabs.gcs-web.com/news-releases/news-release-details/astera-labs-reports-third-quarter-2026-financial-results"
+      "topic": "Sleeper · capacity reservations",
+      "title": "€10B is not booked revenue",
+      "question": "What does management's Nov 10 capacity-commitment statement actually prove?",
+      "selfCheck": "Signed PLUS negotiated €10B; verify binding orders and shipments.",
+      "prompt": "ORIGINAL management statement Nov 10: cumulative data-center delivery and capacity reservation agreements, BOTH signed and under negotiation, exceeded €10B; some prepayments share capex risk. Do NOT label all as backlog or recognized revenue. FY27 data-center target near €4B. TEST signed share, Dresden fab ramp, quarterly sales and cash conversion in 2–6 months. Earlier Sep 9 800V collaboration is technology evidence, not purchase volume. https://www.infineon.com/assets/row/public/documents/corporate/investors/presentations/2026/2026-11-10-q4-fy26-intro-statement-analyst-call-v01-00-en.pdf"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Expectation gap · growth versus durability",
-      "title": "154% growth sets a high bar",
-      "question": "What if extraordinary Q3 growth normalizes faster than expected?",
-      "selfCheck": "Growth is proven; valuation support needs repeatability.",
-      "prompt": "FACT Q3 revenue +154% YoY and +49% QoQ. HYPOTHESIS market could overestimate durability if initial Scorpio stocking is mistaken for steady-state demand; alternatively multiple platforms can sustain growth. No verified current consensus or forward multiple, so no mispricing claim. TEST sequential revenue, guidance, gross margin, inventories, customer concentration and verified valuation before action. https://asteralabs.gcs-web.com/news-releases/news-release-details/astera-labs-reports-third-quarter-2026-financial-results"
+      "topic": "Expectation gap · FY27 power growth",
+      "title": "Revenue is guided; profit is the test",
+      "question": "What operating assumption could disappoint despite €4B data-center sales?",
+      "selfCheck": "Test mix, utilization and €1.8B FCF guidance against capex.",
+      "prompt": "FACT: Nov 10 company guides FY27 group sales ~€20B, data-center ~€4B, capex €3–3.5B, FCF ~€1.8B. HYPOTHESIS: fab underutilization or slower 800V adoption could make revenue growth less profitable; upside if higher content and mix persist. Current forward multiple and consensus revisions NOT independently verified: no mispricing claim. TEST quarterly segment margin, depreciation, customer conversion and capex. https://www.infineon.com/press-release/2026/infpr202611-025"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Setup · ALAB evidence gate",
-      "title": "WATCH ALAB; require repeat orders",
-      "question": "Which evidence upgrades a successful launch to a durable investment case?",
-      "selfCheck": "WATCH repeat switch orders and margins; reject one-off stocking.",
-      "prompt": "Educational WATCH, not a trade instruction. Before entry require a second sequential quarter of Scorpio-led growth, stable margin, expanding customer base and a separately verified forward valuation with reasonable growth assumptions. INVALIDATE if switching designs are displaced, inventory swells, growth slows abruptly or margin erodes. 2-6 month checkpoint: next two earnings disclosures. https://asteralabs.gcs-web.com/news-releases/news-release-details/astera-labs-reports-third-quarter-2026-financial-results"
+      "topic": "Setup · evidence before entry",
+      "title": "WATCH IFX; gate on cash returns",
+      "question": "What would upgrade the power thesis over the next two quarters?",
+      "selfCheck": "WATCH €4B run-rate, margins, FCF; reject missed capacity ramp.",
+      "prompt": "Educational WATCH, not personalized trading instruction. Require quarterly data-center revenue tracking toward ~€4B FY27, profitable Dresden capacity utilization, and credible FCF path; verify current valuation and consensus before any entry decision. INVALIDATE on persistent fab delays, weaker € per kW, lost design wins, declining margin or capex without cash returns. Next earnings and Dec 7 divisional update are evidence checkpoints, not presumed outcomes. https://www.infineon.com/assets/row/public/documents/corporate/investors/presentations/2026/2026-11-10-q4-fy26-intro-statement-analyst-call-v01-00-en.pdf"
     },
     {
       "category": "EDUCATIONAL",
-      "topic": "Investor edge · launch versus annuity",
-      "title": "A ramp isn't recurring demand",
-      "question": "How do you distinguish channel fill from lasting deployment?",
-      "selfCheck": "Compare sell-in, repeat orders and installed capacity.",
-      "prompt": "Use Astera's Nov 3 Scorpio production milestone as a case study: design win -> first production -> initial stocking -> repeat deployment -> margin/cash conversion. Q3 volume establishes initial adoption, not an annuity. Look for independent customer deployment and second-quarter follow-through. Contrast with Nov 20 GF SiGe agreement, which remains earlier in the revenue bridge. https://asteralabs.gcs-web.com/news-releases/news-release-details/astera-labs-reports-third-quarter-2026-financial-results"
+      "topic": "Investor edge · content per unit",
+      "title": "Count dollars per kilowatt",
+      "question": "How do you detect a supplier inflection before total AI spend changes?",
+      "selfCheck": "Separate units × content × margin; validate each link.",
+      "prompt": "Infineon case: revenue = deployed rack kW × semiconductor € per kW × supplier share, adjusted for timing and price. Nov 10 management emphasizes rising content per kW as 800V and vertical power delivery develop. This is a model, not a disclosed company metric. Cross-check with ALAB switches per rack, COHR optical links, and GF SiGe wafer volume. Test attach, yield, price, cash returns, not just market TAM. https://www.infineon.com/assets/row/public/documents/corporate/investors/presentations/2026/2026-11-10-q4-fy26-intro-statement-analyst-call-v01-00-en.pdf"
     }
   ]
 }
