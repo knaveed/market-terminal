@@ -1,22 +1,22 @@
 {
-  "date": "Nov 22, 2026",
-  "selectionReason": "Nov 20 broad semiconductor selloff makes HL001's thesis-versus-volatility discipline useful; Infineon's Nov 10 signed-plus-negotiated capacity claim makes HL012's independent verification essential. Neither repeats Nov 21 HL003/HL006; no claim of price prediction.",
+  "date": "Nov 23, 2026",
+  "selectionReason": "Nov 20 semiconductor selloff versus Nov 19 Keysight operating results: HL026 frames bear-market research and HL010 tests financial resilience. Neither repeats Nov 22 HL001/HL012; lessons are not price forecasts.",
   "cards": [
     {
       "category": "LESSON",
-      "topic": "Thesis",
-      "title": "The thesis must survive daily gyrations",
-      "question": "What makes a thesis stronger than a daily price move?",
-      "selfCheck": "Write both buy and avoid cases, with milestones and disconfirming evidence. A thesis should survive ordinary volatility unless its underlying assumptions change.",
-      "prompt": "Explain the lesson with the Nov 20 semiconductor selloff versus Infineon's Nov 10 disclosed data-center revenue and capacity commitments. Distinguish share-price volatility from changes in power-chip demand; identify disconfirming operating evidence. https://www.infineon.com/press-release/2026/infpr202611-025"
+      "topic": "Research",
+      "title": "Distinguish breakouts from speculation",
+      "question": "Which research approaches fit a bull market versus a bear market?",
+      "selfCheck": "A bull market can reward momentum but also inflate weak stories. In a bear market, research fundamentals and neglected opportunities while checking financial resilience.",
+      "prompt": "Explain my bull-market versus bear-market research methods with risks and examples. Apply to the Nov 20 semiconductor selloff and Keysight's Nov 19 reported $2.339B orders; do not equate price weakness with an operating breakdown. https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx"
     },
     {
       "category": "LESSON",
-      "topic": "Research",
-      "title": "Use multiple independent research channels",
-      "question": "How can you reduce single-source bias?",
-      "selfCheck": "Cross-check primary company materials, credible analysis, and industry discussion. Keep facts separate from speculation.",
-      "prompt": "Explain how to validate Infineon's Nov 10 €10B signed-plus-negotiated capacity reservations using filings, customer confirmations, future shipment data and cash flows. Explain why negotiations are not firm orders. https://www.infineon.com/assets/row/public/documents/corporate/investors/presentations/2026/2026-11-10-q4-fy26-intro-statement-analyst-call-v01-00-en.pdf"
+      "topic": "Market",
+      "title": "Bear markets create opportunities—and traps",
+      "question": "What distinguishes a discount from a value trap?",
+      "selfCheck": "Prioritize financially sound companies with durable products and credible technology roadmaps; lower price alone is not enough.",
+      "prompt": "Explain the investing lesson 'Bear markets create opportunities—and traps', with a practical example, limits and what evidence would falsify it. Use Keysight's Nov 19 $465M quarterly FCF and 37% CSG margin as evidence, but test organic orders and valuation before calling a drawdown an opportunity. https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx"
     }
   ]
 }
