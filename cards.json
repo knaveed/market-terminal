@@ -1,53 +1,53 @@
 {
-  "date": "Nov 22, 2026",
+  "date": "Nov 23, 2026",
   "cards": [
     {
       "category": "DISCOVERY",
-      "topic": "Hidden shift · power per AI rack",
-      "title": "The next AI bottleneck is power",
-      "question": "Why does higher compute density raise power-chip content per rack?",
-      "selfCheck": "800V and vertical delivery add conversion content; test € per kW.",
-      "prompt": "FACT: Infineon Nov 10 describes 800V distribution, GaN bus converters and vertical power delivery as density rises. HYPOTHESIS: more semiconductor content per kW, not merely more racks, lifts supplier economics. TEST design adoption, power losses, € per kW and shipments. 7d: no verified new company milestone; 30d: Nov 10 results; 90d: Sep 9 SolarEdge 800V breaker collaboration. https://www.infineon.com/assets/row/public/documents/corporate/investors/presentations/2026/2026-11-10-q4-fy26-intro-statement-analyst-call-v01-00-en.pdf https://www.infineon.com/press-release/2026/infpr202609-138"
+      "topic": "Hidden shift · AI validation complexity",
+      "title": "AI racks need a test budget",
+      "question": "Why could faster links raise test spend before rack deployment?",
+      "selfCheck": "More lanes, PAM4 and optics increase validation work; test orders per design cycle.",
+      "prompt": "FACT: Keysight Nov 19 reported Q4 commercial communications revenue $1.145B (+73% YoY); this includes markets beyond AI. HYPOTHESIS: rack-scale electrical/optical complexity raises design, emulation and compliance test intensity. TEST AI-specific order commentary, customer programs and recurring test demand; avoid equating all communications sales with AI. 7d: Nov 19 results; 30d: Oct 29 earnings date announcement; 90d: Aug Q3 guide. https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Third-Quarter-2026-Results/default.aspx"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Beneficiary · Infineon IFX / IFNNY",
-      "title": "Infineon gets paid grid-to-core",
-      "question": "Could power semiconductors become a larger earnings driver than autos?",
-      "selfCheck": "FY26 data-center €2.2B; test FY27 €4B ramp and margin.",
-      "prompt": "FACT: Nov 10 Infineon reported FY26 dedicated AI power €1.7B and broader data-center €2.2B; FY27 data-center outlook nearly €4B. PSS Q4 margin 30.8%. HYPOTHESIS: higher content per kW and Dresden fab utilization improve mix. TEST data-center revenue, Power Systems margin, fab utilization; auto cycle can distort consolidated results. Not an undiscovered thesis. https://www.infineon.com/assets/row/public/documents/corporate/investors/presentations/2026/2026-11-10-q4-fy26-intro-statement-analyst-call-v01-00-en.pdf"
+      "topic": "Beneficiary · Keysight KEYS",
+      "title": "KEYS sells the proof, not the rack",
+      "question": "Can test suppliers monetize AI architecture changes across rival chip vendors?",
+      "selfCheck": "Q4 CSG +51%, margin 37%; verify organic orders and mix.",
+      "prompt": "FACT: Nov 19 Keysight CSG $1.496B (+51% YoY), segment operating margin 37% vs 27%; Q4 company orders $2.339B vs $1.533B. HYPOTHESIS: supplier-neutral validation demand offers exposure across GPU, ASIC, optical and switch designs. Caveat: acquired business and other communications end-markets may contribute. TEST organic order growth, AI-specific mix, acquisition integration and margin sustainability. https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Sleeper · capacity reservations",
-      "title": "€10B is not booked revenue",
-      "question": "What does management's Nov 10 capacity-commitment statement actually prove?",
-      "selfCheck": "Signed PLUS negotiated €10B; verify binding orders and shipments.",
-      "prompt": "ORIGINAL management statement Nov 10: cumulative data-center delivery and capacity reservation agreements, BOTH signed and under negotiation, exceeded €10B; some prepayments share capex risk. Do NOT label all as backlog or recognized revenue. FY27 data-center target near €4B. TEST signed share, Dresden fab ramp, quarterly sales and cash conversion in 2–6 months. Earlier Sep 9 800V collaboration is technology evidence, not purchase volume. https://www.infineon.com/assets/row/public/documents/corporate/investors/presentations/2026/2026-11-10-q4-fy26-intro-statement-analyst-call-v01-00-en.pdf"
+      "topic": "Sleeper · August guide now tested",
+      "title": "August's $1.94B test cleared",
+      "question": "What did the Aug 18 guidance reveal before November's reported numbers?",
+      "selfCheck": "Aug Q4 midpoint $1.94B; Nov actual $1.994B. Test repeat orders.",
+      "prompt": "ORIGINAL dated Q3 statement: Aug 18, 2026 Keysight guided Q4 revenue $1.930–1.950B and non-GAAP EPS $3.34–3.40. NEW proof Nov 19: Q4 $1.994B revenue and $3.61 non-GAAP EPS; $2.339B orders. This validates execution against management's prior guide, not a pure AI demand claim. Next proof: FY27 Q1 revenue guide $2.040–2.060B and repeat orders in next earnings cycle. https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Third-Quarter-2026-Results/default.aspx https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Expectation gap · FY27 power growth",
-      "title": "Revenue is guided; profit is the test",
-      "question": "What operating assumption could disappoint despite €4B data-center sales?",
-      "selfCheck": "Test mix, utilization and €1.8B FCF guidance against capex.",
-      "prompt": "FACT: Nov 10 company guides FY27 group sales ~€20B, data-center ~€4B, capex €3–3.5B, FCF ~€1.8B. HYPOTHESIS: fab underutilization or slower 800V adoption could make revenue growth less profitable; upside if higher content and mix persist. Current forward multiple and consensus revisions NOT independently verified: no mispricing claim. TEST quarterly segment margin, depreciation, customer conversion and capex. https://www.infineon.com/press-release/2026/infpr202611-025"
+      "topic": "Expectation gap · growth quality",
+      "title": "41% growth needs a bridge",
+      "question": "How much of Keysight's Q4 acceleration can persist?",
+      "selfCheck": "Separate acquired vs organic growth; test CSG margin and $465M FCF.",
+      "prompt": "FACT: Nov 19 Q4 revenue +41% YoY, FCF $465M vs $188M, CSG margin 37% vs 27%. Q1 FY27 guide $2.040–2.060B, only modest sequential rise. HYPOTHESIS: expectations could overestimate persistent acquisition/backlog growth or underestimate validation spend per architecture. Consensus and current forward valuation NOT independently verified; no mispricing claim. TEST organic order growth, book-to-bill, acquired-business margin and FCF. https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Setup · evidence before entry",
-      "title": "WATCH IFX; gate on cash returns",
-      "question": "What would upgrade the power thesis over the next two quarters?",
-      "selfCheck": "WATCH €4B run-rate, margins, FCF; reject missed capacity ramp.",
-      "prompt": "Educational WATCH, not personalized trading instruction. Require quarterly data-center revenue tracking toward ~€4B FY27, profitable Dresden capacity utilization, and credible FCF path; verify current valuation and consensus before any entry decision. INVALIDATE on persistent fab delays, weaker € per kW, lost design wins, declining margin or capex without cash returns. Next earnings and Dec 7 divisional update are evidence checkpoints, not presumed outcomes. https://www.infineon.com/assets/row/public/documents/corporate/investors/presentations/2026/2026-11-10-q4-fy26-intro-statement-analyst-call-v01-00-en.pdf"
+      "topic": "Setup · watch, do not chase",
+      "title": "WATCH KEYS; demand organic proof",
+      "question": "What would justify upgrading KEYS after a record quarter?",
+      "selfCheck": "Require organic orders, steady 37% CSG margin, FCF; reject order reversal.",
+      "prompt": "Educational WATCH framework, not personalized instruction. Next fiscal Q1 2027 reporting cycle: compare revenue with Nov 19 $2.040–2.060B guide, CSG operating margin with 37% Q4, and new orders against Q4 $2.339B; examine organic/acquired mix and current valuation before entry. INVALIDATE if organic orders weaken persistently, margins revert without explanation, or FCF disconnects from earnings. High recent growth alone is not an entry signal. https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx"
     },
     {
       "category": "EDUCATIONAL",
-      "topic": "Investor edge · content per unit",
-      "title": "Count dollars per kilowatt",
-      "question": "How do you detect a supplier inflection before total AI spend changes?",
-      "selfCheck": "Separate units × content × margin; validate each link.",
-      "prompt": "Infineon case: revenue = deployed rack kW × semiconductor € per kW × supplier share, adjusted for timing and price. Nov 10 management emphasizes rising content per kW as 800V and vertical power delivery develop. This is a model, not a disclosed company metric. Cross-check with ALAB switches per rack, COHR optical links, and GF SiGe wafer volume. Test attach, yield, price, cash returns, not just market TAM. https://www.infineon.com/assets/row/public/documents/corporate/investors/presentations/2026/2026-11-10-q4-fy26-intro-statement-analyst-call-v01-00-en.pdf"
+      "topic": "Investor edge · tools before capacity",
+      "title": "Find the tollbooth before the build",
+      "question": "What can test-equipment orders reveal before customers recognize revenue?",
+      "selfCheck": "Track design complexity → lab orders → validation → volume; check lead times.",
+      "prompt": "KEYS illustrates a potential upstream signal: labs buy validation instruments as architectures evolve, sometimes before new AI racks ship. But orders may also reflect replacement cycles, acquisitions or non-AI demand. Compare KEYS orders ($2.339B Q4) with later ALAB switch, COHR optics, MRVL custom silicon and IFX power revenue; timestamps and customer overlap matter. Do not assume causality without segment/customer evidence. https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx"
     }
   ]
 }
