@@ -1,45 +1,45 @@
 {
-  "date": "Nov 22, 2026 · Week 2 / Day 7 · Weekly synthesis and decision review",
+  "date": "Nov 23, 2026 · Week 3 / Day 1 · Upward communication and influence",
   "cards": [
     {
-      "category": "SYNTHESIZE",
-      "topic": "Week 2 / Day 7 · Release decision",
-      "title": "One gate, not five opinions",
-      "question": "PCIe margin is thin, PDN droop is conditional, and layout freeze is tomorrow. What decision do you request?",
-      "selfCheck": "Recommend go, conditional-go or hold against explicit criteria. State top exposure, evidence gap, decision owner and checkpoint.",
-      "prompt": "Run a tough release-gate simulation. Give me conflicting PCIe and PDN evidence; require a 45-second recommendation and challenge my decision criteria."
-    },
-    {
-      "category": "TRADEOFF",
-      "topic": "Week 2 / Day 7 · Option value",
-      "title": "Preserve the escape hatch",
-      "question": "A connector ECO gains 0.7 dB but costs five days. Can you defer the irreversible choice safely?",
-      "selfCheck": "Compare risk of delay with the cost of losing the option. Set a last responsible decision date and measurable trigger.",
-      "prompt": "Coach me through a connector ECO versus schedule decision. Test whether my fallback and last responsible moment are credible."
-    },
-    {
-      "category": "ALIGN",
-      "topic": "Week 2 / Day 7 · Cross-team ownership",
-      "title": "Agreement is not closure",
-      "question": "SI, layout and validation agree a NEXT miss matters, but nobody owns the fix. How do you close?",
-      "selfCheck": "Name one accountable integrator, contributors, acceptance metric and due date. Confirm the decision in a short written log.",
-      "prompt": "Role-play a crosstalk review where each team deflects ownership. Help me secure an accountable owner without formal authority."
+      "category": "INFLUENCE",
+      "topic": "Week 3 / Day 1 · Executive framing",
+      "title": "Lead with the consequence",
+      "question": "PCIe Gen5 margin fell 0.8 dB, but root cause is open. What does your director need first?",
+      "selfCheck": "State release exposure and decision deadline before waveforms. Distinguish observed margin loss from the unconfirmed cause; request one action.",
+      "prompt": "Role-play my director. Give me a PCIe margin problem and critique my 20-second risk-first update for consequence, confidence, ask and timing."
     },
     {
       "category": "CALIBRATE",
-      "topic": "Week 2 / Day 7 · Evidence and uncertainty",
-      "title": "Don't average conflicting truths",
-      "question": "EM predicts a clean TDR; bench shows a repeatable impedance dip. Does the team sign off?",
-      "selfCheck": "Separate measurement confidence from model confidence. Define the discriminating check, release consequence and conditional decision.",
-      "prompt": "Challenge me as a skeptical validation lead. Make me propose a falsifiable EM/TDR test and an evidence-based signoff threshold."
+      "topic": "Week 3 / Day 1 · Confidence language",
+      "title": "Certain data, uncertain cause",
+      "question": "Bench TDR repeatedly shows a dip absent from EM. How do you avoid sounding either alarmist or dismissive?",
+      "selfCheck": "Say what is repeatable, what remains a hypothesis, and what measurement could separate fixture from board effects. Give a checkpoint, not a vague promise.",
+      "prompt": "Coach me to deliver a 30-second EM/TDR mismatch update using precise confidence language; challenge any unsupported certainty."
     },
     {
-      "category": "CAPSTONE",
-      "topic": "Week 2 / Day 7 · Weekly synthesis",
-      "title": "The 60-second decision board",
-      "question": "In one minute, brief a director on PCIe margin, PDN resonance and crosstalk before the release gate.",
-      "selfCheck": "Lead with recommendation; rank risks by consequence and timing; give owners, decision triggers and next checkpoint. Then compress to 20 seconds.",
-      "prompt": "Act as a director. Give me a realistic three-risk SI/PI release case, score my 60-second decision brief, interrupt me, then require a 20-second version. Review Week 1 risk-first communication and Week 2 tradeoffs."
+      "category": "ALIGN",
+      "topic": "Week 3 / Day 1 · Influence without authority",
+      "title": "Win the shared objective",
+      "question": "Layout resists a PCIe reroute that could protect margin but threatens placement closure. How do you gain traction?",
+      "selfCheck": "Frame the common release goal and quantify both risks. Propose a bounded experiment with a decision owner and cutoff, rather than issuing a demand.",
+      "prompt": "Role-play a resistant layout lead. Practice persuading with a shared goal, bounded PCIe tradeoff and explicit decision deadline."
+    },
+    {
+      "category": "ESCALATE",
+      "topic": "Week 3 / Day 1 · Upward escalation",
+      "title": "Escalate the blocked decision",
+      "question": "A PDN resonance fix spans VRM, package and PCB, and no team can approve the system tradeoff. What do you escalate?",
+      "selfCheck": "Escalate the cross-team decision, impact and options—not a complaint about people. Recommend an accountable integrator and a date for resolution.",
+      "prompt": "Act as a busy hardware director. Make me present a PDN resonance escalation in 25 seconds with options, recommendation and ownership ask."
+    },
+    {
+      "category": "PRACTICE",
+      "topic": "Week 3 / Day 1 · Spiral review",
+      "title": "Thirty seconds, one ask",
+      "question": "Before tomorrow's release review, crosstalk is 3 dB over target. Give your VP a decision-ready update.",
+      "selfCheck": "Use Week 1 risk-first visibility and Week 2 decision framing: consequence, evidence/confidence, recommended path, owner and checkpoint. Keep it under 30 seconds.",
+      "prompt": "Give me a realistic 3 dB NEXT miss near layout freeze. Score my 30-second VP brief on risk-first clarity, calibrated uncertainty and a single decision ask."
     }
   ]
 }
