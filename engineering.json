@@ -1,45 +1,45 @@
 {
-  "date": "Nov 23, 2026 · Week 3 / Day 1 · Upward communication and influence",
+  "date": "Nov 24, 2026 · Week 3 / Day 2 · Upward communication and influence",
   "cards": [
     {
       "category": "INFLUENCE",
-      "topic": "Week 3 / Day 1 · Executive framing",
-      "title": "Lead with the consequence",
-      "question": "PCIe Gen5 margin fell 0.8 dB, but root cause is open. What does your director need first?",
-      "selfCheck": "State release exposure and decision deadline before waveforms. Distinguish observed margin loss from the unconfirmed cause; request one action.",
-      "prompt": "Role-play my director. Give me a PCIe margin problem and critique my 20-second risk-first update for consequence, confidence, ask and timing."
-    },
-    {
-      "category": "CALIBRATE",
-      "topic": "Week 3 / Day 1 · Confidence language",
-      "title": "Certain data, uncertain cause",
-      "question": "Bench TDR repeatedly shows a dip absent from EM. How do you avoid sounding either alarmist or dismissive?",
-      "selfCheck": "Say what is repeatable, what remains a hypothesis, and what measurement could separate fixture from board effects. Give a checkpoint, not a vague promise.",
-      "prompt": "Coach me to deliver a 30-second EM/TDR mismatch update using precise confidence language; challenge any unsupported certainty."
+      "topic": "Week 3 / Day 2 · Skeptical leadership",
+      "title": "Answer the objection, not the tone",
+      "question": "Your director says PCIe passed last build. Why spend another lab day on it?",
+      "selfCheck": "Acknowledge the prior pass, then show what changed and the release exposure. Ask for a bounded test with a decision threshold.",
+      "prompt": "Role-play a skeptical director. Challenge my 25-second case for retesting PCIe after a stackup change; score evidence, consequence and ask."
     },
     {
       "category": "ALIGN",
-      "topic": "Week 3 / Day 1 · Influence without authority",
-      "title": "Win the shared objective",
-      "question": "Layout resists a PCIe reroute that could protect margin but threatens placement closure. How do you gain traction?",
-      "selfCheck": "Frame the common release goal and quantify both risks. Propose a bounded experiment with a decision owner and cutoff, rather than issuing a demand.",
-      "prompt": "Role-play a resistant layout lead. Practice persuading with a shared goal, bounded PCIe tradeoff and explicit decision deadline."
+      "topic": "Week 3 / Day 2 · Stakeholder incentives",
+      "title": "Make their constraint part of the plan",
+      "question": "Mechanical rejects a connector change that improves SI margin. How do you earn support?",
+      "selfCheck": "Ask which mechanical constraint is nonnegotiable. Compare alternatives against shared system criteria and agree on a joint recommendation.",
+      "prompt": "Role-play a mechanical lead resisting a connector ECO. Help me negotiate a feasible alternative without compromising required SI margin."
+    },
+    {
+      "category": "CALIBRATE",
+      "topic": "Week 3 / Day 2 · Credible disagreement",
+      "title": "Disagree without overstating",
+      "question": "A lead calls an 18 MHz PDN peak harmless because the regulator is stable. How do you challenge that?",
+      "selfCheck": "Separate regulator stability from load-transient compliance. Request load spectrum and droop evidence; state what would change your position.",
+      "prompt": "Role-play a power architect. Critique my respectful challenge to a PDN signoff claim and help me define decisive evidence."
     },
     {
       "category": "ESCALATE",
-      "topic": "Week 3 / Day 1 · Upward escalation",
-      "title": "Escalate the blocked decision",
-      "question": "A PDN resonance fix spans VRM, package and PCB, and no team can approve the system tradeoff. What do you escalate?",
-      "selfCheck": "Escalate the cross-team decision, impact and options—not a complaint about people. Recommend an accountable integrator and a date for resolution.",
-      "prompt": "Act as a busy hardware director. Make me present a PDN resonance escalation in 25 seconds with options, recommendation and ownership ask."
+      "topic": "Week 3 / Day 2 · Resource negotiation",
+      "title": "Ask for capacity, not sympathy",
+      "question": "EM/TDR correlation is blocked by a shared VNA booking. What should your manager hear?",
+      "selfCheck": "Quantify the decision delay and competing priorities. Recommend a specific lab slot or alternative test, with an owner and deadline.",
+      "prompt": "Act as my manager with scarce lab capacity. Make me justify a VNA slot against another program and propose a fallback."
     },
     {
       "category": "PRACTICE",
-      "topic": "Week 3 / Day 1 · Spiral review",
-      "title": "Thirty seconds, one ask",
-      "question": "Before tomorrow's release review, crosstalk is 3 dB over target. Give your VP a decision-ready update.",
-      "selfCheck": "Use Week 1 risk-first visibility and Week 2 decision framing: consequence, evidence/confidence, recommended path, owner and checkpoint. Keep it under 30 seconds.",
-      "prompt": "Give me a realistic 3 dB NEXT miss near layout freeze. Score my 30-second VP brief on risk-first clarity, calibrated uncertainty and a single decision ask."
+      "topic": "Week 3 / Day 2 · Spiral review",
+      "title": "Make the dissent actionable",
+      "question": "A crosstalk waiver is gaining support despite incomplete worst-case data. Give a 30-second dissent.",
+      "selfCheck": "State the risk first, distinguish evidence from assumptions, and propose a decision gate. Record residual risk and the authorized decision owner.",
+      "prompt": "Simulate a release review where everyone favors a crosstalk waiver. Score my concise dissent, evidence threshold and constructive alternative using Weeks 1–2 skills."
     }
   ]
 }
