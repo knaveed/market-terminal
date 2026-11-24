@@ -1,22 +1,22 @@
 {
-  "date": "Nov 23, 2026",
-  "selectionReason": "Nov 20 semiconductor selloff versus Nov 19 Keysight operating results: HL026 frames bear-market research and HL010 tests financial resilience. Neither repeats Nov 22 HL001/HL012; lessons are not price forecasts.",
+  "date": "Nov 24, 2026",
+  "selectionReason": "Nov 23 semiconductor rebound of about 14% after leadership news makes persistence and peer comparison relevant; no claim of a confirmed volume spike or price prediction.",
   "cards": [
     {
       "category": "LESSON",
-      "topic": "Research",
-      "title": "Distinguish breakouts from speculation",
-      "question": "Which research approaches fit a bull market versus a bear market?",
-      "selfCheck": "A bull market can reward momentum but also inflate weak stories. In a bear market, research fundamentals and neglected opportunities while checking financial resilience.",
-      "prompt": "Explain my bull-market versus bear-market research methods with risks and examples. Apply to the Nov 20 semiconductor selloff and Keysight's Nov 19 reported $2.339B orders; do not equate price weakness with an operating breakdown. https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx"
+      "topic": "Volume",
+      "title": "Don't chase the first volume spike",
+      "question": "What should happen after a large volume surge?",
+      "selfCheck": "Look for a distinct sustained base and repeatable demand; connect the pattern to a known business story before committing.",
+      "prompt": "Explain the investing lesson 'Don't chase the first volume spike', with a practical example, limits and what evidence would falsify it. Apply to Nov 23 semiconductor rebound after Nvidia leadership news; compare matched peers and normalized volume before inferring durable demand. https://www.reuters.com/business/wall-street-futures-rebound-after-rough-week-ai-linked-shares-2026-11-23/"
     },
     {
       "category": "LESSON",
-      "topic": "Market",
-      "title": "Bear markets create opportunities—and traps",
-      "question": "What distinguishes a discount from a value trap?",
-      "selfCheck": "Prioritize financially sound companies with durable products and credible technology roadmaps; lower price alone is not enough.",
-      "prompt": "Explain the investing lesson 'Bear markets create opportunities—and traps', with a practical example, limits and what evidence would falsify it. Use Keysight's Nov 19 $465M quarterly FCF and 37% CSG margin as evidence, but test organic orders and valuation before calling a drawdown an opportunity. https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx"
+      "topic": "Volume",
+      "title": "Compare relative volume with a matched peer",
+      "question": "How do you tell stock-specific interest from a broad market move?",
+      "selfCheck": "Normalize trading volume and compare with a similar company. Confirm any divergence using price, news and business developments.",
+      "prompt": "Explain the investing lesson 'Compare relative volume with a matched peer', with a practical example, limits and what evidence would falsify it. Apply to Nov 23 semiconductor rebound after Nvidia leadership news; compare matched peers and normalized volume before inferring durable demand. https://www.reuters.com/business/wall-street-futures-rebound-after-rough-week-ai-linked-shares-2026-11-23/"
     }
   ]
 }
