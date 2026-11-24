@@ -1,53 +1,53 @@
 {
-  "date": "Nov 23, 2026",
+  "date": "Nov 24, 2026",
   "cards": [
     {
       "category": "DISCOVERY",
-      "topic": "Hidden shift · AI validation complexity",
-      "title": "AI racks need a test budget",
-      "question": "Why could faster links raise test spend before rack deployment?",
-      "selfCheck": "More lanes, PAM4 and optics increase validation work; test orders per design cycle.",
-      "prompt": "FACT: Keysight Nov 19 reported Q4 commercial communications revenue $1.145B (+73% YoY); this includes markets beyond AI. HYPOTHESIS: rack-scale electrical/optical complexity raises design, emulation and compliance test intensity. TEST AI-specific order commentary, customer programs and recurring test demand; avoid equating all communications sales with AI. 7d: Nov 19 results; 30d: Oct 29 earnings date announcement; 90d: Aug Q3 guide. https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Third-Quarter-2026-Results/default.aspx"
+      "topic": "Hidden shift · production test",
+      "title": "AI test moves to the factory",
+      "question": "Why can complex AI packages increase production test spending?",
+      "selfCheck": "More interfaces and thermal stress raise test burden; measure tester-hours per good device.",
+      "prompt": "Hypothesis: test intensity rises with HBM and complex packages, but parallelism can offset it. Contrast yesterday's lab validation thesis with production test. https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-434981/ter-ex99_1.htm"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Beneficiary · Keysight KEYS",
-      "title": "KEYS sells the proof, not the rack",
-      "question": "Can test suppliers monetize AI architecture changes across rival chip vendors?",
-      "selfCheck": "Q4 CSG +51%, margin 37%; verify organic orders and mix.",
-      "prompt": "FACT: Nov 19 Keysight CSG $1.496B (+51% YoY), segment operating margin 37% vs 27%; Q4 company orders $2.339B vs $1.533B. HYPOTHESIS: supplier-neutral validation demand offers exposure across GPU, ASIC, optical and switch designs. Caveat: acquired business and other communications end-markets may contribute. TEST organic order growth, AI-specific mix, acquisition integration and margin sustainability. https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx"
+      "topic": "Beneficiary · TER",
+      "title": "TER gets paid for test time",
+      "question": "Can Teradyne capture more value per AI device?",
+      "selfCheck": "Q3 semiconductor test $1.072B; check repeat orders and test intensity.",
+      "prompt": "Fact: Oct 27 revenue $1.306B, up 70% YoY; record memory and integrated systems test revenue. AI-specific incremental profit not disclosed. https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-434981/ter-ex99_1.htm"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Sleeper · August guide now tested",
-      "title": "August's $1.94B test cleared",
-      "question": "What did the Aug 18 guidance reveal before November's reported numbers?",
-      "selfCheck": "Aug Q4 midpoint $1.94B; Nov actual $1.994B. Test repeat orders.",
-      "prompt": "ORIGINAL dated Q3 statement: Aug 18, 2026 Keysight guided Q4 revenue $1.930–1.950B and non-GAAP EPS $3.34–3.40. NEW proof Nov 19: Q4 $1.994B revenue and $3.61 non-GAAP EPS; $2.339B orders. This validates execution against management's prior guide, not a pure AI demand claim. Next proof: FY27 Q1 revenue guide $2.040–2.060B and repeat orders in next earnings cycle. https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Third-Quarter-2026-Results/default.aspx https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx"
+      "topic": "Sleeper · memory test",
+      "title": "September's memory tester needs orders",
+      "question": "When does Magnum E2 become a revenue contributor?",
+      "selfCheck": "Sep 29 launch; verify qualifications, paid shipments and repeat orders.",
+      "prompt": "Original Sep 29 Magnum E2 announcement; Oct 27 record memory test is category-level confirmation, not E2-specific sales. Oct 6 Titan HP launch adds burn-in capability. Nov 16 conference announcement is not new operating proof. Next 2–6 months: product adoption. https://investors.teradyne.com/news-events/press-releases https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-434981/ter-ex99_1.htm"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Expectation gap · growth quality",
-      "title": "41% growth needs a bridge",
-      "question": "How much of Keysight's Q4 acceleration can persist?",
-      "selfCheck": "Separate acquired vs organic growth; test CSG margin and $465M FCF.",
-      "prompt": "FACT: Nov 19 Q4 revenue +41% YoY, FCF $465M vs $188M, CSG margin 37% vs 27%. Q1 FY27 guide $2.040–2.060B, only modest sequential rise. HYPOTHESIS: expectations could overestimate persistent acquisition/backlog growth or underestimate validation spend per architecture. Consensus and current forward valuation NOT independently verified; no mispricing claim. TEST organic order growth, book-to-bill, acquired-business margin and FCF. https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx"
+      "topic": "Expectation gap · cyclical growth",
+      "title": "70% growth can hide a plateau",
+      "question": "What if annual growth masks slowing sequential demand?",
+      "selfCheck": "Q3 $1.306B vs Q2 $1.329B; test sequential orders and margins.",
+      "prompt": "Hypothesis: market may extrapolate annual growth despite sequential decline. Current consensus and valuation unverified; no mispricing claim. Nov 23 sector rebound is not earnings proof. https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-434981/ter-ex99_1.htm"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Setup · watch, do not chase",
-      "title": "WATCH KEYS; demand organic proof",
-      "question": "What would justify upgrading KEYS after a record quarter?",
-      "selfCheck": "Require organic orders, steady 37% CSG margin, FCF; reject order reversal.",
-      "prompt": "Educational WATCH framework, not personalized instruction. Next fiscal Q1 2027 reporting cycle: compare revenue with Nov 19 $2.040–2.060B guide, CSG operating margin with 37% Q4, and new orders against Q4 $2.339B; examine organic/acquired mix and current valuation before entry. INVALIDATE if organic orders weaken persistently, margins revert without explanation, or FCF disconnects from earnings. High recent growth alone is not an entry signal. https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx"
+      "topic": "Setup · wait for repeat demand",
+      "title": "TER: wait for the second order",
+      "question": "What evidence would upgrade the production-test thesis?",
+      "selfCheck": "Require repeat memory orders and stable margins; reject sustained demand reversal.",
+      "prompt": "Educational WAIT framework. Next quarterly report: compare semiconductor test with $1.072B baseline, check product qualification and cash conversion. Compare current forward multiple with normalized earnings before entry; no verified multiple today. https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-434981/ter-ex99_1.htm"
     },
     {
       "category": "EDUCATIONAL",
-      "topic": "Investor edge · tools before capacity",
-      "title": "Find the tollbooth before the build",
-      "question": "What can test-equipment orders reveal before customers recognize revenue?",
-      "selfCheck": "Track design complexity → lab orders → validation → volume; check lead times.",
-      "prompt": "KEYS illustrates a potential upstream signal: labs buy validation instruments as architectures evolve, sometimes before new AI racks ship. But orders may also reflect replacement cycles, acquisitions or non-AI demand. Compare KEYS orders ($2.339B Q4) with later ALAB switch, COHR optics, MRVL custom silicon and IFX power revenue; timestamps and customer overlap matter. Do not assume causality without segment/customer evidence. https://investor.keysight.com/investor-news-and-events/financial-press-releases/press-release-details/2026/Keysight-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx"
+      "topic": "Investor edge · bottleneck math",
+      "title": "Count tester-hours, not chips",
+      "question": "How can test revenue grow faster than chip units?",
+      "selfCheck": "Tester demand scales with units × test time ÷ parallelism; check utilization.",
+      "prompt": "Include retest, yield, uptime and equipment reuse. More complexity need not mean more equipment if parallelism or utilization improves. Compare KEYS design-stage demand with TER production-stage demand. https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-434981/ter-ex99_1.htm"
     }
   ]
 }
