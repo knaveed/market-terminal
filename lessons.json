@@ -1,22 +1,22 @@
 {
-  "date": "Nov 24, 2026",
-  "selectionReason": "Nov 23 semiconductor rebound of about 14% after leadership news makes persistence and peer comparison relevant; no claim of a confirmed volume spike or price prediction.",
+  "date": "Nov 25, 2026",
+  "selectionReason": "Nov 24 AI selloff reversed part of Nov 23 rally while Dell reported an earnings beat after close. Separate sector sentiment from company economics and revisit financing assumptions. https://www.reuters.com/business/wall-st-futures-dip-chip-stocks-cool-after-nvidia-fueled-rally-2026-11-24/",
   "cards": [
     {
       "category": "LESSON",
-      "topic": "Volume",
-      "title": "Don't chase the first volume spike",
-      "question": "What should happen after a large volume surge?",
-      "selfCheck": "Look for a distinct sustained base and repeatable demand; connect the pattern to a known business story before committing.",
-      "prompt": "Explain the investing lesson 'Don't chase the first volume spike', with a practical example, limits and what evidence would falsify it. Apply to Nov 23 semiconductor rebound after Nvidia leadership news; compare matched peers and normalized volume before inferring durable demand. https://www.reuters.com/business/wall-street-futures-rebound-after-rough-week-ai-linked-shares-2026-11-23/"
+      "topic": "Research",
+      "title": "Build the company story before the ticker trade",
+      "question": "What must you know before a 1–2 year investment?",
+      "selfCheck": "Identify the company's technology, market position, catalysts and risks; separate structural tailwinds from near-term price action.",
+      "prompt": "Explain the investing lesson 'Build the company story before the ticker trade', with a practical example, limits and what evidence would falsify it. Apply to Nov 24 AI selloff and Dell's after-close results; distinguish price from operating evidence. https://www.reuters.com/business/wall-st-futures-dip-chip-stocks-cool-after-nvidia-fueled-rally-2026-11-24/ https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm"
     },
     {
       "category": "LESSON",
-      "topic": "Volume",
-      "title": "Compare relative volume with a matched peer",
-      "question": "How do you tell stock-specific interest from a broad market move?",
-      "selfCheck": "Normalize trading volume and compare with a similar company. Confirm any divergence using price, news and business developments.",
-      "prompt": "Explain the investing lesson 'Compare relative volume with a matched peer', with a practical example, limits and what evidence would falsify it. Apply to Nov 23 semiconductor rebound after Nvidia leadership news; compare matched peers and normalized volume before inferring durable demand. https://www.reuters.com/business/wall-street-futures-rebound-after-rough-week-ai-linked-shares-2026-11-23/"
+      "topic": "Macro",
+      "title": "Narratives change as incentives change",
+      "question": "Why should investors revisit an old macro story?",
+      "selfCheck": "Follow changes in policy, borrowing costs, supply and household behavior. Identify which earlier assumptions no longer hold.",
+      "prompt": "Explain the investing lesson 'Narratives change as incentives change', with a practical example, limits and what evidence would falsify it. Apply to Nov 24 AI selloff and Dell's after-close results; distinguish price from operating evidence. https://www.reuters.com/business/wall-st-futures-dip-chip-stocks-cool-after-nvidia-fueled-rally-2026-11-24/ https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm"
     }
   ]
 }
