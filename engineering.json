@@ -1,45 +1,45 @@
 {
-  "date": "Nov 24, 2026 · Week 3 / Day 2 · Upward communication and influence",
+  "date": "Nov 25, 2026 · Week 3 / Day 3 · Upward communication and influence",
   "cards": [
     {
       "category": "INFLUENCE",
-      "topic": "Week 3 / Day 2 · Skeptical leadership",
-      "title": "Answer the objection, not the tone",
-      "question": "Your director says PCIe passed last build. Why spend another lab day on it?",
-      "selfCheck": "Acknowledge the prior pass, then show what changed and the release exposure. Ask for a bounded test with a decision threshold.",
-      "prompt": "Role-play a skeptical director. Challenge my 25-second case for retesting PCIe after a stackup change; score evidence, consequence and ask."
-    },
-    {
-      "category": "ALIGN",
-      "topic": "Week 3 / Day 2 · Stakeholder incentives",
-      "title": "Make their constraint part of the plan",
-      "question": "Mechanical rejects a connector change that improves SI margin. How do you earn support?",
-      "selfCheck": "Ask which mechanical constraint is nonnegotiable. Compare alternatives against shared system criteria and agree on a joint recommendation.",
-      "prompt": "Role-play a mechanical lead resisting a connector ECO. Help me negotiate a feasible alternative without compromising required SI margin."
+      "topic": "Week 3 / Day 3 · Pre-alignment",
+      "title": "No surprises at the gate",
+      "question": "A PCIe channel has 0.4 dB modeled margin before tomorrow's release review. Who needs a preview today?",
+      "selfCheck": "Brief the decision owner and affected validation/layout leads privately. Share corner coverage, residual risk and your proposed gate; surface objections before the meeting.",
+      "prompt": "Coach me through a 30-second pre-brief for a director and layout lead on marginal PCIe signoff. Challenge my evidence and decision ask."
     },
     {
       "category": "CALIBRATE",
-      "topic": "Week 3 / Day 2 · Credible disagreement",
-      "title": "Disagree without overstating",
-      "question": "A lead calls an 18 MHz PDN peak harmless because the regulator is stable. How do you challenge that?",
-      "selfCheck": "Separate regulator stability from load-transient compliance. Request load spectrum and droop evidence; state what would change your position.",
-      "prompt": "Role-play a power architect. Critique my respectful challenge to a PDN signoff claim and help me define decisive evidence."
+      "topic": "Week 3 / Day 3 · Credibility",
+      "title": "Say what would change your mind",
+      "question": "Measured TDR shows a launch discontinuity absent from EM. A director asks whether the board needs a respin. What do you say?",
+      "selfCheck": "Separate the observed mismatch from the unconfirmed cause. Recommend a fixture/reference-plane check and state which result would justify an ECO.",
+      "prompt": "Role-play a director demanding a yes/no respin answer. Score my calibrated uncertainty, discriminating test and decision deadline."
+    },
+    {
+      "category": "ALIGN",
+      "topic": "Week 3 / Day 3 · Coalition building",
+      "title": "Build agreement before asking for approval",
+      "question": "A PDN capacitor ECO competes with mechanical clearance and sourcing constraints. How do you build support?",
+      "selfCheck": "Ask each lead for their hard constraints, then co-author a feasible mitigation with measurable droop criteria. Bring unresolved tradeoffs to the authorized decision owner.",
+      "prompt": "Simulate separate conversations with power, mechanical and sourcing leads. Help me build a joint PDN recommendation without bypassing decision rights."
     },
     {
       "category": "ESCALATE",
-      "topic": "Week 3 / Day 2 · Resource negotiation",
-      "title": "Ask for capacity, not sympathy",
-      "question": "EM/TDR correlation is blocked by a shared VNA booking. What should your manager hear?",
-      "selfCheck": "Quantify the decision delay and competing priorities. Recommend a specific lab slot or alternative test, with an owner and deadline.",
-      "prompt": "Act as my manager with scarce lab capacity. Make me justify a VNA slot against another program and propose a fallback."
+      "topic": "Week 3 / Day 3 · Leadership leverage",
+      "title": "Escalate the choice, not the conflict",
+      "question": "Two programs need the same crosstalk validation slot before layout freeze. What should leadership decide?",
+      "selfCheck": "Show which release decisions depend on the slot, the cost of delay and a fallback for each program. Recommend a priority and request a decision by a specific checkpoint.",
+      "prompt": "Act as a director allocating scarce lab time. Challenge my prioritization, fallback and concise request; distinguish resource escalation from blame."
     },
     {
       "category": "PRACTICE",
-      "topic": "Week 3 / Day 2 · Spiral review",
-      "title": "Make the dissent actionable",
-      "question": "A crosstalk waiver is gaining support despite incomplete worst-case data. Give a 30-second dissent.",
-      "selfCheck": "State the risk first, distinguish evidence from assumptions, and propose a decision gate. Record residual risk and the authorized decision owner.",
-      "prompt": "Simulate a release review where everyone favors a crosstalk waiver. Score my concise dissent, evidence threshold and constructive alternative using Weeks 1–2 skills."
+      "topic": "Week 3 / Day 3 · Spiral review",
+      "title": "Earn trust by closing the loop",
+      "question": "Yesterday you flagged a PDN risk; today's transient test passes nominal load but worst-case coverage is pending. Give a 20-second update.",
+      "selfCheck": "State what changed, what remains unproven and whether your recommendation changes. Name the owner, next checkpoint and any leadership ask; do not imply full signoff.",
+      "prompt": "Score my 20-second risk update using Weeks 1–2: consequence first, evidence versus assumptions, decision, owner and checkpoint. Ask one tough follow-up."
     }
   ]
 }
