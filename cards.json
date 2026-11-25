@@ -1,53 +1,53 @@
 {
-  "date": "Nov 24, 2026",
+  "date": "Nov 25, 2026",
   "cards": [
     {
       "category": "DISCOVERY",
-      "topic": "Hidden shift · production test",
-      "title": "AI test moves to the factory",
-      "question": "Why can complex AI packages increase production test spending?",
-      "selfCheck": "More interfaces and thermal stress raise test burden; measure tester-hours per good device.",
-      "prompt": "Hypothesis: test intensity rises with HBM and complex packages, but parallelism can offset it. Contrast yesterday's lab validation thesis with production test. https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-434981/ter-ex99_1.htm"
+      "topic": "Hidden shift · rack integration",
+      "title": "The rack becomes the product",
+      "question": "Why might integration earn more than assembly?",
+      "selfCheck": "Pretested racks shorten deployment; test margin per delivered rack.",
+      "prompt": "Hypothesis: power, cooling and network integration create value beyond component resale. Dell Nov 24 reports six-hour setup; customer-side uptime and economics remain unverified. https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Beneficiary · TER",
-      "title": "TER gets paid for test time",
-      "question": "Can Teradyne capture more value per AI device?",
-      "selfCheck": "Q3 semiconductor test $1.072B; check repeat orders and test intensity.",
-      "prompt": "Fact: Oct 27 revenue $1.306B, up 70% YoY; record memory and integrated systems test revenue. AI-specific incremental profit not disclosed. https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-434981/ter-ex99_1.htm"
+      "topic": "Beneficiary · DELL",
+      "title": "Dell's profit engine changes",
+      "question": "Is Dell capturing value beyond GPUs?",
+      "selfCheck": "ISG margin ~17%; test storage and networking attach.",
+      "prompt": "Nov 24 ISG $42B revenue and $7.1B operating income. AI servers $22B; segment margin is not AI-server margin. Already public, not a hidden stock. Compare with prior quarter and upstream KEYS/TER theses. https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Sleeper · memory test",
-      "title": "September's memory tester needs orders",
-      "question": "When does Magnum E2 become a revenue contributor?",
-      "selfCheck": "Sep 29 launch; verify qualifications, paid shipments and repeat orders.",
-      "prompt": "Original Sep 29 Magnum E2 announcement; Oct 27 record memory test is category-level confirmation, not E2-specific sales. Oct 6 Titan HP launch adds burn-in capability. Nov 16 conference announcement is not new operating proof. Next 2–6 months: product adoption. https://investors.teradyne.com/news-events/press-releases https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-434981/ter-ex99_1.htm"
+      "topic": "Sleeper · September engineering claim",
+      "title": "50 designs, one customer",
+      "question": "Does custom rack engineering become repeatable profit?",
+      "selfCheck": "Sep 1: some projects need 50 designs; test repeat deployments.",
+      "prompt": "Sep 1 call described engineering complexity and first Rubin rack shipments. Nov 24 backlog $132.3B versus $95B in September; new proof of demand, not proof of design-specific profit. Next 2–6 months: repeat deployments and service attach. https://investors.delltechnologies.com/_assets/_62d48350371e13cf7ba6bdf1e3ae1212/delltechnologies/db/3595/34748/webcast_transcript/Q2_FY27_Transcript.pdf https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Expectation gap · cyclical growth",
-      "title": "70% growth can hide a plateau",
-      "question": "What if annual growth masks slowing sequential demand?",
-      "selfCheck": "Q3 $1.306B vs Q2 $1.329B; test sequential orders and margins.",
-      "prompt": "Hypothesis: market may extrapolate annual growth despite sequential decline. Current consensus and valuation unverified; no mispricing claim. Nov 23 sector rebound is not earnings proof. https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-434981/ter-ex99_1.htm"
+      "topic": "Expectation gap · earnings quality",
+      "title": "The beat is already public",
+      "question": "Which earnings assumption could still be wrong?",
+      "selfCheck": "FY27 adjusted EPS guide $25.50→$29.68; test FY28 durability.",
+      "prompt": "Nov 24 reported beat versus $6.60 adjusted EPS consensus ($9.45 actual), per IBD. Future revisions and valuation unverified. Orders $60.2B vs $60.9B prior quarter; do not extrapolate acceleration. https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000039/exhibit991earnings8kq2fy27.htm https://www.investors.com/news/technology/dell-stock-fiscal-q3-2027-earnings/"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Setup · wait for repeat demand",
-      "title": "TER: wait for the second order",
-      "question": "What evidence would upgrade the production-test thesis?",
-      "selfCheck": "Require repeat memory orders and stable margins; reject sustained demand reversal.",
-      "prompt": "Educational WAIT framework. Next quarterly report: compare semiconductor test with $1.072B baseline, check product qualification and cash conversion. Compare current forward multiple with normalized earnings before entry; no verified multiple today. https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-434981/ter-ex99_1.htm"
+      "topic": "Setup · backlog conversion",
+      "title": "DELL: wait for cash proof",
+      "question": "What would justify upgrading the thesis?",
+      "selfCheck": "WATCH: Q4 $56.3B sales guide; test cash and backlog conversion.",
+      "prompt": "Educational framework, not personal advice. Next quarterly report: compare $8.40 adjusted EPS guide, cash flow, ISG margin and cancellations. Reject sustained margin deterioration or funding-driven order deferrals. Compare price with normalized FY28 earnings; no verified current multiple. https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm"
     },
     {
       "category": "EDUCATIONAL",
-      "topic": "Investor edge · bottleneck math",
-      "title": "Count tester-hours, not chips",
-      "question": "How can test revenue grow faster than chip units?",
-      "selfCheck": "Tester demand scales with units × test time ÷ parallelism; check utilization.",
-      "prompt": "Include retest, yield, uptime and equipment reuse. More complexity need not mean more equipment if parallelism or utilization improves. Compare KEYS design-stage demand with TER production-stage demand. https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-434981/ter-ex99_1.htm"
+      "topic": "Investor edge · deployment gates",
+      "title": "Orders need land and power",
+      "question": "Why can a huge backlog fail to become revenue?",
+      "selfCheck": "Track funded sites, energized capacity and accepted racks.",
+      "prompt": "Dell says it vets customer capital, land and power. This is management's claim, not independent verification. Build a cohort conversion model; compare orders, shipments, cancellations and cash. Nov 24 chip selloff despite Dell's after-close beat illustrates separate price and operating clocks. https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm https://www.reuters.com/business/wall-st-futures-dip-chip-stocks-cool-after-nvidia-fueled-rally-2026-11-24/"
     }
   ]
 }
