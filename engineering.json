@@ -1,45 +1,45 @@
 {
-  "date": "Nov 25, 2026 · Week 3 / Day 3 · Upward communication and influence",
+  "date": "Nov 26, 2026 · Week 3 / Day 4 · Upward communication and influence",
   "cards": [
     {
+      "category": "PRIORITIZE",
+      "topic": "Week 3 / Day 4 · Executive priorities",
+      "title": "Protect the critical path",
+      "question": "PCIe corner validation and a cosmetic TDR correlation study compete for one engineer. What do you ask your director to defer?",
+      "selfCheck": "Rank work by release exposure, decision deadline and cost of delay. Recommend a specific deferral, with a restart trigger and owner.",
+      "prompt": "Role-play a director who wants both tasks completed. Coach my 30-second resource tradeoff and explicit deferral request."
+    },
+    {
+      "category": "COMMUNICATE",
+      "topic": "Week 3 / Day 4 · Uncomfortable truths",
+      "title": "Correct the green status",
+      "question": "A PDN resonance exceeds the agreed impedance target at a relevant load frequency, but the program dashboard is green. How do you correct it?",
+      "selfCheck": "Flag the discrepancy promptly; distinguish target violation from unproven functional failure. State the transient evidence needed, accountable owner and next gate.",
+      "prompt": "Challenge my risk-first message to a program director who expects green status. Score candor, uncertainty and actionable next steps."
+    },
+    {
       "category": "INFLUENCE",
-      "topic": "Week 3 / Day 3 · Pre-alignment",
-      "title": "No surprises at the gate",
-      "question": "A PCIe channel has 0.4 dB modeled margin before tomorrow's release review. Who needs a preview today?",
-      "selfCheck": "Brief the decision owner and affected validation/layout leads privately. Share corner coverage, residual risk and your proposed gate; surface objections before the meeting.",
-      "prompt": "Coach me through a 30-second pre-brief for a director and layout lead on marginal PCIe signoff. Challenge my evidence and decision ask."
+      "topic": "Week 3 / Day 4 · Shared incentives",
+      "title": "Make the cost visible",
+      "question": "Layout resists a crosstalk fix because it threatens routing completion. How do you gain support without directing their work?",
+      "selfCheck": "Compare the routing cost with downstream validation and respin exposure. Co-design a bounded mitigation and agree on evidence before requesting approval.",
+      "prompt": "Play a layout lead protecting schedule. Help me negotiate a bounded crosstalk mitigation with shared success criteria."
     },
     {
       "category": "CALIBRATE",
-      "topic": "Week 3 / Day 3 · Credibility",
-      "title": "Say what would change your mind",
-      "question": "Measured TDR shows a launch discontinuity absent from EM. A director asks whether the board needs a respin. What do you say?",
-      "selfCheck": "Separate the observed mismatch from the unconfirmed cause. Recommend a fixture/reference-plane check and state which result would justify an ECO.",
-      "prompt": "Role-play a director demanding a yes/no respin answer. Score my calibrated uncertainty, discriminating test and decision deadline."
-    },
-    {
-      "category": "ALIGN",
-      "topic": "Week 3 / Day 3 · Coalition building",
-      "title": "Build agreement before asking for approval",
-      "question": "A PDN capacitor ECO competes with mechanical clearance and sourcing constraints. How do you build support?",
-      "selfCheck": "Ask each lead for their hard constraints, then co-author a feasible mitigation with measurable droop criteria. Bring unresolved tradeoffs to the authorized decision owner.",
-      "prompt": "Simulate separate conversations with power, mechanical and sourcing leads. Help me build a joint PDN recommendation without bypassing decision rights."
-    },
-    {
-      "category": "ESCALATE",
-      "topic": "Week 3 / Day 3 · Leadership leverage",
-      "title": "Escalate the choice, not the conflict",
-      "question": "Two programs need the same crosstalk validation slot before layout freeze. What should leadership decide?",
-      "selfCheck": "Show which release decisions depend on the slot, the cost of delay and a fallback for each program. Recommend a priority and request a decision by a specific checkpoint.",
-      "prompt": "Act as a director allocating scarce lab time. Challenge my prioritization, fallback and concise request; distinguish resource escalation from blame."
+      "topic": "Week 3 / Day 4 · Expectation management",
+      "title": "Promise a decision, not a cure",
+      "question": "A VP asks you to guarantee resolution of an EM/TDR mismatch by Friday. What commitment can you credibly make?",
+      "selfCheck": "Commit to a discriminating test, named owner and Friday decision checkpoint, not an unknown root cause. Explain the fallback if evidence remains inconclusive.",
+      "prompt": "Role-play a VP pressing for certainty. Critique my commitment, confidence language and fallback without allowing evasive answers."
     },
     {
       "category": "PRACTICE",
-      "topic": "Week 3 / Day 3 · Spiral review",
-      "title": "Earn trust by closing the loop",
-      "question": "Yesterday you flagged a PDN risk; today's transient test passes nominal load but worst-case coverage is pending. Give a 20-second update.",
-      "selfCheck": "State what changed, what remains unproven and whether your recommendation changes. Name the owner, next checkpoint and any leadership ask; do not imply full signoff.",
-      "prompt": "Score my 20-second risk update using Weeks 1–2: consequence first, evidence versus assumptions, decision, owner and checkpoint. Ask one tough follow-up."
+      "topic": "Week 3 / Day 4 · Spiral review",
+      "title": "Deliver the unwelcome call",
+      "question": "PCIe margin fails an agreed corner criterion and a proposed waiver lacks evidence. Give leadership a 30-second release recommendation.",
+      "selfCheck": "Lead with release impact and recommend holding the affected gate. Name the evidence gap, recovery options, decision authority and next checkpoint.",
+      "prompt": "Score my executive brief against Weeks 1–3: early risk, clear recommendation, tradeoff, calibrated uncertainty and explicit ask. Challenge me with schedule pressure."
     }
   ]
 }
