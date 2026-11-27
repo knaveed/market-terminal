@@ -1,45 +1,45 @@
 {
-  "date": "Nov 26, 2026 · Week 3 / Day 4 · Upward communication and influence",
+  "date": "Nov 27, 2026 · Week 3 / Day 5 · Upward communication and influence",
   "cards": [
     {
-      "category": "PRIORITIZE",
-      "topic": "Week 3 / Day 4 · Executive priorities",
-      "title": "Protect the critical path",
-      "question": "PCIe corner validation and a cosmetic TDR correlation study compete for one engineer. What do you ask your director to defer?",
-      "selfCheck": "Rank work by release exposure, decision deadline and cost of delay. Recommend a specific deferral, with a restart trigger and owner.",
-      "prompt": "Role-play a director who wants both tasks completed. Coach my 30-second resource tradeoff and explicit deferral request."
-    },
-    {
       "category": "COMMUNICATE",
-      "topic": "Week 3 / Day 4 · Uncomfortable truths",
-      "title": "Correct the green status",
-      "question": "A PDN resonance exceeds the agreed impedance target at a relevant load frequency, but the program dashboard is green. How do you correct it?",
-      "selfCheck": "Flag the discrepancy promptly; distinguish target violation from unproven functional failure. State the transient evidence needed, accountable owner and next gate.",
-      "prompt": "Challenge my risk-first message to a program director who expects green status. Score candor, uncertainty and actionable next steps."
+      "topic": "Week 3 / Day 5 · Executive trust",
+      "title": "Show the delta",
+      "question": "Yesterday PCIe margin was at risk; today two corners pass but the hot corner is untested. Give a director a 20-second update.",
+      "selfCheck": "State what changed, what remains exposed and whether your recommendation changes. Give the next evidence checkpoint, not a blanket green status.",
+      "prompt": "Coach my 20-second PCIe update. Challenge any claim that exceeds the evidence."
     },
     {
       "category": "INFLUENCE",
-      "topic": "Week 3 / Day 4 · Shared incentives",
-      "title": "Make the cost visible",
-      "question": "Layout resists a crosstalk fix because it threatens routing completion. How do you gain support without directing their work?",
-      "selfCheck": "Compare the routing cost with downstream validation and respin exposure. Co-design a bounded mitigation and agree on evidence before requesting approval.",
-      "prompt": "Play a layout lead protecting schedule. Help me negotiate a bounded crosstalk mitigation with shared success criteria."
+      "topic": "Week 3 / Day 5 · Negotiated commitments",
+      "title": "Get a real yes",
+      "question": "Package and board teams agree to investigate a PDN resonance but neither commits resources. How do you turn support into action?",
+      "selfCheck": "Agree on a shared system outcome, named owners, deliverables and dates. Confirm capacity with each lead and escalate only unresolved commitments.",
+      "prompt": "Role-play both team leads. Help me negotiate a joint PDN investigation with explicit commitments."
     },
     {
       "category": "CALIBRATE",
-      "topic": "Week 3 / Day 4 · Expectation management",
-      "title": "Promise a decision, not a cure",
-      "question": "A VP asks you to guarantee resolution of an EM/TDR mismatch by Friday. What commitment can you credibly make?",
-      "selfCheck": "Commit to a discriminating test, named owner and Friday decision checkpoint, not an unknown root cause. Explain the fallback if evidence remains inconclusive.",
-      "prompt": "Role-play a VP pressing for certainty. Critique my commitment, confidence language and fallback without allowing evasive answers."
+      "topic": "Week 3 / Day 5 · Credibility under challenge",
+      "title": "Own the correction",
+      "question": "New fixture characterization undermines your earlier EM/TDR root-cause claim. How do you update leadership?",
+      "selfCheck": "Correct the earlier claim explicitly and distinguish reliable observations from revised hypotheses. Explain the decision impact and next discriminating test.",
+      "prompt": "Play a skeptical director. Critique my correction for accountability, confidence and decision relevance."
+    },
+    {
+      "category": "PRIORITIZE",
+      "topic": "Week 3 / Day 5 · Organizational leverage",
+      "title": "Ask for a reusable fix",
+      "question": "Repeated crosstalk reviews stall waiting for the same extraction specialist. What investment would you propose to management?",
+      "selfCheck": "Quantify queue delay and release exposure, then propose a bounded template or cross-training pilot. Define an owner and a measurable cycle-time outcome.",
+      "prompt": "Help me pitch a two-week extraction bottleneck pilot with baseline, cost and success metric."
     },
     {
       "category": "PRACTICE",
-      "topic": "Week 3 / Day 4 · Spiral review",
-      "title": "Deliver the unwelcome call",
-      "question": "PCIe margin fails an agreed corner criterion and a proposed waiver lacks evidence. Give leadership a 30-second release recommendation.",
-      "selfCheck": "Lead with release impact and recommend holding the affected gate. Name the evidence gap, recovery options, decision authority and next checkpoint.",
-      "prompt": "Score my executive brief against Weeks 1–3: early risk, clear recommendation, tradeoff, calibrated uncertainty and explicit ask. Challenge me with schedule pressure."
+      "topic": "Week 3 / Day 5 · Spiral review",
+      "title": "Turn trust into action",
+      "question": "A release gate faces marginal PCIe performance and an unresolved PDN waiver. Leadership offers one extra lab shift. Make a 45-second recommendation.",
+      "selfCheck": "Lead with system risk, allocate the shift by decision value and state the evidence needed for signoff. Secure an owner, decision authority and checkpoint; retain any unmet gate.",
+      "prompt": "Role-play a VP and validation lead. Score my brief on Weeks 1–3: early risk, tradeoff, uncertainty, influence and explicit commitments."
     }
   ]
 }
