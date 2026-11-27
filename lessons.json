@@ -1,22 +1,22 @@
 {
-  "date": "Nov 26, 2026",
-  "selectionReason": "Nov 25 AI selloff and partial recovery; distinguish valuation sensitivity from operating evidence. https://www.reuters.com/business/nasdaq-futures-slide-over-2-fresh-us-tariff-concerns-inflation-data-focus-2026-11-25/",
+  "date": "Nov 27, 2026",
+  "selectionReason": "Black Friday shortened 3.5-hour equity session and reported premarket AI rebound: normalize volume for session length and compare peers before inferring company-specific demand. https://www.investopedia.com/is-the-stock-market-open-on-thanksgiving-here-s-the-holiday-trading-schedule-12259175 https://www.reuters.com/world/china/global-markets-global-markets-2026-11-27/",
   "cards": [
     {
       "category": "LESSON",
-      "topic": "Valuation",
-      "title": "A high P/E needs a growth explanation",
-      "question": "What could make a high multiple fragile?",
-      "selfCheck": "Test growth durability and the implied expectations. If earnings disappoint, the valuation can compress even when the company remains profitable.",
-      "prompt": "Explain the investing lesson 'A high P/E needs a growth explanation', with a practical example, limits and what evidence would falsify it. Apply to Nov 25 AI selloff and Micron's margin durability; no price prediction. https://www.reuters.com/business/nasdaq-futures-slide-over-2-fresh-us-tariff-concerns-inflation-data-focus-2026-11-25/ https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/"
+      "topic": "Research",
+      "title": "Compare a company with its competitors",
+      "question": "Why research peers instead of one ticker in isolation?",
+      "selfCheck": "A peer comparison reveals whether the change is company-specific, sector-wide, or a market effect. Choose peers with genuinely similar economics.",
+      "prompt": "Explain the investing lesson 'Compare a company with its competitors', with a practical example, limits and what evidence would falsify it."
     },
     {
       "category": "LESSON",
-      "topic": "Research",
-      "title": "Use both good and bad evidence",
-      "question": "What would invalidate a bullish company story?",
-      "selfCheck": "Track earnings, dilution, execution, competitive threats and demand changes alongside positive news. A thesis needs an explicit failure condition.",
-      "prompt": "Explain the investing lesson 'Use both good and bad evidence', with a practical example, limits and what evidence would falsify it. Apply to Nov 25 AI selloff and Micron's margin durability; no price prediction. https://www.reuters.com/business/nasdaq-futures-slide-over-2-fresh-us-tariff-concerns-inflation-data-focus-2026-11-25/ https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/"
+      "topic": "Volume",
+      "title": "Volume has more than one shape",
+      "question": "Why can high and low trading volume mean different things?",
+      "selfCheck": "Look for U-shaped or stable activity, liquidity changes, and the comparison baseline. Raw volume without context is ambiguous.",
+      "prompt": "Explain the investing lesson 'Volume has more than one shape', with a practical example, limits and what evidence would falsify it."
     }
   ]
 }
