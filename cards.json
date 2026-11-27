@@ -1,53 +1,53 @@
 {
-  "date": "Nov 26, 2026",
+  "date": "Nov 27, 2026",
   "cards": [
     {
       "category": "DISCOVERY",
-      "topic": "Hidden shift · inference memory",
-      "title": "The cache leaves the GPU",
-      "question": "Why can inference need more than HBM?",
-      "selfCheck": "Long contexts strain GPU memory; test SSD offload latency and attach.",
-      "prompt": "Hypothesis: tiering KV cache into host memory and SSDs expands memory content when latency permits. Compare time-to-first-token, cache hit rates and cost per token. No new product-specific proof this week. https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/ https://www.reuters.com/business/dell-lifts-annual-forecasts-after-record-quarter-surging-ai-server-demand-2026-11-24/ https://www.reuters.com/business/anthropics-slide-tests-wall-streets-lofty-bets-future-ai-profits-2026-11-25/"
+      "topic": "Hidden shift · memory fabrics",
+      "title": "Memory needs a network",
+      "question": "When does remote memory beat local capacity?",
+      "selfCheck": "CXL can reduce stranded memory; test latency and utilization gains.",
+      "prompt": "Extend Nov 26 memory-tiering thesis: remote memory only pays if utilization savings exceed latency and fabric cost. Nov 13 SC26 announcement is technical evidence, not orders. https://www.marvell.com/company/newsroom/marvell-connectivity-ai-infrastructure-supercomputing-2026.html"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Beneficiary · MU",
-      "title": "Micron sells the memory tiers",
-      "question": "Can MU capture demand beyond HBM?",
-      "selfCheck": "Server LPDDR sales more than doubled QoQ; test repeat volume.",
-      "prompt": "Sep 30 disclosed server LPDDR SOCAMM revenue more than doubled sequentially. Test absolute revenue and mix; small base and substitution risks remain. Dell Nov 24 shortage warning is indirect confirmation, not MU-specific orders. https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/ https://www.reuters.com/business/dell-lifts-annual-forecasts-after-record-quarter-surging-ai-server-demand-2026-11-24/ https://www.reuters.com/business/anthropics-slide-tests-wall-streets-lofty-bets-future-ai-profits-2026-11-25/"
+      "topic": "Beneficiary · MRVL",
+      "title": "Marvell sells the connection",
+      "question": "Can MRVL earn more as memory moves?",
+      "selfCheck": "Switches and CXL controllers add content; test paid deployments.",
+      "prompt": "Candidate beneficiary, not proven overlooked. Compare Marvell with Astera and optical suppliers; copper and optics may substitute rather than add. https://www.marvell.com/company/newsroom/marvell-connectivity-ai-infrastructure-supercomputing-2026.html https://investor.marvell.com/news-events/press-releases/detail/1039/marvell-bolsters-connectivity-portfolio-with-new-3-2t-protocol-aware-retimer-and-second-generation-1-6t-aec-dsp"
     },
     {
       "category": "DISCOVERY",
-      "topic": "Sleeper · Sep 30 shipments",
-      "title": "KV cache becomes SSD demand",
-      "question": "When does a cache SSD become material revenue?",
-      "selfCheck": "Sep 30: KV-cache SSDs shipping; test repeat orders and NAND mix.",
-      "prompt": "Micron reported 7600 and 9650 SSD shipments for KV-cache workloads. This is old evidence within 90 days, not a fresh announcement. Over next two quarters seek customer deployment, endurance and enterprise SSD revenue. https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/ https://www.reuters.com/business/dell-lifts-annual-forecasts-after-record-quarter-surging-ai-server-demand-2026-11-24/ https://www.reuters.com/business/anthropics-slide-tests-wall-streets-lofty-bets-future-ai-profits-2026-11-25/"
+      "topic": "Sleeper · Sep 20 milestone",
+      "title": "2nm optics need a buyer",
+      "question": "When does a faster demo become revenue?",
+      "selfCheck": "Sep 20: 400G/lane demo; seek qualification and volume dates.",
+      "prompt": "September demonstration preceded November 13 SC26 announcement. No fresh commercial proof in last seven days established. Over next 2–6 months seek customer qualification and production commitments. https://www.marvell.com/company/newsroom/marvell-industry-first-2nm-optical-technology-ai-data-center-infrastructure-ecoc-2026.html https://www.marvell.com/company/newsroom/marvell-connectivity-ai-infrastructure-supercomputing-2026.html"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Expectation gap · cycle durability",
-      "title": "Cheap on peak earnings?",
-      "question": "What if memory margins normalize?",
-      "selfCheck": "Reported forward P/E 3.5x; halving EPS implies 7x at same price.",
-      "prompt": "Reuters Nov 25 reported 3.5x forward earnings; illustrative sensitivity, not target or verified live multiple. Micron Q4 non-GAAP gross margin 87%; consensus revisions not verified. Test contract pricing and normalized margins. https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/ https://www.reuters.com/business/dell-lifts-annual-forecasts-after-record-quarter-surging-ai-server-demand-2026-11-24/ https://www.reuters.com/business/anthropics-slide-tests-wall-streets-lofty-bets-future-ai-profits-2026-11-25/"
+      "topic": "Expectation gap · content per bit",
+      "title": "Twice the speed, twice the sales?",
+      "question": "Can bandwidth rise faster than supplier revenue?",
+      "selfCheck": "Faster links can cut port counts; test revenue per delivered terabit.",
+      "prompt": "Illustrative: doubling link speed while halving ports leaves total bandwidth unchanged; revenue grows only if content per port more than doubles or total bandwidth expands. Current consensus and valuation unverified; no mispricing claim. https://www.marvell.com/company/newsroom/marvell-industry-first-2nm-optical-technology-ai-data-center-infrastructure-ecoc-2026.html"
     },
     {
       "category": "INVESTMENT",
-      "topic": "Setup · MU",
-      "title": "MU: wait for durable margins",
-      "question": "What would upgrade the memory thesis?",
-      "selfCheck": "WAIT: next report vs $61.5B sales and 86.25% adjusted GM guide.",
-      "prompt": "Educational framework: next fiscal Q1 report, expected within weeks, date not verified. Compare guidance, enterprise SSD mix and cash after capex. Reject durability thesis if pricing and repeat orders weaken together. Value on normalized earnings, not peak EPS. https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/ https://www.reuters.com/business/dell-lifts-annual-forecasts-after-record-quarter-surging-ai-server-demand-2026-11-24/ https://www.reuters.com/business/anthropics-slide-tests-wall-streets-lofty-bets-future-ai-profits-2026-11-25/"
+      "topic": "Setup · MRVL",
+      "title": "MRVL: wait for Dec 1",
+      "question": "What would turn demos into an earnings bridge?",
+      "selfCheck": "WAIT: seek volume dates, data-center mix and margin; reject delays.",
+      "prompt": "Dec 1 earnings confirmed Nov 6. Compare guidance with verified consensus and normalized free cash flow valuation before considering entry. Invalidate incremental fabric thesis if qualification slips or substitution offsets content gains over next two reports. Educational, not personalized advice. https://investor.marvell.com/news-events/press-releases/detail/1041/marvell-technology-inc-announces-conference-call-to-review-third-quarter-of-fiscal-year-2027-financial-results https://www.marvell.com/company/newsroom/marvell-connectivity-ai-infrastructure-supercomputing-2026.html"
     },
     {
       "category": "EDUCATIONAL",
-      "topic": "Investor edge · bottleneck migration",
-      "title": "Follow the bytes per token",
-      "question": "How do you spot the next memory bottleneck?",
-      "selfCheck": "Model cache bytes per request × concurrency; test tiering economics.",
-      "prompt": "Compare HBM, host DRAM and SSD capacity, bandwidth and latency. Compression and cache reuse may offset growth. Link to Nov 24 TER test-intensity and Nov 25 DELL rack theses: measure content per workload rather than units alone. https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/ https://www.reuters.com/business/dell-lifts-annual-forecasts-after-record-quarter-surging-ai-server-demand-2026-11-24/ https://www.reuters.com/business/anthropics-slide-tests-wall-streets-lofty-bets-future-ai-profits-2026-11-25/"
+      "topic": "Investor edge · substitution",
+      "title": "Count net content, not features",
+      "question": "How can a technical upgrade shrink a market?",
+      "selfCheck": "Subtract displaced components; test total supplier dollars per rack.",
+      "prompt": "Compare active copper, pluggable optics and co-packaged optics by reach, power and cost. A new feature is not additive revenue if it replaces an existing sale. https://investor.marvell.com/news-events/press-releases/detail/1039/marvell-bolsters-connectivity-portfolio-with-new-3-2t-protocol-aware-retimer-and-second-generation-1-6t-aec-dsp https://www.marvell.com/company/newsroom/marvell-industry-first-2nm-optical-technology-ai-data-center-infrastructure-ecoc-2026.html"
     }
   ]
 }
